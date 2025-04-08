@@ -1,6 +1,6 @@
 !
 ! Title: SupportChats
-! Last modified: 2025-04-01T13:32:52.805Z
+! Last modified: 2025-04-08T15:45:18.794Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -235,6 +235,7 @@
 ||gorgias.io^
 ||gosimplr.com^
 ||gotolstoy.com^
+||graph8.com^
 ||greechat.com^
 ||groovehq.com^
 ||gs-chat.com^
@@ -322,6 +323,7 @@
 ||medchatapp.com^
 ||melibo.de^
 ||membitbot.com^
+||mercury.ai^
 ||messaging-api.shopifyapps.com^
 ||messenger.cdn.greyhound-software.com^
 ||me-talk.ru^

@@ -2,7 +2,6 @@
     "name": "Sin",
     "description": "DNS Blocklist for Blocking Sin.",
     "homepage": "https://github.com/theperfectwill/dns-blocklists",
-    "license": "GPLv3",
     "sources": [
         {
             "name": "Base",

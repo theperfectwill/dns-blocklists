@@ -1,9 +1,9 @@
 !
 ! Title: 3PStreaming
-! Description: DNS Compiled Blocklists for Security and Privacy By Blocking Threats, Sin, Tracking...
-! Homepage: https://github.com/theperfectwill/dns-simple-compiled-blocklists
+! Description: DNS Blocklist for Security and Privacy By Blocking Threats, Sin, Tracking...
+! Homepage: https://github.com/theperfectwill/dns-blocklists
 ! License: GPLv3
-! Last modified: 2025-04-01T13:32:06.832Z
+! Last modified: 2025-04-08T15:44:40.912Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !

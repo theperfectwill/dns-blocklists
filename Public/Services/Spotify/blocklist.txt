@@ -1,6 +1,6 @@
 !
 ! Title: Spotify
-! Last modified: 2025-04-01T13:32:51.164Z
+! Last modified: 2025-04-08T15:45:17.680Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !

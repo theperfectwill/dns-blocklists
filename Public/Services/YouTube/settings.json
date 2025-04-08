@@ -11,6 +11,17 @@
                 "Compress",
                 "ValidateAllowIp"
             ]
+        },
+        {
+            "name": "Service",
+            "source": "https://github.com/theperfectwill/dns-blocklists/raw/refs/heads/main/Public/Services/YouTube/blocklist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
         }
     ],
     "transformations": [

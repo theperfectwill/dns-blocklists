@@ -1,6 +1,6 @@
 !
 ! Title: Pinterest
-! Last modified: 2025-04-01T13:32:40.718Z
+! Last modified: 2025-04-08T15:45:09.415Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !

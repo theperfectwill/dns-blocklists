@@ -1,6 +1,6 @@
 !
 ! Title: NetFlix
-! Last modified: 2025-04-01T13:32:37.317Z
+! Last modified: 2025-04-08T15:45:05.825Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !

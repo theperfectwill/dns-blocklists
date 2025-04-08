@@ -2,7 +2,6 @@
     "name": "Privacy",
     "description": "DNS Blocklist for Blocking Ads, Trackers, Telemetry, Etc.",
     "homepage": "https://github.com/theperfectwill/dns-blocklists",
-    "license": "GPLv3",
     "sources": [
         {
             "name": "Privacy: Base",
@@ -337,17 +336,6 @@
         {
             "name": "Privacy: Hagezi",
             "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.amazon.txt",
-            "transformations": [
-                "TrimLines",
-                "RemoveComments",
-                "RemoveEmptyLines",
-                "Compress",
-                "ValidateAllowIp"
-            ]
-        },
-        {
-            "name": "Privacy: Hagezi",
-            "source": "https://github.com/theperfectwill/dns-blocklists/raw/refs/heads/main/Public/Services/YouTube/blocklist.txt",
             "transformations": [
                 "TrimLines",
                 "RemoveComments",

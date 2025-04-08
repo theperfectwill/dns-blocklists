@@ -1,10 +1,11 @@
 !
 ! Title: Blocklist
-! Last modified: 2025-04-07T22:18:09.927Z
+! Last modified: 2025-04-08T16:13:46.184Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
 /sensorCollect*=*/
+/sam-item/track-impressions/
 ||doubleclick.net^
 ||data.alexa.com^
 ||device-metrics-us.amazon.com^

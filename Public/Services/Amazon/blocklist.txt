@@ -1,6 +1,6 @@
 !
 ! Title: Amazon
-! Last modified: 2025-04-01T13:32:10.247Z
+! Last modified: 2025-04-08T15:44:44.745Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
