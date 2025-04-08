@@ -1,6 +1,8 @@
 !
 ! Title: Custom
-! Last modified: 2025-04-08T16:54:38.709Z
+! Description: DNS Blocklist of Custom Entries.
+! Homepage: https://github.com/theperfectwill/dns-blocklists
+! Last modified: 2025-04-08T17:00:44.239Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
