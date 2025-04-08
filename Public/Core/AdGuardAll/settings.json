@@ -1,0 +1,22 @@
+{
+    "name": "AdGuard All",
+    "description": "DNS Blocklist of Custom Entries for Home and Mobile.",
+    "homepage": "https://github.com/theperfectwill/dns-blocklists",
+    "sources": [
+        {
+            "name": "AdGuard All",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

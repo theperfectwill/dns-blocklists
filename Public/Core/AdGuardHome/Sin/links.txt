@@ -1,0 +1,19 @@
+! AdGuard
+https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/other/filter_57_ShadowWhisperersDatingList/filter.txt
+! Hagezi
+https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/nsfw.txt
+https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/anti.piracy.txt
+https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/gambling.txt
+! StevenBlack
+https://github.com/StevenBlack/hosts/raw/refs/heads/master/alternates/fakenews-only/hosts
+https://github.com/StevenBlack/hosts/raw/refs/heads/master/alternates/gambling-only/hosts
+https://github.com/StevenBlack/hosts/raw/refs/heads/master/alternates/porn-only/hosts
+https://raw.githubusercontent.com/infinitytec/blocklists/master/medicalpseudoscience.txt
+! Sefinek
+https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/anime/main.txt
+https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/drugs/blocklistproject/drugs.fork.txt
+https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/hate-and-junk/sefinek.hosts.txt
+https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/sites/lgbtqplus.txt
+https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/sites/lgbtqplus2.txt
+! Others
+https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt

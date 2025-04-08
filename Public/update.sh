@@ -73,10 +73,10 @@ cd $ServicesPath/YouTube && hostlist-compiler -i $BaseList -o $BaseList && hostl
 
 # Core and Larger Lists (takes more time to process, like 15 minutes)
 
-cd $CorePath/Sin && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
-cd $CorePath/Security && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
-cd $CorePath/Privacy && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
-cd $CorePath/Custom && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
+# cd $CorePath/Sin && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
+# cd $CorePath/Security && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
+# cd $CorePath/Privacy && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
+# cd $CorePath/Custom && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
 
 # Whitelists
 

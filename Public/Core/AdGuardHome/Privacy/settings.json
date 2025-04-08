@@ -1,0 +1,550 @@
+{
+    "name": "Privacy: Home",
+    "description": "DNS Compiled Blocklist for Blocking Ads, Trackers, Telemetry, Etc.",
+    "homepage": "https://github.com/theperfectwill/dns-blocklists",
+    "sources": [
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_17_TrackParam/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_1_DnsFilter/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_3_PeterLoweFilter/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_4_DanPollocksList/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_24_1Hosts_Lite/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_27_OISD_Blocklist_Big/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_33_StevenBlack/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_53_AWAvenueAdsRule/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_59_DnsPopupsFilter/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/general/filter_64_1Hosts_Pro/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/other/filter_6_GameConsole/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/other/filter_39_DandelionSprouts_AntiPushNotifications/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads_justdomains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_clickthroughs_justdomains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_mail_trackers_justdomains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: AdGuard",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/popupads.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.xiaomi.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.winoffice.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.vivo.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.samsung.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.roku.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.oppo-realme.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.lgwebos.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.huawei.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.apple.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/native.amazon.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: EasyList",
+            "source": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: EasyList",
+            "source": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers_popup.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: EasyList",
+            "source": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty_popup.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: SystemJargon",
+            "source": "https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/categories/adverts/ads-1.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: SystemJargon",
+            "source": "https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/categories/other/brave-web-browser.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: SystemJargon",
+            "source": "https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/categories/telemetry/basic-telemetry-devices.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: SystemJargon",
+            "source": "https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/gafam/blocklist-microsoft_adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: SystemJargon",
+            "source": "https://github.com/SystemJargon/filters/raw/refs/heads/main/telemetry.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://o0.pages.dev/Lite/adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://raw.githubusercontent.com/infinitytec/blocklists/master/clickbait.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Remote",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Misc",
+            "source": "https://v.firebog.net/hosts/static/w3kbl.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Mobile",
+            "source": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Mobile",
+            "source": "https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Mobile",
+            "source": "https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Mobile",
+            "source": "https://github.com/AdguardTeam/FiltersRegistry/raw/refs/heads/master/filters/filter_11_Mobile/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Privacy: Mobile",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

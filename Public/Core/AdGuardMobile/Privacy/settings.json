@@ -1,0 +1,33 @@
+{
+    "name": "Privacy: Mobile",
+    "description": "DNS Compiled Blocklist for Privacy from Ads, Trackers, Telemetry, Etc.",
+    "homepage": "https://github.com/theperfectwill/dns-blocklist",
+    "sources": [
+        {
+            "name": "AdGuard: DNSFilter",
+            "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Hagezi: Multi Pro++",
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
