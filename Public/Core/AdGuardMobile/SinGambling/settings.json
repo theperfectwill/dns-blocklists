@@ -1,0 +1,20 @@
+{
+    "name": "SinGambling: Mobile",
+    "sources": [
+        {
+            "name": "Sin: Hagezi",
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/gambling.mini.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
