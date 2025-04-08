@@ -1,0 +1,35 @@
+!
+! Title: AmpSites
+! Last modified: 2025-04-01T13:32:11.677Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Base
+! Source: base.txt
+!
+!
+! Source name: Service
+! Source: https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
+!
+||amp.businessinsider.com^
+||amp.cinemablend.com^
+||amp-assets.cinemablend.com^
+||amp.cloudflare.com^
+||block-test.developerdan.com^
+||block-test-amp.developerdan.com^
+||cdn-social.janrain.com^
+||amp.kirklands.com^
+||amp.knoxnews.com^
+||amp.newsobserver.com^
+||amp.reddit.com^
+||amp.si.com^
+||amp.tennessean.com^
+||amp.theguardian.com^
+||amp.thestate.com^
+||amp.thisisinsider.com^
+||amp.usatoday.com^
+||amp.spot.im^
+||amp.akamaized.net^
+||ampproject.net^
+||ampproject.org^

@@ -1,0 +1,13 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:36.839Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||netflix.com^
+||netflix.net^
+||nflxext.com^
+||nflximg.net^
+||nflxso.net^
+||nflxvideo.net^
+*.netflix.com*

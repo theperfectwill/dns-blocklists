@@ -1,0 +1,17 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:08.268Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||userapi.com^
+||vk-cdn.net^
+||vk-portal.net^
+||vk.cc^
+||vk.com^
+||vkontakte.ru^
+||vkuservideo.net^
+||vk.link^
+*.vk.com*
+*.vk-cdn.net*
+*.vkontakte.ru*

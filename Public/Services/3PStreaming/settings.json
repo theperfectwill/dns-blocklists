@@ -1,0 +1,23 @@
+{
+    "name": "3PStreaming",
+    "description": "DNS Blocklist for Security and Privacy By Blocking Threats, Sin, Tracking...",
+     "homepage": "https://github.com/theperfectwill/dns-blocklists",
+    "license": "GPLv3",
+    "sources": [
+        {
+            "name": "3PStreaming",
+            "source": "https://raw.githubusercontent.com/sefinek/Sefinek-Blocklist-Collection/refs/heads/main/blocklists/generated/adguard/sites/streaming-media.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

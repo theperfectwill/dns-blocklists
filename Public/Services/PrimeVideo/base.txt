@@ -1,0 +1,10 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:41.172Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||primevideo.com^
+||amazonvideo.com^
+*.primevideo.com*
+*.amazonvideo.com*

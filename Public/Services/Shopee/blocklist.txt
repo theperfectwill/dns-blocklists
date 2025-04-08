@@ -1,0 +1,12 @@
+!
+! Title: Shopping: Shopee
+! Last modified: 2025-04-01T13:32:43.489Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Base
+! Source: base.txt
+!
+*.shopee.ph*
+||shopee.ph^

@@ -1,0 +1,21 @@
+!
+! Title: Vk
+! Last modified: 2025-04-01T13:33:09.046Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||userapi.com^
+||vk-cdn.net^
+||vk-portal.net^
+||vk.cc^
+||vk.com^
+||vkontakte.ru^
+||vkuservideo.net^
+||vk.link^
+*.vk.com*
+*.vk-cdn.net*
+*.vkontakte.ru*

@@ -1,0 +1,496 @@
+{
+    "name": "Security",
+    "description": "DNS Blocklist for Blocking Malware, Phishing, Spam, Etc.",
+    "homepage": "https://github.com/theperfectwill/dns-blocklists",
+    "license": "GPLv3",
+    "sources": [
+        {
+            "name": "Base",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_8_NoCoin/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_9_TheBigListOfHackedMalwareWebSites/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_10_ScamBlocklistByDurableNapkin/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_11_MaliciousURLBlocklist/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_12_DandelionSproutsAntiMalwareList/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_18_PhishingArmy/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_30_PhishingURLBlocklist/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_31_StalkerwareIndicatorsList/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_42_ShadowWhisperersMalwareList/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_44_HageziThreatIntelligenceFeeds/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_50_UblockBadwareRisks/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_52_HageziEncryptedDNSBypass/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_54_HageziDynDNSBlocklist/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_55_HageziBadwareHosterBlocklist/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: AdGuard",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/security/filter_56_HageziTheWorldsMostAbusedTLDs/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/fake.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/hoster.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/spam-tlds-adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/fake.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/hoster.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Hagezi",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/spam-tlds-adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://github.com/durablenapkin/scamblocklist/raw/master/hosts.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://github.com/romainmarcoux/malicious-domains/raw/refs/heads/main/full-domains-aa.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://github.com/xRuffKez/NRD/raw/refs/heads/main/lists/30-day_phishing/adblock/nrd-phishing-30day_adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://phishing.army/download/phishing_army_blocklist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/craiu/iocs/main/log4shell/log4j_blocklist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/hpthreatresearch/iocs/main/TA551/domains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/infinitytec/blocklists/master/scams-and-phishing.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/parseword/nolovia/master/skel/hosts-government-malware.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/Phishing-Database/Phishing.Database/refs/heads/master/phishing-domains-ACTIVE.adblock",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://raw.githubusercontent.com/SystemJargon/filters/refs/heads/main/threats.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://small.oisd.nl/",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://someonewhocares.org/hosts/hosts",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Security: Misc",
+            "source": "https://threatfox.abuse.ch/downloads/hostfile/",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

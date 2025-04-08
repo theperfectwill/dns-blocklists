@@ -1,0 +1,17 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:50.468Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||audio-ak-spotify-com.akamaized.net^
+||audio4-ak-spotify-com.akamaized.net^
+||heads-ak-spotify-com.akamaized.net^
+||heads4-ak-spotify-com.akamaized.net^
+||scdn.co^
+||spotify.com^
+||spotify.com.edgesuite.net^
+||spotify.map.fastly.net^
+||spotify.map.fastlylb.net^
+||spotifycdn.net^
+*.spotify.com*

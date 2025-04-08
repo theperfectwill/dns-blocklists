@@ -1,0 +1,50 @@
+!
+! Title: SnapChat
+! Last modified: 2025-04-01T13:32:47.374Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+*.snapchat.com*
+||snapchat.com^
+||sc-cdn.net^
+||snap-dev.net^
+||snapkit.co
+||snapads.com^
+||impala-media-production.s3.amazonaws.com^
+||snap.com^
+||feelinsonice-mvm.l.google.com^
+||feelinsonice-hrd.appspot.com^
+||api.snapkit.com^
+||st.sc-jpl.com^
+||gtq.sct.sc-prod.net^
+||gtq6.sct.sc-prod.net^
+||am-prod.sc-jpl.com^
+||images.bitmoji.com^
+||us-east1-aws.api.sc-gw.com^
+||snap-storage-cdn.l.google.com^
+||snap.events.mapbox.com^
+||ms.sc-jpl.com^
+||snap.api.mapbox.com^
+||st-lb.sc-jpl.com^
+||loc.sc-jpl.com^
+||cognac-prod.appspot.com^
+||scm.sc-jpl.com^
+||us-central1-gcp.api.sc-gw.com^
+||map-status-p-service-ext-alb-206522301.us-west-2.elb.amazonaws.com^
+||snapchat.appspot.com^
+||sc-analytics.appspot.com^
+||feelinsonice.appspot.com^
+||feelinsonice.com^
+||appspot.l.google.com^
+||data.flurry.com^
+||gtq.sct.sc-prod.ne^
+||tib.snssdk.com^
+||loca.sc-jpl.com^
+||d3cwhzzyyewihk.cloudfront.net^
+||internal-api.snapkit.com^
+||eu-west1-aws.duplex.sc-gw.com^
+||snapchat-proxy.appspot.com^

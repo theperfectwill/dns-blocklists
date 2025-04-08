@@ -1,0 +1,14 @@
+!
+! Title: Giphy
+! Last modified: 2025-04-01T13:32:22.022Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||giphy.com^
+||giphy.map.fastly.net^
+||giphyscripts.s3.amazonaws.com^
+*.giphy.com*

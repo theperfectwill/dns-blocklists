@@ -1,0 +1,6 @@
+@Todo->add offical README
+
+@ToDo->add README for each module, to include modukle blockign context, and maybe last modified, source links, etc.
+- This README has always been started in "Private/@Templates/moduleName/README.md"
+
+@ToDo->add compiled whitelist

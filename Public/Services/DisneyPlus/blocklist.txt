@@ -1,0 +1,17 @@
+!
+! Title: DisneyPlus
+! Last modified: 2025-04-01T13:32:16.333Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: DisneyPlus
+! Source: base.txt
+!
+||disney-plus.net^
+||disneyplus.com^
+||disneyplus.disney.co.jp^
+||dssott.com^
+||dssott.com.c.footprint.net^
+||search-api-disney.bamgrid.com^
+*.disneyplus.com*

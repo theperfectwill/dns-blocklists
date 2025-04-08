@@ -1,0 +1,12 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:42.070Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||reddit.com^
+||redditstatic.com^
+||redditmedia.com^
+||redd.it^
+||reddit.map.fastly.net^
+*.reddit.com*

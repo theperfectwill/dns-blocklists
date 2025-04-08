@@ -1,0 +1,10 @@
+- Create offical README
+-- Add links to repos in README
+-- Add repo link credits used for reference in compiled lists, etc. where applies
+-- Add that issues, pull requests are accepted and appreciated
+
+- Add stores like ShoppingExtra (I know a few of these from mobile apps)
+
+- Review Whitelist repos to see which ones to exclude
+
+REF: https://raw.githubusercontent.com/theperfectwill/dns-modular-compiled-block-lists/refs/heads/main/Public/Services/AliBaba/blocklist.txt

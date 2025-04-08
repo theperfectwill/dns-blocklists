@@ -1,0 +1,31 @@
+{
+    "name": "SupportChats",
+    "sources": [
+        {
+            "name": "Base",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Support Chats",
+            "source": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Hosts/Chat",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

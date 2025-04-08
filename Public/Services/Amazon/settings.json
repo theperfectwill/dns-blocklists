@@ -1,0 +1,31 @@
+{
+    "name": "Amazon",
+    "sources": [
+        {
+            "name": "Amazon",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Amazon",
+            "source": "https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/gafam/blocklist-amazon.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

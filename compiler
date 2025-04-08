@@ -1,0 +1,9 @@
+# Make sure our local git repo is up to date
+git pull
+# Set current date and time
+currentDate=`/bin/date '+%Y-%m-%d'`
+currentTime=`/bin/date '+%H:%M:%S'`
+# Push updates to GitHub
+# git add *
+# git commit -m "⚡️ Filter Updates: ${currentDate} ${currentTime}"
+# git push

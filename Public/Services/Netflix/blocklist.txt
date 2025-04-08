@@ -1,0 +1,17 @@
+!
+! Title: NetFlix
+! Last modified: 2025-04-01T13:32:37.317Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||netflix.com^
+||netflix.net^
+||nflxext.com^
+||nflximg.net^
+||nflxso.net^
+||nflxvideo.net^
+*.netflix.com*

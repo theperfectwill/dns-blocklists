@@ -1,0 +1,12 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:45.202Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||edge-skype-com.s-0001.s-msedge.net^
+||skype-edf.akadns.net^
+||skype.com^
+||skypeassets.com^
+||skypedata.akadns.net^
+*.skype.com*

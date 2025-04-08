@@ -1,0 +1,44 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:00.584Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+*.tiktok.com*
+||ns-440.awsdns-55.com^
+||ns-722.awsdns-26.net^
+||ns-1475.awsdns-56.org^
+||ns-1574.awsdns-04.co.uk^
+||tiktokcdn-com.akamaized.net^
+||tiktok.com^
+||tiktok.org^
+||tiktokcdn.com^
+||tiktokv.com^
+||p16-tiktokcdn-com.akamaized.net^
+||v16-tiktokcdn-com.akamaized.net^
+||musical.ly^
+||muscdn.com^
+||isnssdk.com^
+||musemuse.cn^
+||tiktokcdn-us.com^
+||e673.dscx.akamaiedge.net^
+||*tiktok*^
+||abtest-va-tiktok.byteoversea.com^
+||akamai.net^
+||atomile.com^
+||dm-maliva16.byteoversea.com^
+||dm.bytedance.com^
+||f-p.sgsnssdk.com^
+||ibytedos.com^
+||ibytedtos.com^
+||mon-va.byteoversea.com^
+||mon.byteoversea.com^
+||musically.ly^
+||p16.hypstarcdn.com^
+||sgali3.l.byteoversea.net^
+||tiktokeu-cdn.com^
+||tiktokrow-cdn.com^
+||ttlivecdn.com^
+||ttwstatic.com^
+||vcs-va.byteoversea.com^
+||xlog-va.byteoversea.com^

@@ -1,0 +1,13 @@
+!
+! Title: Signal
+! Last modified: 2025-04-01T13:32:44.562Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||signal.org^
+||textsecure-service.whispersystems.org^
+*.signal.org*

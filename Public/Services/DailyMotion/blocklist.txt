@@ -1,0 +1,14 @@
+!
+! Title: DailyMotion
+! Last modified: 2025-04-01T13:32:13.603Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: DailyMotion
+! Source: base.txt
+!
+||dailymotion.com^
+||dm-event.net^
+||dmcdn.net^
+*.dailymotion.com*

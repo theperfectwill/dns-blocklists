@@ -1,0 +1,10 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:32:13.093Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||dailymotion.com^
+||dm-event.net^
+||dmcdn.net^
+*.dailymotion.com*

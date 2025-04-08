@@ -1,0 +1,40 @@
+!
+! Title: FaceBook
+! Last modified: 2025-04-01T13:32:18.889Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||block-test-facebook.developerdan.com^
+||calibra.com^
+||facebook-hardware.com^
+||facebook-web-clients.appspot.com^
+||facebook.com.edgekey.net^
+||facebook.com.edgesuite.net^
+||facebook.com^
+||facebook.design^
+||facebook.net^
+||facebookbrand.com^
+||facebookdesktop.com^
+||facebookmail.com^
+||facebookvirtualassistant.com^
+||fb.com^
+||fb.me^
+||fb.watch^
+||fbcdn-profile-a.akamaihd.net^
+||fbcdn.com^
+||fbcdn.net^
+||fbpigeon.com^
+||fbsbx.com^
+||m.nl.fb.com-----------------read-terms.songsne.com^
+||messenger.com^
+||meta.com^
+||oculus.com^
+||oculusvr.com^
+||tfbnw.net^
+||www.facebook.com--1179138757--fb-post.eta-1.click^
+||www.facebook.com--secure-id-12567747644457.shahed.cc^
+*.facebook.com*

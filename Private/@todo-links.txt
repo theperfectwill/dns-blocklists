@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/cedws/apple-telemetry/refs/heads/master/blacklist
+https://github.com/SystemJargon/blocklists/raw/refs/heads/main/lists/gafam/blocklist-apple-telemetry.txt
+https://github.com/ShadowWhisperer/BlockLists/raw/refs/heads/master/Lists/Apple

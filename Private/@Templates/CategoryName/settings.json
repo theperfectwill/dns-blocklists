@@ -1,0 +1,20 @@
+{
+    "name": "ItemNameHere",
+    "sources": [
+        {
+            "name": "ContextTitleHere",
+            "source": "URL_HERE",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

@@ -1,0 +1,16 @@
+!
+! Title: Discord
+! Last modified: 2025-04-01T13:32:15.218Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Discord
+! Source: base.txt
+!
+||discord.com^
+||discord.gg^
+||discord.media^
+||discordapp.com^
+||discordapp.net^
+*.discord.com*

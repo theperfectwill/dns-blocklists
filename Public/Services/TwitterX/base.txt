@@ -1,0 +1,15 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:06.163Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||twitter.com^
+||twttr.com^
+||t.co^
+||twimg.com^
+||ads-twitter.com^
+||twtrdns.net^
+||x.com^
+*.twitter.com*
+*.x.com*

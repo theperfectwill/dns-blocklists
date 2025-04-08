@@ -1,0 +1,38 @@
+!
+! Title: Ebay
+! Last modified: 2025-04-01T13:32:17.237Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Ebay
+! Source: base.txt
+!
+||ebay-us.com^
+||ebay.at^
+||ebay.be^
+||ebay.ca^
+||ebay.ch^
+||ebay.co.uk^
+||ebay.com^
+||ebay.com.au^
+||ebay.com.cn^
+||ebay.com.hk^
+||ebay.com.my^
+||ebay.com.sg^
+||ebay.de^
+||ebay.es^
+||ebay.fr^
+||ebay.ie^
+||ebay.in^
+||ebay.it^
+||ebay.nl^
+||ebay.ph^
+||ebay.pl^
+||ebaycdn.net^
+||ebaydesc.com^
+||ebayimg.com^
+||ebayinc.com^
+||ebayrtm.com^
+||ebaystatic.com^
+*.ebay.com*

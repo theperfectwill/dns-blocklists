@@ -1,0 +1,204 @@
+{
+    "name": "Whitelists",
+    "sources": [
+        {
+            "name": "Whitelist",
+            "source": "https://github.com/nextdns/click-tracking-domains/raw/refs/heads/main/domains",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://github.com/SystemJargon/filters/blob/main/allowlist/allowlist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/issues.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/firefox.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/windows.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/android.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://local.oisd.nl/extract/commonly_whitelisted.php",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/sensitive.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/mac.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://raw.githubusercontent.com/fabriziosalmi/blacklists/refs/heads/main/whitelist.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/whitelist-urlshortener.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/whitelist-referral.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        },
+        {
+            "name": "Whitelist",
+            "source": "https://github.com/hagezi/dns-blocklists/raw/refs/heads/main/adblock/whitelist-referral-native.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp",
+                "InvertAllow"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ],
+    "exclusions": [
+        "doubleclick.net"
+    ]
+}

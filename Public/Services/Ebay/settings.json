@@ -1,0 +1,20 @@
+{
+    "name": "Ebay",
+    "sources": [
+        {
+            "name": "Ebay",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

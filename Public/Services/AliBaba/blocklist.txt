@@ -1,0 +1,12 @@
+!
+! Title: Shopping: AliBaba
+! Last modified: 2025-04-01T13:32:08.594Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Base
+! Source: base.txt
+!
+*.alibaba.com*
+||alibaba.com^

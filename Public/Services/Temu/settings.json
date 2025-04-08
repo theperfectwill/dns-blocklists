@@ -1,0 +1,20 @@
+{
+    "name": "Shopping: Temu",
+    "sources": [
+        {
+            "name": "Base",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

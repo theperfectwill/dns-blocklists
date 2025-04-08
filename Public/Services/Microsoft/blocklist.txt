@@ -1,0 +1,12 @@
+!
+! Title: Microsoft
+! Last modified: 2025-04-01T13:32:35.172Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||microsoft.com^
+*.microsoft.com*

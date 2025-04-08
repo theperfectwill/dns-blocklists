@@ -1,0 +1,12 @@
+!
+! Title: ClubHouse
+! Last modified: 2025-04-01T13:32:12.632Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: ClubHouse
+! Source: base.txt
+!
+||cloubhouse.com^
+*.cluhouse.com*

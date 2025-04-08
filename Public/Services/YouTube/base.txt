@@ -1,0 +1,33 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:12.306Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+*.youtube.com*
+*.googlevideo.com*
+*.ytimg.com*
+*.yt3.ggpht.com*
+||youtube.com^
+||googlevideo.com^
+||ytimg.com^
+||youtubei.googleapis.com^
+||youtube-nocookie.com^
+||clients6.google.com^
+||ssl-google-analytics.l.google.com^
+||youtu.be^
+||youtube-ui.l.google.com^
+||youtube.googleapis.com^
+||yt.moatads.com^
+||ytimg.l.google.com^
+youtube
+||youtube.be^
+||youtube.co.uk^
+||youtube.de^
+||youtube.fr^
+||youtube.nl^
+||youtube.pl^
+||youtubeeducation.com^
+||youtubegaming.com^
+||youtubekids.com^
+||yt3.ggpht.com^

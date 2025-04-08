@@ -1,0 +1,16 @@
+!
+! Title: TeleGram
+! Last modified: 2025-04-01T13:32:54.530Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||t.me^
+||telegram.me^
+||telegram.org^
+*.telegram.org*
+*.telegram.me*
+*.t.me*

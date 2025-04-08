@@ -1,0 +1,12 @@
+!
+! Title: Hulu
+! Last modified: 2025-04-01T13:32:28.736Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||hulu.com^
+*.hulu.com*

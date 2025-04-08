@@ -1,0 +1,15 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:05.059Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||ext-twitch.tv^
+||jtvnw.net^
+||ttvnw.net^
+||twitch.map.fastly.net^
+||twitch.tv^
+||twitchcdn.net^
+||twitchsvc.net^
+*.twitch.net*
+*.twitch.tv*

@@ -1,0 +1,12 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-01T13:33:07.260Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+||vimeo-video.map.fastly.net^
+||vimeo.com^
+||vimeo.map.fastly.net^
+||vimeocdn.com^
+*.vimeo.com*
+*.vimeocdn.com*

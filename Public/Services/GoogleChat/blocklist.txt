@@ -1,0 +1,12 @@
+!
+! Title: GoogleChat
+! Last modified: 2025-04-01T13:32:25.921Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||chat.google.com^
+*.chat.google.com*

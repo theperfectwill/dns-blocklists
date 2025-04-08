@@ -1,0 +1,4 @@
+@ToDo->probably separate the compiled list into some basic categories
+- like malware/phishing/badhosts, spam/gambling, analytics/trackers, ads, etc.
+
+@ToDo->consildate rules, example all gathered facebook domains could be down to just a few rules

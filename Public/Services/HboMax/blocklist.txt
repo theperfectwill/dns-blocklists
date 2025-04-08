@@ -1,0 +1,14 @@
+!
+! Title: HboMax
+! Last modified: 2025-04-01T13:32:27.092Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||hbomax.com^
+||max.com^
+*.hbomax.com*
+*.max.com*
