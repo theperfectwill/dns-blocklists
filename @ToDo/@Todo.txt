@@ -7,4 +7,4 @@
 
 - Review Whitelist repos to see which ones to exclude
 
-REF: https://raw.githubusercontent.com/theperfectwill/dns-modular-compiled-block-lists/refs/heads/main/Public/Services/AliBaba/blocklist.txt
+REF: https://raw.githubusercontent.com/theperfectwill/dns-blocklists/refs/heads/main/Public/Services/AliBaba/blocklist.txt

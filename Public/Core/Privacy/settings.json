@@ -347,7 +347,7 @@
         },
         {
             "name": "Privacy: Hagezi",
-            "source": "https://github.com/theperfectwill/dns-modular-compiled-block-lists/raw/refs/heads/main/Public/Services/YouTube/blocklist.txt",
+            "source": "https://github.com/theperfectwill/dns-blocklists/raw/refs/heads/main/Public/Services/YouTube/blocklist.txt",
             "transformations": [
                 "TrimLines",
                 "RemoveComments",

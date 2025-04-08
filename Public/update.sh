@@ -15,7 +15,7 @@ WhiteList="whitelist.txt"
 
 # Main Lists
 
-ThisPath="/Volumes/Work/WebGit/dns-modular-compiled-block-lists"
+ThisPath="/Volumes/Work/WebGit/dns-blocklists"
 CorePath="$ThisPath/Public/Core"
 ServicesPath="$ThisPath/Public/Services"
 WhitelistPath="$ThisPath/Public/Whitelist"
