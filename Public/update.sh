@@ -76,6 +76,7 @@ cd $ServicesPath/YouTube && hostlist-compiler -i $BaseList -o $BaseList && hostl
 cd $CorePath/Sin && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
 cd $CorePath/Security && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
 cd $CorePath/Privacy && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
+cd $CorePath/Custom && hostlist-compiler -i $BaseList -o $BaseList && hostlist-compiler -c $Settings -o $BlockList
 
 # Whitelists
 
