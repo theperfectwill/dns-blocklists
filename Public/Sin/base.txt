@@ -1,0 +1,6 @@
+!
+! Title: Blocklist
+! Last modified: 2025-04-09T17:09:39.037Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!

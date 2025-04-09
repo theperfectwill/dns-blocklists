@@ -3,7 +3,8 @@
 /(?<=[.-]|^)(ad|ads|advert|adx|aff|analys|banner|beacon|bug|click|clix|conversion|convert|collect|crash|count|csv|data|debug|domains|file|fusion|gate|go|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor||notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=[.-])(?!.*\.$)/
 (?<=(^|[-.]))ad(?=[.-])
 --- CURRENT ---
-((?<=\.|-|^)(ad|ads|advert|adx|aff|analys|banner|beacon|bug|click|clix|conversion|convert|collect|crash|count|csv|data|debug|domains|file|fusion|gate|go|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor||notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=\.|-))
+! @Note-> in final file must have forward slash before and after regex
+/((?<=\.|-|^)(ad|ads|advert|advertisement|adx|aff|affiliate|analysis|analytics|banner|beacon|bug|click|clix|conversion|convert|collect|crash|crashlyticsreports|count|csv|data|debug|domains|doubleclick|file|fundingchoicesmessages|fusion|gate|googleads|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor|notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|split\.io|split\.map\.fastly\.net|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=\.|-))(?!.*\.$)/
 --- VALID ---
 ad.google.com
 -ad.google.com

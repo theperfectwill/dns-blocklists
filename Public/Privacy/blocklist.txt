@@ -10,5 +10,5 @@
 ! Source name: RegexDNS: Base
 ! Source: base.txt
 !
+/((?<=\.|-|^)(ad|ads|advert|advertisement|adx|aff|affiliate|analysis|analytics|banner|beacon|bug|click|clix|collect|conversion|convert|count|crash|crashlytic|crashlytics|crashlyticsreports|crm|csv|data|debug|domains|doubleclick|events|fundingchoicesmessages|fusion|gate|googleads|gtm|ingest|insight|insights|klik|lnk|link|log|logs|lytic|lytics|matomo|measure|metric|monitor|notification|notifications|notify|observe|oculus|pixel|plaus|plausible|popup|push|ref|referral|sensor|sensorCollect|sentry|serve|sms|split|(split.map)|splits|splittest|splittesting|stat|statistics|stats|suggestqueries|tag|tags|target|targets|telemetry|trace|tracing|track|tracking|xml)(?=\.|-))(?!.*\.$)/
 @@||skan.singular.net^
-/((?<=\.|-|^)(ad|ads|advert|advertisement|adx|aff|affiliate|analysis|analytics|banner|beacon|bug|click|clix|conversion|convert|collect|crash|crashlyticsreports|count|csv|data|debug|domains|doubleclick|file|fundingchoicesmessages|fusion|gate|googleads|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor|notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|split\.io|split\.map\.fastly\.net|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=\.|-))(?!.*\.$)/
