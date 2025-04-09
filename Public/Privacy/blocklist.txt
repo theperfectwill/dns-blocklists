@@ -1,5 +1,5 @@
 !
-! Title: RegexDNS Filter: For Privacy and Blocking Sin
+! Title: RegexDNS Filter
 ! Description: Regex Based DNS Filters for Blocking Ads, Trackers, Telemetry, and Sin.
 ! Homepage: https://github.com/theperfectwill/dns-regex-filters
 ! Last modified: 2025-04-09T17:09:40.565Z
@@ -12,5 +12,4 @@
 !
 /^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
 /r[0-9]*---sn-.*-.*.googlevideo.com/
-/(?<=[.-]|^)(ad|ads|advert|adx|aff|analys|banner|beacon|bug|click|clix|conversion|convert|collect|crash|count|csv|data|debug|domains|file|fundingchoicesmessages|fusion|gate|go|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor||notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|stat|suggestqueries|tag|target|telemetry|trace|track|xml)/
-/(?<=[.-]|^)(Value_Here)(?=[.-])(?!.*\.$)/
+((?<=\.|-|^)(ad|ads|advert|adx|aff|analys|banner|beacon|bug|click|clix|conversion|convert|collect|crash|count|csv|data|debug|domains|file|fusion|gate|go|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor||notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=\.|-))
