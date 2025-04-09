@@ -63,6 +63,8 @@ sensorCollect
 sentry
 serve
 sms
+skan
+singular
 split
 (split.map)
 splits
