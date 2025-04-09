@@ -1,0 +1,53 @@
+--- REGEX ---
+/(?<=[.-]|^)(Value_Here)(?=[.-])(?!.*\.$)/
+/(?<=[.-]|^)(ad|ads|advert|adx|aff|analys|banner|beacon|bug|click|clix|conversion|convert|collect|crash|count|csv|data|debug|domains|file|fusion|gate|go|gtm|insight|klik|link|log|lytic|matomo|measure|metric|monitor||notify|notification|notifications|observe|oculus|pixel|plaus|popup|push|ref|referral|sensorCollect|sentry|serve|sms|stat|suggestqueries|tag|target|telemetry|trace|track|xml)(?=[.-])(?!.*\.$)/
+--- VALID ---
+ad.google.com
+-ad.google.com
+.ad.google.com
+ad.google.com
+gl-ad.google.com
+gl.ad.google.com
+gl.ad.com
+ad.com
+
+--- VALID ---
+ad.google.com
+-ad.google.com
+123.ad.google.com
+ad.google.com
+gl-ad.google.com
+gl.ad.google.com
+gl.ad.com
+
+--- VALID ---
+ad-google.com
+-ad-google.com
+123.ad-google.com
+ad-google.com
+gl-ad-google.com
+gl.ad-google.com
+gl.ad-com
+
+--- NEXT VALUE VALID ---
+ads.google.com
+-ads.google.com
+123.ads.google.com
+ads.google.com
+gl-ads.google.com
+gl.ads.google.com
+gl.ads.com
+
+--- INVALID ---
+123ad-com
+glad-google.com
+-glad-google.com
+.glad-google.com
+glad-com
+
+--- INVALID ---
+123ad.com
+glad.google.com
+-glad.google.com
+.glad.google.com
+glad.com
