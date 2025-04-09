@@ -1,0 +1,31 @@
+{
+    "name": "Google",
+    "sources": [
+        {
+            "name": "Service",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Service",
+            "source": "https://github.com/AdguardTeam/HostlistsRegistry/raw/refs/heads/main/filters/other/filter_37_NoGoogle/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

@@ -1,0 +1,16 @@
+!
+! Title: Vimeo
+! Last modified: 2025-04-08T15:45:26.099Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||vimeo-video.map.fastly.net^
+||vimeo.com^
+||vimeo.map.fastly.net^
+||vimeocdn.com^
+*.vimeo.com*
+*.vimeocdn.com*

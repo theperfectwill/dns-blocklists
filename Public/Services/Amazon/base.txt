@@ -1,8 +1,0 @@
-!
-! Title: Blocklist
-! Last modified: 2025-04-08T15:44:43.503Z
-!
-! Compiled by @adguard/hostlist-compiler v1.0.38
-!
-||amazon.com^
-*.amazon.com*

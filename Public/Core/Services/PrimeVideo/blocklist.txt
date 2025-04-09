@@ -1,0 +1,14 @@
+!
+! Title: PrimeVideo
+! Last modified: 2025-04-08T15:45:10.272Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||primevideo.com^
+||amazonvideo.com^
+*.primevideo.com*
+*.amazonvideo.com*

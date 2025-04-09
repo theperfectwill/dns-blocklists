@@ -1,0 +1,12 @@
+!
+! Title: Threads
+! Last modified: 2025-04-08T15:45:21.351Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||threads.net^
+*.threads.net*

@@ -1,9 +1,0 @@
-!
-! Title: Blocklist
-! Last modified: 2025-04-08T15:45:12.444Z
-!
-! Compiled by @adguard/hostlist-compiler v1.0.38
-!
-||signal.org^
-||textsecure-service.whispersystems.org^
-*.signal.org*

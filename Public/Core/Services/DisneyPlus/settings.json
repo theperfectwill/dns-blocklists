@@ -1,0 +1,20 @@
+{
+    "name": "DisneyPlus",
+    "sources": [
+        {
+            "name": "DisneyPlus",
+            "source": "base.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

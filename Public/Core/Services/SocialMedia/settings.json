@@ -1,0 +1,42 @@
+{
+    "name": "SocialMedia",
+    "sources": [
+        {
+            "name": "Service",
+            "source": "https://raw.githubusercontent.com/SystemJargon/filters/refs/heads/main/no-social-media.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Service",
+            "source": "https://energized.pro/social/adblock.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "name": "Service",
+            "source": "https://raw.githubusercontent.com/StevenBlack/hosts/refs/heads/master/alternates/social-only/hosts",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

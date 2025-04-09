@@ -546,5 +546,8 @@
     "transformations": [
         "Deduplicate",
         "InsertFinalNewLine"
+    ],
+    "exclusions": [
+        "@@*"
     ]
 }

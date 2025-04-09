@@ -1,0 +1,19 @@
+!
+! Title: TwitterX
+! Last modified: 2025-04-08T15:45:25.248Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.38
+!
+!
+! Source name: Service
+! Source: base.txt
+!
+||twitter.com^
+||twttr.com^
+||t.co^
+||twimg.com^
+||ads-twitter.com^
+||twtrdns.net^
+||x.com^
+*.twitter.com*
+*.x.com*
