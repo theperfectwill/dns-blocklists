@@ -1,17 +1,17 @@
 {
-    "name": "AdGuard All",
-    "description": "DNS Blocklist of Custom Entries for Home and Mobile.",
-    "homepage": "https://github.com/theperfectwill/dns-blocklists",
+    "name": "RegexDNS Filter: Sin",
+    "description": "Regex Based DNS Filters for Blocking Sin.",
+    "homepage": "https://github.com/theperfectwill/dns-regex-filters",
     "sources": [
         {
-            "name": "AdGuard All",
+            "name": "Sin: Base",
             "source": "base.txt",
             "transformations": [
                 "TrimLines",
                 "RemoveComments",
                 "RemoveEmptyLines",
                 "Compress",
-                "ValidateAllowIp"
+                "Validate"
             ]
         }
     ],
