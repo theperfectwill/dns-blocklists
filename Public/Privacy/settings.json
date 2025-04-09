@@ -1,10 +1,10 @@
 {
-    "name": "RegexDNS Filter: Privacy",
-    "description": "Regex Based DNS Filters for Blocking Ads, Trackers, Telemetry, Etc.",
+    "name": "RegexDNS Filter: For Privacy and Blocking Sin",
+    "description": "Regex Based DNS Filters for Blocking Ads, Trackers, Telemetry, and Sin.",
     "homepage": "https://github.com/theperfectwill/dns-regex-filters",
     "sources": [
         {
-            "name": "Privacy: Base",
+            "name": "RegexDNS: Base",
             "source": "base.txt",
             "transformations": [
                 "TrimLines",
