@@ -16,7 +16,7 @@
 /^(?=.*(?:\.|-|^)(ingest|insight|insights)(?:\.|-))(?!.*(auth|sdk)).*$/
 /^(?=.*(?:\.|-|^)(klik|kliks|klk|klks)(?:\.|-))(?!.*(auth|sdk)).*$/
 /^(?=.*(?:\.|-|^)(lnk|lnks|link|links|log|logged|logging|logs|lytic|lytics|lytiks)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(matomo|measure|metric|metrics|monitor)(?:\.|-))(?!.*(auth|sdk)).*$/
+/^(?=.*(?:\.|-|^)(matomo|measure|metric|metrics|monitor|mzstorekit)(?:\.|-))(?!.*(auth|sdk)).*$/
 /^(?=.*(?:\.|-|^)(notification|notifications|notify)(?:\.|-))(?!.*(auth|sdk)).*$/
 /^(?=.*(?:\.|-|^)(observation|observations|observe|oculus)(?:\.|-))(?!.*(auth|sdk)).*$/
 /^(?=.*(?:\.|-|^)(pixel|pixels|plaus|plausible|popup|push|pxl|pxls)(?:\.|-))(?!.*(auth|sdk)).*$/

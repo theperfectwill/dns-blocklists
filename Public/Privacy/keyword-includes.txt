@@ -8,7 +8,7 @@ googlead|googleads|gtm
 ingest|insight|insights
 klik|kliks|klk|klks
 lnk|lnks|link|links|log|logged|logging|logs|lytic|lytics|lytiks
-matomo|measure|metric|metrics|monitor
+matomo|measure|metric|metrics|monitor|mzstorekit
 notification|notifications|notify
 observation|observations|observe|oculus
 pixel|pixels|plaus|plausible|popup|push

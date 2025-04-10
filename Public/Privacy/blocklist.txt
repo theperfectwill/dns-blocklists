@@ -1,30 +1,41 @@
 !
-! Title: RegexDNS Filter
-! Description: Regex Based DNS Filters for Blocking Ads, Trackers, Telemetry, and Sin.
+! Title: RegexDNSF: Privacy
 ! Homepage: https://github.com/theperfectwill/dns-regex-filters
 ! Last modified: 2025-04-09T17:09:40.565Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
-!
-! Source name: RegexDNS: Base
-! Source: base.txt
-!
-/^(?=.*(?:\.|-|^)(ad|ads|advert|advertisement|adx|aff|affil|affiliate|anal|analysis|analytic|analytics)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(banner|banners|beacon|bug|bugs)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)((clarity.ms)|click|clicks|clix|collect|conversion|conversions|convert|converts|count|counts|crash|crashlytic|crashlyticreports|crashlytics|crashlyticsreports|crm)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(data|datas|debug|domains|doubleclick)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(event|events)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(fundingchoicesmessages|funnel|funnels|fusion)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(googlead|googleads|gtm)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(ingest|insight|insights)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(klik|kliks|klk|klks)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(lnk|lnks|link|links|log|logged|logging|logs|lytic|lytics|lytiks)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(matomo|measure|metric|metrics|monitor)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(notification|notifications|notify)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(observation|observations|observe|oculus)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(pixel|pixels|plaus|plausible|popup|push|pxl|pxls)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(ref|referral)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(sensor|sensors|sensorCollect|sentry|serve|sms|skan|singular|split|splits|splittest|splittesting|stat|statistics|stats|suggestqueries)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(tag|tags|target|targets|telemetry|test|testing|trace|tracing|track|tracking)(?:\.|-))(?!.*(auth|sdk)).*$/
-/^(?=.*(?:\.|-|^)(xml)(?:\.|-))(?!.*(auth|sdk)).*$/
+/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.\w{2}\d{1,6}\w{4}\.com$/
+/r[0-9]*---sn-.*-.*.googlevideo.com/
+/^(?=.*(?:\.|-|^)(ad|ads|advert|advertisement|adx|aff|affil|affiliate|anal|analysis|analytic|analytics)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(banner|banners|beacon|bug|bugs)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)((clarity.ms)|click|clicks|clix|collect|conversion|conversions|convert|converts|count|counts|crash|crashlytic|crashlyticreports|crashlytics|crashlyticsreports|crm)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(data|datas|debug|domains|doubleclick)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(event|events)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(fundingchoicesmessages|funnel|funnels|fusion)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(googlead|googleads|gtm)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(ingest|insight|insights)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(klik|kliks|klk|klks)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(lnk|lnks|link|links|log|logged|logging|logs|lytic|lytics|lytiks)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(matomo|measure|metric|metrics|monitor|mzstorekit)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(notification|notifications|notify)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(observation|observations|observe|oculus)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(pixel|pixels|plaus|plausible|popup|push|pxl|pxls)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(ref|referral)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(sensor|sensors|sensorCollect|sentry|serve|sms|skan|singular|split|splits|splittest|splittesting|stat|statistics|stats|suggestqueries)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(tag|tags|target|targets|telemetry|test|testing|trace|tracing|track|tracking)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(xml)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+||bag.itunes.apple.com^
+||devices.a2z.com^
+||firs-ta-g7g.amazon.com^
+||itunes-apple.com.akadns.net^
+||kars-ats.amazon.com^
+||mystique.digital-books.amazon.dev^
+||mzstorekit.itunes.apple.com^
+||quickview.kindle.amazon.dev^
+||rewards-*.us-west-2.elb.amazonaws.com^
+||services.mozilla.com^
+||spcsdns.net^
+||todo-ta-g7g.amazon.com^
+||amazon-ad*.com^
+||clarity.ms^
