@@ -6,27 +6,32 @@
 ^(?!www\.)(?=.*\b(ad|ads|advert)\b)[^.]+\.[^.]+\.[a-zA-Z]{2,}$
 --- REGEX CURRENT TEST ---
 ! @Note-> in final file must have forward slash before and after regex
-(?:\.|-|^)(Value_Here)(?:\.|-)
-(?:\.|-|^)((etc.subdomain.tld))(?:\.|-)
+PRINCIPAL: (?:\.|-|^)(Values_Here)(?:\.|-)
+INCLUDE: (?:\.|-|^)(ad|ads)(?:\.|-)
+INCLUDE EXACT: (?:\.|-|^)((etc.subdomain.tld))(?:\.|-)
+EXCLUDE: (?:[.-]?(auth|sdk)[.-])
 --- USE ---
-(?:\.|-|^)(ad|ads|advert|advertisement|adx|aff|affiliate|analysis|analytics)(?:\.|-)
-(?:\.|-|^)(banner|beacon|bug)(?:\.|-)
-(?:\.|-|^)(click|clix|conversion|convert|collect|crash|crashlyticsreports|count|csv)(?:\.|-)
-(?:\.|-|^)(data|debug|domains|doubleclick)(?:\.|-)
-(?:\.|-|^)(file|fundingchoicesmessages|fusion)(?:\.|-)
-(?:\.|-|^)(gate|googleads|gtm)(?:\.|-)
-(?:\.|-|^)(insight)(?:\.|-)
-(?:\.|-|^)(klik)(?:\.|-)
-(?:\.|-|^)(link|log|lytic)(?:\.|-)
-(?:\.|-|^)(matomo|measure|metric|monitor)(?:\.|-)
-(?:\.|-|^)(notify|notification|notifications)(?:\.|-)
-(?:\.|-|^)(observe|oculus)(?:\.|-)
-(?:\.|-|^)(pixel|plaus|popup|push)(?:\.|-)
-(?:\.|-|^)(ref|referral)(?:\.|-)
-(?:\.|-|^)(sensorCollect|sentry|serve|sms)(?:\.|-)
-(?:\.|-|^)(statistic|statistics|suggestqueries)(?:\.|-)
-(?:\.|-|^)(tag|tags|target|telemetry|trace|track)(?:\.|-)
-(?:\.|-|^)(xml)(?:\.|-)
+^(?=.*(?:\.|-|^)(ad|ads)(?:\.|-))(?!.*(auth|sdk)).*$
+--- EXCLUDE ---
+auth.ad.google.com
+test.auth.ad.google.com
+.auth.ad.google.com
+auth-ad.google.com
+test.auth-ad.google.com
+.auth-ad.google.com
+ad.auth.com
+adauth.com
+authad.com
+sdk.ad.google.com
+test.sdk.ad.google.com
+.sdk.ad.google.com
+sdk-ad.google.com
+test.sdk-ad.google.com
+.sdk-ad.google.com
+ad.sdk.com
+adsdk.com
+sdkad.com
+
 --- VALID ---
 ad.google.com
 -ad.google.com
