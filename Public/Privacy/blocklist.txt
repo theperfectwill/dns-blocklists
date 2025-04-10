@@ -22,7 +22,7 @@
 /^(?=.*(?:\.|-|^)(observation|observations|observe|oculus)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
 /^(?=.*(?:\.|-|^)(pixel|pixels|plaus|plausible|popup|push|pxl|pxls)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
 /^(?=.*(?:\.|-|^)(ref|referral)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
-/^(?=.*(?:\.|-|^)(sensor|sensors|sensorCollect|sentry|serve|sms|skan|singular|split|splits|splittest|splittesting|stat|statistics|stats|suggestqueries)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
+/^(?=.*(?:\.|-|^)(sensor|sensors|sensorCollect|sentry|serve|sms|skan|singular|split|splits|splittest|splittesting|stat|statistics|stats|suggestqueries)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|(split.map.fastly.net)|user)).*$/
 /^(?=.*(?:\.|-|^)(tag|tags|target|targets|telemetry|test|testing|trace|tracing|track|tracking)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
 /^(?=.*(?:\.|-|^)(xml)(?:\.|-))(?!.*(api|auth|login|register|sdk|signin|user)).*$/
 ||bag.itunes.apple.com^
