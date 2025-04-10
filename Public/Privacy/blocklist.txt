@@ -10,4 +10,21 @@
 ! Source name: RegexDNS: Base
 ! Source: base.txt
 !
-/((?<=\.|-|^)(ad|ads|advert|advertisement|adx|aff|affiliate|analysis|analytics|banner|beacon|bug|click|clix|collect|conversion|convert|count|crash|crashlytic|crashlytics|crashlyticsreports|crm|csv|data|debug|domains|doubleclick|events|fundingchoicesmessages|fusion|gate|googleads|gtm|ingest|insight|insights|klik|lnk|link|log|logs|lytic|lytics|matomo|measure|metric|monitor|notification|notifications|notify|observe|oculus|pixel|plaus|plausible|popup|push|ref|referral|sensor|sensorCollect|sentry|serve|sms|(split.map)|splits|splittest|splittesting|stat|statistics|stats|suggestqueries|tag|tags|target|targets|telemetry|trace|tracing|track|tracking|xml)(?=\.|-))(?!.*\.$)/
+/(?:\.|-|^)(ad|ads|advert|advertisement|adx|aff|affil|affiliate|anal|analysis|analytic|analytics)(?:\.|-)/
+/(?:\.|-|^)(banner|banners|beacon|bug|bugs)(?:\.|-)/
+/(?:\.|-|^)(click|clicks|clix|conversion|conversions|convert|collect|crash|crashlytic|crashlytics|crashlyticsreports|count|counts)(?:\.|-)/
+/(?:\.|-|^)(data|debug|domains|doubleclick)(?:\.|-)/
+/(?:\.|-|^)(fundingchoicesmessages|fusion)(?:\.|-)/
+/(?:\.|-|^)(gate|googlead|googleads|gtm)(?:\.|-)/
+/(?:\.|-|^)(insight|insights)(?:\.|-)/
+/(?:\.|-|^)(klik|kliks)(?:\.|-)/
+/(?:\.|-|^)(link|links|log|lytic)(?:\.|-)/
+/(?:\.|-|^)(matomo|measure|metric|metrics|monitor)(?:\.|-)/
+/(?:\.|-|^)(notify|notification|notifications)(?:\.|-)/
+/(?:\.|-|^)(observe|oculus)(?:\.|-)/
+/(?:\.|-|^)(pixel|plausible|popup|push)(?:\.|-)/
+/(?:\.|-|^)(ref|referral)(?:\.|-)/
+/(?:\.|-|^)(sensorCollect|sentry|service|sms)(?:\.|-)/
+/(?:\.|-|^)(statistic|statistics|suggestqueries)(?:\.|-)/
+/(?:\.|-|^)(tag|tags|target|telemetry|trace|track)(?:\.|-)/
+/(?:\.|-|^)(xml)(?:\.|-)/

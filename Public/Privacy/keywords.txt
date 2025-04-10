@@ -66,7 +66,6 @@ sms
 skan
 singular
 split
-(split.map)
 splits
 splittest
 splittesting
