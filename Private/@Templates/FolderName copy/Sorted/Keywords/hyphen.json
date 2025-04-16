@@ -1,0 +1,46 @@
+{
+    "name": "Space",
+    "sources": [
+        {
+            "source": "keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "*-*"
+            ],
+            "exclusions": [
+                "!",
+                "@",
+                "#",
+                "$",
+                "%",
+                "^",
+                "&",
+                "*",
+                "(",
+                ")",
+                "_",
+                "+",
+                "=",
+                "{}",
+                "[]",
+                "|",
+                ":",
+                ";",
+                "'",
+                "\"",
+                "<",
+                ">",
+                "?",
+                "/",
+                "\\",
+                "~",
+                "`",
+                "."
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

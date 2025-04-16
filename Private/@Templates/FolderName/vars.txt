@@ -1,0 +1,11 @@
+currentPath=$(pwd)
+dirPath=$(dirname "$0")
+absPath=$(realpath "$0")
+
+customPath=Custom
+sourcesPath=Sources
+finalPath=Final
+keywordsPath=Keywords
+regexPath=Regex
+
+FolderName="FolderName"

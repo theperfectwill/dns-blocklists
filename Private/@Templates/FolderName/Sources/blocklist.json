@@ -1,0 +1,23 @@
+{
+    "name": "RegexDNSF: (Blocklist Combined Sources)",
+    "sources": [
+        {
+            "source": "Sources/blocklist.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "exclusions": [
+                "@@||"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

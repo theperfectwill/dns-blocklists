@@ -1,0 +1,2 @@
+# Comment
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt

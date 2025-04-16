@@ -1,0 +1,46 @@
+{
+    "name": "wordSingle",
+    "sources": [
+        {
+            "source": "keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "*_*"
+            ],
+            "exclusions": [
+                "!",
+                "@",
+                "#",
+                "$",
+                "%",
+                "^",
+                "&",
+                "*",
+                "(",
+                ")",
+                "_",
+                "+",
+                "=",
+                "{}",
+                "[]",
+                "|",
+                ":",
+                ";",
+                "'",
+                "\"",
+                "<",
+                ">",
+                "?",
+                "/",
+                "\\",
+                "~",
+                "`",
+                "."
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

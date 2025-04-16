@@ -1,0 +1,23 @@
+{
+    "name": "RegexDNSF: (Whitelist Combined Sources)",
+    "sources": [
+        {
+            "source": "Sources/whitelist.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "inclusions": [
+                "@@||"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

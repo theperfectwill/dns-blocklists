@@ -1,1 +1,1 @@
-api|auth|login|register|sdk|signin|user
+api|auth|(log-in)|login|register|sdk|(sign-in)|signin|user

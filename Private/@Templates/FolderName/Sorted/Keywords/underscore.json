@@ -1,0 +1,46 @@
+{
+    "name": "Underscore",
+    "sources": [
+        {
+            "source": "keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "*_*"
+            ],
+            "exclusions": [
+                "!",
+                "@",
+                "#",
+                "$",
+                "%",
+                "^",
+                "&",
+                "*",
+                "(",
+                ")",
+                "_",
+                "+",
+                "=",
+                "{}",
+                "[]",
+                "|",
+                ":",
+                ";",
+                "'",
+                "\"",
+                "<",
+                ">",
+                "?",
+                "/",
+                "\\",
+                "~",
+                "`",
+                "."
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "name": "RegexDNSF: Privacy (Filtered)",
+    "homepage": "https://github.com/theperfectwill/dns-regex-filters",
+    "sources": [
+        {
+            "name": "RegexDNSF: Privacy (Custom Whitelist)",
+            "source": "custom-whitelist.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "name": "RegexDNSF: Privacy (Custom Blocklist)",
+            "source": "custom-blocklist.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "name": "RegexDNSF: Privacy (Keyword Regex)",
+            "source": "keyword-regex.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "name": "AdGuard: DNSFilter",
+            "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "exclusions": [
+                "@@||"
+            ],
+            "exclusions_sources": [
+                "keyword-regex.txt"
+            ]
+        },
+        {
+            "name": "Hagezi: Multi Pro++",
+            "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt",
+            "transformations": [
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "exclusions": [
+                "@@||"
+            ],
+            "exclusions_sources": [
+                "keyword-regex.txt"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "RegexDNSF: FolderName",
+    "homepage": "https://github.com/theperfectwill/dns-regex-filters",
+    "sources": [
+        {
+            "source": "Custom/whitelist.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "source": "Sources/whitelist.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "source": "Custom/blocklist.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "source": "Regex/import.txt",
+            "transformations": [
+                "TrimLines",
+                "Compress",
+                "Validate"
+            ]
+        },
+        {
+            "source": "Sources/blocklist.txt",
+            "transformations": [],
+            "exclusions": [
+                "@@||"
+            ],
+            "exclusions_sources": [
+                "Regex/import.txt",
+                "Regex/strings.txt"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

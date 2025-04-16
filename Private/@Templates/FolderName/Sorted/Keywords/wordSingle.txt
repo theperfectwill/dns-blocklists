@@ -1,0 +1,4 @@
+! Title: wordSingle
+! Last modified: 2025-04-16T12:34:19.261Z
+! Compiled by @adguard/hostlist-compiler v1.0.38
+! Source: keywords.txt
