@@ -1,17 +1,6 @@
 {
-    "name": "RegexDNSF: (Blocklist Combined Sources)",
+    "name": "Keywords Blocklist",
     "sources": [
-        {
-            "source": "Sources/blocklistCustom.txt",
-            "transformations": [
-                "ConvertToAscii",
-                "TrimLines",
-                "RemoveComments",
-                "RemoveEmptyLines",
-                "Compress",
-                "Validate"
-            ]
-        },
         {
             "source": "Sources/blocklist.txt",
             "transformations": [
@@ -21,6 +10,9 @@
                 "RemoveEmptyLines",
                 "Compress",
                 "Validate"
+            ],
+            "exclusions": [
+                "*@@*"
             ]
         }
     ],

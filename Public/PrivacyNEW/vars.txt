@@ -2,10 +2,10 @@ currentPath=$(pwd)
 dirPath=$(dirname "$0")
 absPath=$(realpath "$0")
 
-finalPath=Final
-regexPath=Regex
-sortedPath=Sorted
-keywordsPath=Keywords
+customPath=Custom
 sourcesPath=Sources
+finalPath=Final
+keywordsPath=Keywords
+regexPath=Regex
 
-FolderName="FolderName"
+FolderName="Privacy"

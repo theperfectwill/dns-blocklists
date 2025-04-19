@@ -1,27 +1,16 @@
-! Title: RegexDNSF: (Whitelist Combined Sources)
-! Last modified: 2025-04-19T20:51:09.374Z
+!
+! Title: Privacy: (Whitelist)
+! Description: DNS Compiled Blocklist for Blocking Ads, Trackers, Telemetry, Etc.
+! Homepage: https://github.com/theperfectwill/dns-blocklists
+! Last modified: 2025-04-17T14:08:26.889Z
+!
 ! Compiled by @adguard/hostlist-compiler v1.0.38
-! Source: Sources/whitelistCustom.txt
-! Source: Sources/blocklist.txt
+!
 @@-ds.metric.gstatic.com^|
-@@|ads.adsterra.com^|
-@@|adsterra.com^|
-@@|affiliates.adsterra.com^|
-@@|app.crazyegg.com^|
-@@|beta.affiliates.adsterra.com^|
-@@|beta.partners.adsterra.com^|
-@@|beta.publishers.adsterra.com^|
-@@|core.crazyegg.com^|
-@@|daraz.com^|
-@@|ezodn.com^|
-@@|ftp.bmp.ovh^|
-@@|help-advertisers.adsterra.com^|
-@@|partners.adsterra.com^|
-@@|publishers.adsterra.com^|
-@@|statcounter.com^|
-@@|www.daraz.pk^|
-@@||5471782.fls.doubleclick.net^|
+@@://googleadservices.com^|
+@@://www.googleadservices.com^|
 @@||79423.analytics.edgekey.net^|
+@@||5471782.fls.doubleclick.net^|
 @@||a.adwolf.ru^|
 @@||a.sellpoint.net^|
 @@||ac.ebis.ne.jp^|
@@ -47,6 +36,7 @@
 @@||app.adjust.com^|
 @@||app.appsflyer.com^|
 @@||artifactory.appodeal.com^|
+@@||auto-api.yelp.com
 @@||awin1.com^|
 @@||bcicl.*.evergage.com^|
 @@||brm-core-*.brsrvr.com^|
@@ -101,6 +91,10 @@
 @@||gs.statcounter.com^|
 @@||guce.advertising.com^|
 @@||hb.afl.rakuten.co.jp^|
+@@||hbbtv.kika.de^
+@@||hbbtv.prosieben.de^
+@@||hbbtv.redbutton.de^
+@@||hbbtv.zdf.de^
 @@||health.halodoc.com^|
 @@||hidive.com^|
 @@||home.focusatwill.com^|
@@ -108,6 +102,7 @@
 @@||ia.hit.interia.pl^|
 @@||id.i2i.jp^|
 @@||img.ads.tvb.com^
+@@||infolink.pavv.co.kr^
 @@||infra-api.newrelic.com^|
 @@||intersport.peerius.com^|
 @@||js.monitor.azure.com^|
@@ -125,6 +120,10 @@
 @@||marketing.net.idealo-partner.com^|
 @@||mc.*.exacttarget.com^|
 @@||media-consumer365.desigual.com^|
+@@||mhc-ajax-eu-s2.myhomescreen.tv^
+@@||mhc-ajax-eu.myhomescreen.tv^
+@@||mhc-xpana-eu-s2.myhomescreen.tv^
+@@||mhc-xpana-eu.myhomescreen.tv^
 @@||my.tealiumiq.com^|
 @@||netatmo.commander1.com^|
 @@||nineto5mac-d.openx.net^|
@@ -136,6 +135,7 @@
 @@||oneline.nextday.media^|
 @@||pagead.l.doubleclick.net^|
 @@||partner.everydays.de^|
+@@||pics.porndroids.com^
 @@||promo.gramedia.com^|
 @@||proto2ad.durasite.net^|
 @@||pt.afl.rakuten.co.jp^|
@@ -177,3 +177,19 @@
 @@||www.googleadservices.com^|
 @@||www.jdoqocy.com^|
 @@||www.statcounter.com^|
+@@|ads.adsterra.com^|
+@@|adsterra.com^|
+@@|affiliates.adsterra.com^|
+@@|app.crazyegg.com^|
+@@|beta.affiliates.adsterra.com^|
+@@|beta.partners.adsterra.com^|
+@@|beta.publishers.adsterra.com^|
+@@|core.crazyegg.com^|
+@@|daraz.com^|
+@@|ezodn.com^|
+@@|ftp.bmp.ovh^|
+@@|help-advertisers.adsterra.com^|
+@@|partners.adsterra.com^|
+@@|publishers.adsterra.com^|
+@@|statcounter.com^|
+@@|www.daraz.pk^|

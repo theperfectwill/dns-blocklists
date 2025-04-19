@@ -1,0 +1,41 @@
+{
+    "name": "Special Characters",
+    "sources": [
+        {
+            "source": "Regex/Sorted/keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "!",
+                "@",
+                "$",
+                "%",
+                "^",
+                "&",
+                "(",
+                ")",
+                "+",
+                "=",
+                "{}",
+                "[]",
+                "|",
+                ":",
+                ";",
+                "'",
+                "\"",
+                "<",
+                ">",
+                "?",
+                "\\",
+                "~",
+                "`"
+            ],
+            "exclusions": [
+                "@"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
