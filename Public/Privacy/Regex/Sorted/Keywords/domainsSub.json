@@ -1,0 +1,23 @@
+{
+    "name": "Secondary domains only",
+    "sources": [
+        {
+            "source": "Regex/Sorted/keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "/^(?![a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}$/"
+            ],
+            "exclusions": [
+                "/^(.)\\1*$/",
+                "@",
+                " ",
+                "_",
+                "www*.*"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
