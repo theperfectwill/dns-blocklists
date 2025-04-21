@@ -1,5 +1,5 @@
 {
-    "name": "RegexDNSF: FolderName (Blocklist Sources)",
+    "name": "RegexDNSF: Privacy (Blocklist Sources)",
     "sources": [
         {
             "source": "Sources/blocklistCustom.txt",

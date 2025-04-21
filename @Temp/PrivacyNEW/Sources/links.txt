@@ -1,3 +1,0 @@
-# CommentHere
-https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt

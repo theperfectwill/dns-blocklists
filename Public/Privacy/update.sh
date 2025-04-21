@@ -142,35 +142,35 @@ function extractCommonPhrases() {
     # Call extract.py with our desired outputs
     echo "Running $mostCommonFile"
     echo
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/domainsPri.txt 1 250 $thisPath/$keywordsPath/domainsPriCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/domainsPri.txt 1 1000 $thisPath/$keywordsPath/domainsPriCommon.txt
     sort -nr -o $thisPath/$keywordsPath/domainsPriCommon.txt $thisPath/$keywordsPath/domainsPriCommon.txt
     echo "Sorted $thisPath/$keywordsPath/domainsPriCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/domainsSub.txt 1 250 $thisPath/$keywordsPath/domainsSubCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/domainsSub.txt 1 1000 $thisPath/$keywordsPath/domainsSubCommon.txt
     sort -nr -o $thisPath/$keywordsPath/domainsSubCommon.txt $thisPath/$keywordsPath/domainsSubCommon.txt
     echo "Sorted $thisPath/$keywordsPath/domainsSubCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/lettersALL.txt 1 250 $thisPath/$keywordsPath/lettersALLCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/lettersALL.txt 1 1000 $thisPath/$keywordsPath/lettersALLCommon.txt
     sort -nr -o $thisPath/$keywordsPath/lettersALLCommon.txt $thisPath/$keywordsPath/lettersALLCommon.txt
     echo "Sorted $thisPath/$keywordsPath/lettersALLCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/numberALL.txt 1 250 $thisPath/$keywordsPath/numberALLCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/numberALL.txt 1 1000 $thisPath/$keywordsPath/numberALLCommon.txt
     sort -nr -o $thisPath/$keywordsPath/numberALLCommon.txt $thisPath/$keywordsPath/numberALLCommon.txt
     echo "Sorted $thisPath/$keywordsPath/numberALLCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/spaceUH.txt 1 250 $thisPath/$keywordsPath/spaceUHCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/spaceUH.txt 1 1000 $thisPath/$keywordsPath/spaceUHCommon.txt
     sort -nr -o $thisPath/$keywordsPath/spaceUHCommon.txt $thisPath/$keywordsPath/spaceUHCommon.txt
     echo "Sorted $thisPath/$keywordsPath/spaceUHCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/specialC.txt 1 250 $thisPath/$keywordsPath/specialCCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/specialC.txt 1 1000 $thisPath/$keywordsPath/specialCCommon.txt
     sort -nr -o $thisPath/$keywordsPath/specialCCommon.txt $thisPath/$keywordsPath/specialCCommon.txt
     echo "Sorted $thisPath/$keywordsPath/specialCCommon.txt"
-    
-    python3 $mostCommonFile $thisPath/$keywordsPath/wildCards.txt 1 250 $thisPath/$keywordsPath/wildCardsCommon.txt
+
+    python3 $mostCommonFile $thisPath/$keywordsPath/wildCards.txt 1 1000 $thisPath/$keywordsPath/wildCardsCommon.txt
     sort -nr -o $thisPath/$keywordsPath/wildCardsCommon.txt $thisPath/$keywordsPath/wildCardsCommon.txt
     echo "Sorted $thisPath/$keywordsPath/wildCardsCommon.txt"
-    
+
     echo
 }
 
@@ -285,6 +285,15 @@ function buildFinalFile() {
 # ---------------------------------
 
 # ------------
+# @Note->buildCombinedFiles is for seperating the blocklist from its whitelisted entries
+# ..and including any custom blocklist or whitelist entires
+# @Note->this runs first because some of our other functions reference the data created after we build our compiled files
+# ------------
+
+# Call our buildCombinedFiles function
+buildCombinedFiles
+
+# ------------
 # @Note->createKeywordList and filterKeywords is for creating a seperate, filtered, stripped blocklist
 # ..from which we analyze to create regex and/or wildcard patterns to reduce the amount of blocklist entires
 # ..and to aim blocking future similar domain calls, but this also is aimed at lighter files and potentially harder blocking
@@ -304,14 +313,6 @@ filterKeywords
 extractCommonPhrases
 
 # ------------
-# @Note->buildCombinedFiles is for seperating the blocklist from its whitelisted entries
-# ..and including any custom blocklist or whitelist entires
-# ------------
-
-# Call our buildCombinedFiles function
-buildCombinedFiles
-
-# ------------
 # @Note->buildFinalFile is for creating the final version including our approved regex patterns
 # ..replacing standard blocked domain entires with single regex patterns that match them
 # @Example->/(?:\.|-|\|\||^)(adserver)(?:\.|-)/ will block...
@@ -319,7 +320,7 @@ buildCombinedFiles
 # ------------
 
 # Call our buildFinalFile function
-buildFinalFile
+# buildFinalFile
 
 # ---------------------------------
 # SECTION: END

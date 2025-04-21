@@ -1,4 +1,4 @@
-! Title: RegexDNSF FolderName
+! Title: RegexDNSF Privacy
 @@-ds.metric.gstatic.com^|
 @@|ads.adsterra.com^|
 @@|adsterra.com^|

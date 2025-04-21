@@ -8,4 +8,4 @@ sortedPath=Sorted
 keywordsPath=Keywords
 sourcesPath=Sources
 
-FolderName="FolderName"
+FolderName="Privacy"

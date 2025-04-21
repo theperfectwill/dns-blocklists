@@ -1,5 +1,5 @@
 {
-    "name": "RegexDNSF: FolderName (Whitelist Sources)",
+    "name": "RegexDNSF: Privacy (Whitelist Sources)",
     "sources": [
         {
             "source": "Sources/whitelistCustom.txt",

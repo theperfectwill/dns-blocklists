@@ -17,7 +17,7 @@ fi
 # Excess Extractions In Order...
 # Excess Word Lines Only
 # Excess Character Lines Only
-rg --pcre2 -e '^\s*[a-zA-Z]+\s*$' -e '^.*(.)\1{2,}.*$' "$keywordsFile" >"excess.txt" 2>$errorLogFile
+rg --pcre2 -e '^\s*[a-zA-Z]+\s*$' -e '^.*(.)\1{2,}.*$' "$keywordsFile" >"excess.txt" 2>error.log
 # ^(?=.*\b(\w+)\s+\1\b)(?=.*(.)(\2{1,})).*$
 
 # Excess Extractions...
