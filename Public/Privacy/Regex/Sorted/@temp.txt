@@ -1,0 +1,12 @@
+DomainsPrimary
+^\\b([a-zA-Z0-9-]+)\\.([a-zA-Z]{2,})(?=\\s|$)
+Excludes
+"/^(.)\\1*$/",
+"@",
+" ",
+"_",
+"www.*",
+"ww2.*"
+
+DomainsSecondary
+^(?![a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}$

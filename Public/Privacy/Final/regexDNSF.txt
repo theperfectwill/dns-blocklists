@@ -5844,6 +5844,9 @@ vkcdnservice.appspot.com^
 ||adconity.com^
 ||adconjure.com^
 ||adconscious.com^
+adconsole123bidspotter.co.uk^
+||adconsole123bidspotter.co.uk^
+||adconsole-bidspotter.co.uk^
 ||adconsole.bidspotter.co.uk^
 ||adconsole.eva.live^
 ||adconsole.kozoom.com^
@@ -103338,6 +103341,7 @@ vkcdnservice.appspot.com^
 ||xml-v4.adscholars.com^
 ||xml-v4.adsfloow.net^
 ||xml-v4.adtapmedia.com^
+||xml-v4.adverttise.com^
 ||xml-v4.adverttise.com^
 ||xml-v4.adxpoint.com^
 ||xml-v4.adzreach.com^

@@ -25,6 +25,11 @@ echo
 
 source vars.txt
 
+python3 Code/Scripts/cleanBlocklist.py
+
+# python3 Code/Scripts/domainFragments.py Regex/Sorted/keywords.txt Regex/Sorted/DomainsPrimary/list.txt '\b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$)'
+# python3 Code/Scripts/domainFragments.py Regex/Sorted/keywords.txt Regex/Sorted/DomainsSecondary/list.txt '^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$'
+
 # ---------------------------------
 # SECTION: Create our functions
 # ---------------------------------
@@ -190,6 +195,11 @@ function filterKeywords() {
 
 }
 
+# Create our sortKeywords functio
+function sortKeywords() {
+    python3 sort.py
+}
+
 # Create our buildCombinedFiles function
 function buildCombinedFiles() {
 
@@ -291,7 +301,7 @@ function buildFinalFile() {
 # ------------
 
 # Call our buildCombinedFiles function
-buildCombinedFiles
+# buildCombinedFiles
 
 # ------------
 # @Note->createKeywordList and filterKeywords is for creating a seperate, filtered, stripped blocklist
@@ -301,16 +311,19 @@ buildCombinedFiles
 # ------------
 
 # Call our updateVariables function
-updateVariables
+# updateVariables
 
 # Call our createKeywordList function
-createKeywordList true
+# createKeywordList true
 
 # Call our filterKeywords function
-filterKeywords
+# filterKeywords
+
+# Call our sortKeywords function
+# sortKeywords
 
 # Call our extractCommonPhrases function
-extractCommonPhrases
+# extractCommonPhrases
 
 # ------------
 # @Note->buildFinalFile is for creating the final version including our approved regex patterns
