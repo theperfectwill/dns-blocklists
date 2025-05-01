@@ -1,0 +1,23 @@
+{
+    "name": "Keywords Blocklist",
+    "sources": [
+        {
+            "source": "Sources/blocklist.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "exclusions": [
+                "*@@*"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

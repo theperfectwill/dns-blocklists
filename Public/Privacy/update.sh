@@ -25,7 +25,7 @@ echo
 
 source vars.txt
 
-python3 Code/Scripts/cleanBlocklist.py
+# python3 Code/Scripts/cleanBlocklist.py
 
 # python3 Code/Scripts/domainFragments.py Regex/Sorted/keywords.txt Regex/Sorted/DomainsPrimary/list.txt '\b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$)'
 # python3 Code/Scripts/domainFragments.py Regex/Sorted/keywords.txt Regex/Sorted/DomainsSecondary/list.txt '^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$'
@@ -59,7 +59,7 @@ function updateVariables() {
 function createKeywordList() {
 
     # Set our variables
-    linksFile="$regexPath/$sortedPath/links.txt"
+    linksFile="$regexPath/$sortedPath/sourceLinks.txt"
     keywordsFile="$regexPath/$sortedPath/keywords.txt"
     keywordsCompiler="$regexPath/$sortedPath/keywords.json"
 
@@ -204,7 +204,7 @@ function sortKeywords() {
 function buildCombinedFiles() {
 
     # Set our variables
-    local linksFile="$sourcesPath/links.txt"
+    local linksFile="$sourcesPath/sourceLinks.txt"
     local blocklistFile="$sourcesPath/blocklist.txt"
     local whitelistFile="$sourcesPath/whitelist.txt"
 

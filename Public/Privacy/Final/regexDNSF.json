@@ -50,7 +50,11 @@
         {
             "source": "Sources/blocklist.txt",
             "transformations": [
-                "ConvertToAscii"
+                "ConvertToAscii",
+                "ConvertToAscii",
+                "TrimLines",
+                "Compress",
+                "Validate"
             ],
             "exclusions": [
                 "@@"

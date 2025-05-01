@@ -1,0 +1,4 @@
+# AdGuard
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+# Hagezi
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt

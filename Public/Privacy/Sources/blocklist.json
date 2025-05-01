@@ -21,6 +21,9 @@
                 "RemoveEmptyLines",
                 "Compress",
                 "Validate"
+            ],
+            "exclusions": [
+                "@"
             ]
         }
     ],

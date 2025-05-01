@@ -1,0 +1,20 @@
+{
+    "name": "Wild Cards",
+    "sources": [
+        {
+            "source": "Regex/Sorted/keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "/\\*/"
+            ],
+            "exclusions": [
+                "/^(.)\\1*$/",
+                "@"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

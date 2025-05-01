@@ -1,0 +1,35 @@
+{
+    "name": "RegexDNSF: FolderName (Whitelist Sources)",
+    "sources": [
+        {
+            "source": "Sources/whitelistCustom.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "InvertAllow",
+                "Validate"
+            ]
+        },
+        {
+            "source": "Sources/sourceDownloads.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "Validate"
+            ],
+            "inclusions": [
+                "@"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}

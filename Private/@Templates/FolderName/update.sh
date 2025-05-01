@@ -54,7 +54,7 @@ function updateVariables() {
 function createKeywordList() {
 
     # Set our variables
-    linksFile="$regexPath/$sortedPath/links.txt"
+    linksFile="$regexPath/$sortedPath/sourceLinks.txt"
     keywordsFile="$regexPath/$sortedPath/keywords.txt"
     keywordsCompiler="$regexPath/$sortedPath/keywords.json"
 
@@ -194,7 +194,7 @@ function filterKeywords() {
 function buildCombinedFiles() {
 
     # Set our variables
-    local linksFile="$sourcesPath/links.txt"
+    local linksFile="$sourcesPath/sourceLinks.txt"
     local blocklistFile="$sourcesPath/blocklist.txt"
     local whitelistFile="$sourcesPath/whitelist.txt"
 

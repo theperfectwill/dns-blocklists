@@ -1,0 +1,23 @@
+{
+    "name": "Keywords that should contain only numbers",
+    "sources": [
+        {
+            "source": "Regex/Sorted/keywords.txt",
+            "transformations": [],
+            "inclusions": [
+                "/^[0-9]+$/"
+            ],
+            "exclusions": [
+                "@",
+                "/^(.)\\1*$/",
+                " ",
+                "_",
+                "-"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
