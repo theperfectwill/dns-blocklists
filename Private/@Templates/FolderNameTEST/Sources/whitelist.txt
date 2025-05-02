@@ -1,5 +1,5 @@
 ! Title: RegexDNSF: FolderName (Whitelist Sources)
-! Last modified: 2025-05-01T16:28:20.818Z
+! Last modified: 2025-05-02T00:01:59.243Z
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 ! Source: Sources/whitelistCustom.txt
 ! Source: Sources/sourceDownloads.txt

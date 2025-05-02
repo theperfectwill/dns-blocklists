@@ -3,8 +3,7 @@
 # Version: 1.0
 # Description:
 # Author: ThePerfectWill
-# Usage:
-#  python3 _Load.py
+# Usage: python3 _Load.py
 # ---------------------------------
 
 # ---------------------------------
@@ -39,7 +38,7 @@ scripts = [
     f"{_Vars.SCRIPTS_PATH}/FormatBlockList.py",
     f"{_Vars.SCRIPTS_PATH}/Alphabetical.py",
     f"{_Vars.SCRIPTS_PATH}/ExtractRegexPatterns.py",
-    # f"{_Vars.SCRIPTS_PATH}/GetCommonPhrases.py",
+    f"{_Vars.SCRIPTS_PATH}/GetCommonPhrases.py",
     # f"{_Vars.SCRIPTS_PATH}/RunFinalHostlistCompiler.py"
 ]
 

@@ -1,88 +1,78 @@
 # ---------------------------------
-# Script Name: fileNameHere.sh
-# Version: 1.0
+# Script Name: ExtractRegexPatterns.py
+# Version: 1.0.0.0
 # Description:
 # Author: ThePerfectWill
-# Usage:
-#  python3
+# Usage: python3 Code/Scripts/ExtractRegexPatterns.py
 # ---------------------------------
 
 # ---------------------------------
-# SECTION: Set our class imports
+# SECTION: Set our external references
 # ---------------------------------
 
+# Core
+import logging
 import os
 import re
+import subprocess
+import sys
 
-# Create the necessary directories
-if not os.path.exists("Regex"):
-    os.makedirs("Regex")
-if not os.path.exists("Regex/Sorted"):
-    os.makedirs("Regex/Sorted")
-if not os.path.exists("Regex/Sorted/DomainParents"):
-    os.makedirs("Regex/Sorted/DomainParents")
-if not os.path.exists("Regex/Sorted/DomainChildren"):
-    os.makedirs("Regex/Sorted/DomainChildren")
-if not os.path.exists("Regex/Sorted/OnlyLetters"):
-    os.makedirs("Regex/Sorted/OnlyLetters")
-if not os.path.exists("Regex/Sorted/Conjoined"):
-    os.makedirs("Regex/Sorted/Conjoined")
-if not os.path.exists("Regex/Sorted/WildCards"):
-    os.makedirs("Regex/Sorted/WildCards")
-if not os.path.exists("Regex/Sorted/OnlyNumbers"):
-    os.makedirs("Regex/Sorted/OnlyNumbers")
+# Helpers
 
-# Extract matches and save them to the respective files
-try:
-    with open("Sources/blocklist.txt", "r") as file:
-        lines = file.readlines()
+# Custom
+sys.path.append(os.path.join(os.getcwd(), 'Code', 'Scripts'))
+import _Vars
 
-    # Extract matches for the first regex pattern
-    domain_parents = []
+# ---------------------------------
+# SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
+# ---------------------------------
+
+logging.basicConfig(**_Vars.LOG)
+
+# ---------------------------------
+# SECTION: Set our variables and constants
+# ---------------------------------
+
+def extract_patterns(lines):
+    patterns = {
+        "DomainParents": r"\b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$)",
+        "DomainChildren": r"^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$",
+        "OnlyLetters": r"^[A-Za-z]+$",
+        "Conjoined": r"^([a-zA-Z]+([ _-][a-zA-Z]+){0,99998})?$",
+        "WildCards": r"^.*\*.*$",
+        "OnlyNumbers": r"^[0-9]+$"
+    }
+
+    extracted_data = {key: [] for key in patterns.keys()}
+
     for line in lines:
-        match = re.search(r"\b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$)", line)
-        if match:
-            domain_parents.append(match.group())
-    with open("Regex/Sorted/DomainParents/extracts.txt", "w") as file:
-        file.write("\n".join(domain_parents))
+        for key, pattern in patterns.items():
+            match = re.search(pattern, line)
+            if match:
+                extracted_data[key].append(match.group())
 
-    # Extract matches for the second regex pattern
-    domains_children = []
-    for line in lines:
-        match = re.search(r"^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$", line)
-        if match:
-            domains_children.append(match.group())
-    with open("Regex/Sorted/DomainChildren/extracts.txt", "w") as file:
-        file.write("\n".join(domains_children))
+    return extracted_data
 
-    # Extract matches for the third regex pattern
-    only_letters = []
-    for line in lines:
-        match = re.search(r"^[A-Za-z]+$", line)
-        if match:
-            only_letters.append(match.group())
-    with open("Regex/Sorted/OnlyLetters/extracts.txt", "w") as file:
-        file.write("\n".join(only_letters))
+def save_extracted_data(extracted_data):
+    for key, data in extracted_data.items():
+        logging.info(f"Extracted matching regex patterns to {_Vars.SORTED_PATH}/{key}/extracts.txt")
+        with open(f"{_Vars.SORTED_PATH}/{key}/extracts.txt", "w") as file:
+            file.write("\n".join(data))
 
-    # Extract matches for the fourth regex pattern
-    spaces_underscores_hyphens = []
-    for line in lines:
-        match = re.search(r"^([a-zA-Z]+([ _-][a-zA-Z]+){0,99998})?$", line)
-        if match:
-            spaces_underscores_hyphens.append(match.group())
-    with open("Regex/Sorted/Conjoined/extracts.txt", "w") as file:
-        file.write("\n".join(spaces_underscores_hyphens))
+# ---------------------------------
+# SECTION: Call our main function with our subfunctions
+# ---------------------------------
 
-    # Extract matches for the fifth regex pattern
-    wildcards = []
-    for line in lines:
-        match = re.search(r"^.*\*.*$", line)
-        if match:
-            wildcards.append(match.group())
-    with open("Regex/Sorted/WildCards/extracts.txt", "w") as file:
-        file.write("\n".join(wildcards))
+def main():
+    try:
+        with open(f"{_Vars.SOURCES_PATH}/blocklist.txt", "r") as file:
+            lines = file.readlines()
 
-    # Extract matches for the sixth regex pattern
-    only_numbers = []
-    for line in lines:
-        match = re.search(r"^[0-9]+
+        extracted_data = extract_patterns(lines)
+        save_extracted_data(extracted_data)
+
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    main()
