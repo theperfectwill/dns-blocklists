@@ -10,18 +10,18 @@
                 "RemoveEmptyLines",
                 "Compress",
                 "InvertAllow",
-                "Validate"
+                "ValidateAllowIp"
             ]
         },
         {
-            "source": "Sources/blocklist.txt",
+            "source": "Sources/sourceDownloads.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
                 "RemoveComments",
                 "RemoveEmptyLines",
                 "Compress",
-                "Validate"
+                "ValidateAllowIp"
             ],
             "inclusions": [
                 "@"

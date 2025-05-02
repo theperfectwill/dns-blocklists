@@ -8,7 +8,8 @@
                 "ConvertToAscii",
                 "TrimLines",
                 "Compress",
-                "Validate"
+                "InvertAllow",
+                "ValidateAllowIp"
             ]
         },
         {
@@ -17,7 +18,8 @@
                 "ConvertToAscii",
                 "TrimLines",
                 "Compress",
-                "Validate"
+                "InvertAllow",
+                "ValidateAllowIp"
             ]
         },
         {
@@ -26,25 +28,25 @@
                 "ConvertToAscii",
                 "TrimLines",
                 "Compress",
-                "Validate"
+                "ValidateAllowIp"
             ]
         },
         {
-            "source": "Regex/strings.txt",
+            "source": "Regex/Rules/strings.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
                 "Compress",
-                "Validate"
+                "ValidateAllowIp"
             ]
         },
         {
-            "source": "Regex/patterns.txt",
+            "source": "Regex/Rules/regex.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
                 "Compress",
-                "Validate"
+                "ValidateAllowIp"
             ]
         },
         {
@@ -52,17 +54,13 @@
             "transformations": [
                 "ConvertToAscii"
             ],
-            "exclusions": [
-                "@@"
-            ],
             "exclusions_sources": [
-                "Regex/strings.txt",
-                "Regex/patterns.txt"
+                "Regex/Rules/strings.txt",
+                "Regex/Rules/regex.txt"
             ]
         }
     ],
     "transformations": [
-        "Deduplicate",
         "InsertFinalNewLine"
     ]
 }
