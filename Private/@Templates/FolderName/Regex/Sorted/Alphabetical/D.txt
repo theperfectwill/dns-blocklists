@@ -3,6 +3,7 @@ d*.xinshipu.com
 d-064.com
 d-1.co
 d-agency.net
+d-benz.xyz
 d-bi.fr
 d-hiyori.com
 d-j-smart-delivery.co.uk
@@ -56,7 +57,6 @@ d.doctorflix.de
 d.doctorskin.ro
 d.dropbox.com
 d.email.forbes.com
-d.essentialworkwear.com
 d.fine-tuner.ai
 d.fixnuisible.be
 d.forwardmarketing.nl
@@ -777,6 +777,7 @@ d262g11wze3cwd.cloudfront.net
 d263ut03kf37wj.cloudfront.net
 d264dxqvolp03e.cloudfront.net
 d26adrx9c3n0mq.cloudfront.net
+d26dh304gy.christmas
 d26e5rmb2qzuo3.cloudfront.net
 d26exkfgvy72ja.cloudfront.net
 d26p9ecwyy9zqv.cloudfront.net
@@ -891,7 +892,6 @@ d2ezb29y2sin9e.cloudfront.net
 d2ezz24t9nm0vu.cloudfront.net
 d2f0ixlrgtk7ff.cloudfront.net
 d2f0uviei09pxb.cloudfront.net
-d2f178.cc
 d2fbkzyicji7c4.cloudfront.net
 d2fbvay81k4ji3.cloudfront.net
 d2fhjyz3dwdx87.cloudfront.net
@@ -1022,6 +1022,7 @@ d2o8i1jpfoso49.cloudfront.net
 d2oa97wrxvxm7y.cloudfront.net
 d2oarllo6tn86.cloudfront.net
 d2ob4whwpjvvpa.cloudfront.net
+d2oc8r72icrxft.cloudfront.net
 d2od2b2huvmzuj.cloudfront.net
 d2oh4tlt9mrke9.cloudfront.net
 d2ohmkyg5w2c18.cloudfront.net
@@ -1223,7 +1224,6 @@ d3291gn845t5h9.cloudfront.net
 d32ajg1ye8vnl9.cloudfront.net
 d32bug9eb0g0bh.cloudfront.net
 d32d89surjhks4.cloudfront.net
-d32f1g.cc
 d32h65j3m1jqfb.cloudfront.net
 d32hwlnfiv2gyn.cloudfront.net
 d32kwu6pkckni5.cloudfront.net
@@ -1644,7 +1644,6 @@ d4n.platformd.com
 d4ngwggzm3w7j.cloudfront.net
 d5.sina.com.cn
 d514187948.fde8de16e0.com
-d51846de1e.b7085555f6.com
 d52a6b131d.com
 d5465f9d11.com
 d55875dd70.03db0d5d14.com
@@ -1685,6 +1684,7 @@ d6deij4k3ikap.cloudfront.net
 d6jfiirio372.com
 d6jkenny8w8yo.cloudfront.net
 d6l5p6w9iib9r.cloudfront.net
+d6rak4b14t5gp.cloudfront.net
 d6sav80kktzcx.cloudfront.net
 d6swopgiplmy0.cloudfront.net
 d6wzv57amlrv3.cloudfront.net
@@ -1727,6 +1727,7 @@ d8bsqfpnw46ux.cloudfront.net
 d8c04a25e8.com
 d8c5y8fq3znwi.cloudfront.net
 d8cxnvx3e75nn.cloudfront.net
+d8d0bc1aa3.fec98ad2c4.com
 d8dcj5iif1uz.cloudfront.net
 d8dkar87wogoy.cloudfront.net
 d8hdm94ldw8yr.cloudfront.net
@@ -1878,7 +1879,6 @@ dafdf.cn
 dafdfd.cn
 dafea.co.uk
 dafeb.ru
-dafeq.icu
 daffaite.com
 daffishrenky.shop
 daffodilnotifyquarterback.com
@@ -1904,7 +1904,6 @@ dah0wv79ikn14.cloudfront.net
 dahkexes.com
 dahmnrmhyhsjxx.com
 dahsing.sc.omtrdc.net
-dai-delivery.de
 dai.siyuetian.net
 dai18.mumu01.com
 daib.pl
@@ -1933,7 +1932,6 @@ dailychronicles2.xyz
 dailycrochetpatterns.com
 dailydews.com
 dailydigestnewsonline.com
-dailydivision.com
 dailyfeature.net
 dailyfeedsdigests.com
 dailyfocus.life
@@ -1945,11 +1943,9 @@ dailylocalguide.com
 dailynews-story.com
 dailynewsalerting.com
 dailynewsdigestonline.com
-dailypulse.website
 dailyreports.info
 dailysmscollection.org
 dailysnews.ru
-dailyspectrum.life
 dailyssshopee.com
 dailystuffall.com
 dailytech.info
@@ -2083,7 +2079,6 @@ dancemistake.com
 dancenfolkin.top
 dancingsnakegames.com
 dancinspirit.com
-dandelion-horsetail.work
 dandelionnoddingoffended.com
 dandh.com.ssl.d2.sc.omtrdc.net
 dandinterpersona.com
@@ -2321,7 +2316,6 @@ dash.tmearn.com
 dashbida.com
 dashboard-01.braze.eu
 dashboard-02.braze.eu
-dashboard-aave.us
 dashboard-dc.com
 dashboard-zoom.store
 dashboard.anotun.com
@@ -2344,8 +2338,10 @@ dashlearner.com
 dashracegear.net
 dashsewer.com
 dasistnews.net
+dask-gov-tr-99855690450.com
 dasljfoq.top
 daslkdlqk.top
+dasopdoaodoaoaoao.com
 dasp.org.pk
 dasperdolus.com
 dasych.drmartypets.com
@@ -3779,6 +3775,7 @@ data-af9be266ee.tour-magazin.de
 data-af9f3dfb33.weltkunst.de
 data-af9f3dfb33.zeit.de
 data-afa8dd5312.kleinezeitung.at
+data-analysis-api.joongna.com
 data-analyst.biz
 data-api.csob.cz
 data-api.eva.ua
@@ -5016,6 +5013,7 @@ data.fans.williamsf1.com
 data.fashionmusthaves.de
 data.fcbayern.dev.cjmadobe.com
 data.fernstudium.study
+data.festool.pl
 data.filterfabriek.nl
 data.flexxinvestments.nl
 data.fuchsgruppe.shop
@@ -5564,6 +5562,7 @@ databoat.zenkube.com
 databoilrecommendation.com
 databrain.com
 databreakers.com
+databricks-metrics-1094556687.us-west-2.elb.amazonaws.com
 datacaciques.com
 datacapture.dropsolid.com
 datacenterx.info
@@ -5579,6 +5578,7 @@ datacollector-dre.dt.dbankcloud.cn
 datacoral.com
 datacountz.com
 datacygnal.io
+datadawn.online
 datado.me
 datadog-service.mvfglobal.com
 datadome.maisonsdumonde.com
@@ -5753,6 +5753,7 @@ datingcensored.com
 datingcentral.top
 datingclix.com
 datingconcepts.cleverpush.com
+datingdeserving.com
 datingdudes.com
 datingero.com
 datingfactory.com
@@ -5805,7 +5806,6 @@ daudingcarvist.com
 daughterinlawrib.com
 daughtersarbourbarrel.com
 daughterstinyprevailed.com
-daughterstone.com
 daughterwqnxgr.sbs
 dauhunecoag.net
 daukshewing.com
@@ -5894,7 +5894,6 @@ dazzlinggain.com
 dazzlingorbit.pro
 dazzlingvista.pro
 dazzlingvortex.pro
-dazzlitude.kimferno.uno
 dazzmeup.pro
 db033pq6bj64g.cloudfront.net
 db0a4b4eb7.com
@@ -5905,6 +5904,7 @@ db4zl9wffwnmb.cloudfront.net
 db72c26349.com
 db770a49df.com
 db7q4jg5rkhk8.cloudfront.net
+dba-live.com
 dba1bc1fdf.com
 dba9ytko5p72r.cloudfront.net
 dbauto.info
@@ -5945,11 +5945,13 @@ dbizng.giacomo.pl
 dbizrrslifc.com
 dbj.quebecregion.com
 dbkdsale.com
+dbkuarzeaepqo.global
 dbl.cadriamarketing.com
 dblks.net
 dblowthrou.com
 dbmyvl.apartmentfinder.com
 dbn3wu0k6poiv.cloudfront.net
+dbncp.com
 dbnetworks.com
 dbnwiqeuhclnpsx.com
 dbnxlpbtoqec.com
@@ -5965,6 +5967,9 @@ dbs.sc.omtrdc.net
 dbs.tt.omtrdc.net
 dbsaysnba4ygmwav.algomoneo.com
 dbschenker.sc.omtrdc.net
+dbshakaa-sbsaks-amdm.cyou
+dbshakaa-sbsaks-amdm.icu
+dbshakaa-sbsaks-amdm.sbs
 dbsystelentities.tt.omtrdc.net
 dbtarget.com
 dbufst.lebkuchen-schmidt.com
@@ -6000,8 +6005,6 @@ dc.audi.com
 dc.banggood.com
 dc.bariletacos.com
 dc.bluecoat.com
-dc.catuaba1.online
-dc.catuaba2.online
 dc.catuaba3.com
 dc.chadecatuaba1.online
 dc.dqa.samsung.com
@@ -6031,9 +6034,6 @@ dc.pimenta22.online
 dc.pimenta23.online
 dc.pimenta24.online
 dc.pimenta25.online
-dc.pimentaafricana2.online
-dc.pimentaafricana4.online
-dc.pimentaafricana5.online
 dc.pimentadaafrica2.online
 dc.pimentadaafrica3.online
 dc.pimentadaafrica4.online
@@ -6152,7 +6152,6 @@ dclgiyxu.com
 dclk.themarker.com
 dclnxirp001cou.net.jumia.co.tz
 dclpjx.xyz
-dclspotyxp.com
 dcma.com
 dcmetromoms.com
 dcmn.com
@@ -6224,7 +6223,6 @@ dd.browser.360.cn
 dd.control4.com
 dd.g2.com
 dd.leboncoin.fr
-dd.leboncoin.fr.first-party-js.datadome.co
 dd.nytimes.com
 dd.nytimes.com.first-party-js.datadome.co
 dd.seloger-bureaux-commerces.com
@@ -6307,6 +6305,7 @@ ddogiy.kicksewing.co.kr
 ddome-tag.blablacar.com
 ddomjhr.icu
 ddooll.mykindkorea.com
+ddow.cn
 ddpmev.joinfo.ua
 ddqmlfu.icu
 ddqwdh.sofastyle.jp
@@ -6326,7 +6325,6 @@ ddvvbnwxcp.com
 ddwuupn.cn
 ddwwsf.xlmoto.ch
 ddxaaveoytre.com
-ddxcoywnnxnda.com
 ddxmgy.com
 ddxsrk.ictjob.be
 ddxt3.com
@@ -6377,14 +6375,12 @@ deafening-vegetable-wide.on-fleek.app
 deafeningdowntown.com
 deafeningphone.com
 deafmotionrick.com
-deai-labo.site
 deaiai55.com
 deaimatch.jp
 deal-dealings.com
 deal-on.eu
 dealabs.digidip.net
 dealclick.pw
-dealcoinr.top
 dealctr.com
 dealcurrent.com
 dealdotcom.com
@@ -6394,6 +6390,7 @@ dealgodsafe.live
 dealhunt.website
 dealofficial.com
 dealpang.airbridge.io
+deals-amazon-buy.com
 deals-store.fr
 deals.couponhotdeals.com
 deals.innocode.no
@@ -6520,7 +6517,6 @@ deckdistant.com
 deckedsi.com
 deckeekith.xyz
 deckerenacts.com
-deckforgestreetwear.com
 deckjav11.fun
 decklibrary.com
 decknetwork.net
@@ -6547,7 +6543,6 @@ decorationfrozen.com
 decorationmercifulmonth.com
 decordingholog.com
 decorgiugn.pro
-decoroustitle.com
 decorpansi.pro
 decorsboll.pro
 decoryourhome.store
@@ -6643,7 +6638,6 @@ deeprootedpasswordfurtively.com
 deeprootedstranded.com
 deepsaifaide.net
 deepsathegoh.com
-deepseeklogin.co
 deeptack.com
 deeptime.pro
 deepweblinks.live
@@ -6702,7 +6696,6 @@ defi.hsfdefi.com
 defiancebelow.com
 defiancefaithlessleague.com
 defiantmotherfamine.com
-defiantrice.com
 defigroups.com
 defii-larna.net
 definedbootnervous.com
@@ -6772,7 +6765,6 @@ del.mm.dm.de
 delamunder.pro
 delarixtrader.net
 delascalles.com
-delayeddisembroildisembroil.com
 delayeddisputecommotion.com
 delayedlocust.com
 delayedmall.pro
@@ -6846,18 +6838,20 @@ delivery-acai.shop
 delivery-assistance.site
 delivery-certo.site
 delivery-ci360.flypgs.com
+delivery-driver-job-mb12.click
+delivery-driver-mx-mb12.click
 delivery-dubai24.site
 delivery-ex.com
 delivery-food.shop
 delivery-garantido.space
 delivery-garantido.store
-delivery-gateway.icu
 delivery-info.de
-delivery-infoupdate.icu
 delivery-job111.xyz
+delivery-jobs-12201.bond
 delivery-jobs-12392.bond
 delivery-jobs-27686.bond
 delivery-jobs-42774.bond
+delivery-jobs-70392.bond
 delivery-jobs-84760.bond
 delivery-meals03.site
 delivery-meals04.cfd
@@ -6867,8 +6861,8 @@ delivery-meals06.cfd
 delivery-payment27294.com
 delivery-proof.shop
 delivery-recive.ru
+delivery-riyadh.com
 delivery-security.info
-delivery-seguro.space
 delivery-service-us-8393.click
 delivery-services-11.site
 delivery-services-18.site
@@ -6877,14 +6871,13 @@ delivery-services-66.site
 delivery-services-66.space
 delivery-services-99.online
 delivery-services-99.site
-delivery-services1.site
 delivery-shop.site
+delivery-skipper.com
 delivery-streamline.com
 delivery-succes.ru
+delivery-support.site
 delivery-system-update.com
 delivery-takeaway-meal-partners.com
-delivery-takeaway-meal-partners.online
-delivery-takeaway-meal-partners.org
 delivery-testenv.com
 delivery.ad-sphere.eu
 delivery.amessagewithabottle.com
@@ -6913,8 +6906,6 @@ delivery49.com
 delivery51.com
 delivery843.click
 deliverya1scotia3836.world
-deliveryburguerdavo.shop
-deliverycacau.shop
 deliverycacauoficial.shop
 deliverydirect.co.uk
 deliverydirect.xyz
@@ -6930,9 +6921,8 @@ deliveryfooddriver-careerlistings.click
 deliveryfooddrivercareer-listings.click
 deliveryfooddriverjob-listings.click
 deliverygos.world
-deliveryinf.pro
+deliveryhtr.click
 deliveryjobsnearme.website
-deliverylucrativo.shop
 deliveryman.co.uk
 deliverynacionalcx.shop
 deliveryon.shop
@@ -6944,11 +6934,9 @@ deliverypaid.shop
 deliveryprime.shop
 deliverypundicuan.xyz
 deliveryservices.sbs
-deliverysnacional.shop
 deliverysochialco.ru
 deliveryspeed.shop
 deliverysullen.com
-deliverysuperhero.top
 deliverytrack.sbs
 deliverytrafficnews.com
 deliverytraffico.com
@@ -6956,9 +6944,7 @@ deliverytraffnews.com
 deliverytriumph.com
 deliveryvelloz.shop
 deliveryvip-plausible.fly.dev
-deliveryvr.xyz
 deliverywork.fun
-deliveryyourdoor.shop
 delivturbo.pro
 deliziodur.pro
 dell.com.d1.sc.omtrdc.net
@@ -7018,7 +7004,6 @@ deluxe-download.com
 deluxe.news
 deluxecorporation.tt.omtrdc.net
 deluxecrate.com
-delvarixis.org
 delveactivity.com
 dem.desiderimagazine.it
 dem.shopee.com
@@ -7041,6 +7026,7 @@ demdex.com
 demdex.hm.com
 demdex.net
 demedattec.pro
+demeiguoji.com
 demenageur.com
 demeoreisling.top
 demercurta.pro
@@ -7048,6 +7034,7 @@ demeter-int-ecom-collect.trendyol.com
 demilincer.pro
 demilith.com
 demiramdaunter.space
+demirbasvuru.net
 demiseskill.com
 demitscrystal.shop
 demkc32bq01ah.cloudfront.net
@@ -7074,7 +7061,6 @@ demo.wootric.com
 demo123.info
 demoapp-api.bloomreach.com
 demoapp.bloomreach.com
-democracyendlesslyzoo.com
 democracyseriously.com
 democraticexit.com
 democraticflushedcasks.com
@@ -7102,7 +7088,6 @@ demtuftoodsacmy.net
 demyphuvi.com
 denakop.com
 denamebauleah.click
-denapoy.icu
 denariibrocked.com
 denatranajuda.co
 denatranotificacao.co
@@ -7115,6 +7100,7 @@ denbu.net
 dendrito.name
 deneglinim.pro
 denehooliganlistless.com
+denemeden-ne-kadar-iyi-oldugunu-bilemezsin-al.com
 deng3rada.com
 dengage-public-data-collector-proxy.burgan.com.tr
 dengage.com
@@ -7131,6 +7117,7 @@ denkmb.loisirs-detections.com
 denlorian.com
 denoughtanot.info
 denoughtanoth.com
+denouncecomerpioneer.com
 denouncesouthhowever.com
 denpjz.jamesedition.com
 denpne.modelones.com
@@ -7143,6 +7130,7 @@ denswordyogurt.com
 dental-drawer.pro
 dental-implants-for-seniors-53946.bond
 dental-implants-for-seniors-8265.click
+dental-implants-seniors-35447.click
 dental-implants-seniors-37913.click
 dental-implants-seniors-88347.click
 dentalbenifitsnearme.com
@@ -7242,6 +7230,7 @@ derivashin.pro
 derivedrecordsstripes.com
 derivepoleideal.com
 derkeiler.com
+derli-toplu-sergileyen-kacirmazda-sizlerde-yok.com
 dermaalter.pro
 dermalitte.pro
 dermatologist-jobs-th-5688.click
@@ -7253,7 +7242,6 @@ dertthmyloqwi.com
 dertyhsf.xyz
 derwbl.icu
 derwesten.cleverpush.com
-derycks-zoom.com
 derzhposluhy.com
 desabrator.com
 desalsgrat.pro
@@ -7274,7 +7262,6 @@ descriptivetitle.pro
 descz.ovh
 desekansr.com
 desenteir.com
-desenvolversites.com.br
 desertartcollection.com
 desertformoysters.com
 desertsfraze.com
@@ -7290,7 +7277,6 @@ deshelioptiletor.com
 deshlytics.desh-api.com
 deshouroup.xyz
 desidert.no
-design-tshirt.com
 design.adjust.com
 design.nanawall.com
 designatejay.com
@@ -7351,6 +7337,7 @@ dessedcuression.com
 dessly.ru
 dessnivyer.com
 dessove.com
+destekzamani.online
 destination.se
 destinationurl.com
 destinyholy.net
@@ -7391,13 +7378,12 @@ detailsdata7.com
 detailsinspiration-data.com
 detailsreceipts.com
 detaires.com
+detayplusbilgi.com
 detect.mb.qq.com
 detectca.easysol.net
 detectdinner.com
 detectdiscovery.com
-detected-proven-issue-network.top
 detectedadvancevisiting.com
-detectedprovenissuenetwork.top
 detectivefaltermotto.com
 detectivegrilled.com
 detectivesbaseballovertake.com
@@ -7547,6 +7533,7 @@ devqeury.org
 devrimsdemo.com
 devsms.capgemini.adobesandbox.com
 devsnorte-plausible.fly.dev
+devsvojsxcsjj.com
 devtestdata.sc.omtrdc.net
 devtizer.ru
 devtracking.risk.lexisnexis.com
@@ -7569,7 +7556,6 @@ dewrain.world
 dexajoe.top
 dexanextrader45flex.org
 dexanextraderapp.com
-dexasolija.top
 dexchangegenius.com
 dexchangeinc.com
 dexikcreener.com
@@ -7660,7 +7646,6 @@ dfitgc.yamamay.com
 dfjlgfb4lxka5.cloudfront.net
 dfkd.xyz
 dfleywbt.xyz
-dflkndkzf.com
 dfllqi.esprit.com.co
 dfme.kleinanzeigen.de
 dfn-network.pro
@@ -7814,7 +7799,6 @@ dhl-event.app
 dhl-express-ppd.infanion.com
 dhl-fedex-ups-usps-post-office-shipping.com
 dhl-rpa-portal.infanion.com
-dhl-spedizionecarta.com
 dhl-vietnam.vn
 dhl.135320.com
 dhl.de.ssl.sc.omtrdc.net
@@ -7831,6 +7815,7 @@ dhobeynandi.com
 dhobiegrouse.click
 dhodha.com
 dhojmbqsfuq.com
+dhoma.xyz
 dhonphehr.com
 dhootiepawed.com
 dhorzivnn.com
@@ -7851,7 +7836,6 @@ dhpjhrud.skisport.dk
 dhpjhrud.skisport.fr
 dhpjhrud.skisport.pl
 dhplma.pontofrio.com.br
-dhrbycfxqfbghnd.xyz
 dhrhzii89gpwo.cloudfront.net
 dhruvsilver.com
 dhsjpz.bugaboo.com
@@ -7966,6 +7950,7 @@ diamond-line.net
 diamondbartreeservices.com
 diamondclub.casino
 diamondwise.info
+dian-xin-tiktok.cfd
 dian.brecm.xyz
 dian500.com
 dianeticadobrasil.com.br
@@ -8063,7 +8048,6 @@ dichvuvietnam.pw
 diciasubap.pro
 dickb.com
 dickssportinggoods.com.ssl.sc.omtrdc.net
-dickssportinggoodsonline.store
 dickssportinggoodsoutlets.shop
 diclotrans.com
 dicnkachuzca.com
@@ -8089,7 +8073,6 @@ didieraccord.com
 didintermediaryjeopardy.com
 didit.com
 didjrc.gadget-shop.gr
-didmakingby.xyz
 didna.b-cdn.net
 didna.io
 didodadn.com
@@ -8099,7 +8082,6 @@ didspack.com
 didtheyreadit.com
 didymunrep.pro
 didzrr.nutraholic.com
-die-garten-meister.de
 die-rankliste.com
 dieadi.com
 dieblackbox.cleverpush.com
@@ -8170,6 +8152,7 @@ difficultyanthonymode.com
 difficultyearliestclerk.com
 difficultyhobblefrown.com
 difficultywithhold.com
+diffidentniecesflourish.com
 difformcanzoni.shop
 diffusedpassionquaking.com
 diffuseinclinationafforded.com
@@ -8209,14 +8192,11 @@ digiadzone.com
 digianalytics.airtel.in
 digianalytics.fr
 digiaquascr.com
-digibitx.top
 digicert.com.data.adobedc.net
 digicert.tt.omtrdc.net
 digicon-tracking.conventus.de
 digidifferent.com
-digidist.com
 digidropshop.net
-digiearnr.top
 digifesttoronto.com
 digihashtag.com
 digimedia.com
@@ -8224,6 +8204,7 @@ digimedllc.com
 digipassive.com
 digipathmedia.com
 digiply.io
+digipushq.top
 digisets.com
 digistat.westjet.com
 digistats.de
@@ -8293,7 +8274,6 @@ digitalninjas.vattenfall.nl
 digitaloptout.com
 digitalpimpnetwork.com
 digitalplatform.tech
-digitalprivacyalert.org
 digitalpush.org
 digitalquilzax.com
 digitalripple.online
@@ -8303,7 +8283,6 @@ digitaltide.site
 digitalwares.online
 digitalwomenentrepreneurs.org
 digitalzen.online
-digitaskj.top
 digiteci.com
 digitello.agency
 digiter.no
@@ -8481,6 +8460,12 @@ dii4.zooplus.pt
 dii4.zooplus.ro
 dii4.zooplus.se
 diingsinspiringtg.com
+dijitalhizlikredi-ziraat.com
+dijitalhizliweb-ziraat.com
+dijitalkredi-ziraatkampanya.com
+dijitalmobilnet-ziraat.com
+dijitalweb-ziraatkampanya.com
+dijitalwebmobil-ziraat.com
 dijysata.com
 dikastro.gr
 dikeaxillas.com
@@ -8500,6 +8485,7 @@ dilo.co.kr
 dilowhang.com
 dilruwha.net
 diltqdxecyicf.com
+dilughte.xyz
 dilusso.com.pl
 dilusu-dolupe.site
 diluteacerbity.com
@@ -8557,7 +8543,6 @@ dinerbreathtaking.com
 dinerenblanc.africa
 dineshjsharma.com
 dinezclue.com
-dinfed.co
 ding.cxzudwk.com
 ding6.cfd
 dingbu.bj.bcebos.com
@@ -8679,7 +8664,6 @@ directnessrhythmirony.com
 directoffers.go2cloud.org
 directofferspro.com
 directone.xyz
-directorio-w.com
 directorliabilityinsurance.com
 directorym.com
 directoutside.pro
@@ -8700,7 +8684,6 @@ directv.com.ssl.d2.sc.omtrdc.net
 directwineslimited.tt.omtrdc.net
 direeyesightstray.com
 direfuldesk.com
-direncijashkola.top
 direxclkp.com
 dirgantaratuba.com
 dirhamsflugel.website
@@ -8744,6 +8727,7 @@ disavowhers.com
 disbaciani.pro
 disbalitig.pro
 disbeliefenvelopemeow.com
+disbored.com
 disburymixy.shop
 discamatto.pro
 disccompose.com
@@ -8762,7 +8746,6 @@ disciplinaryinvader.com
 disciplineagonywashing.com
 disciplineebony.com
 disciplineinspirecapricorn.com
-disciplipna.top
 discloseapplicationtreason.com
 discloseprogramwednesday.com
 disclosestockingsprestigious.com
@@ -8784,9 +8767,7 @@ discord-accounts.ru
 discord-banner-maker.cfd
 discord-banner.sbs
 discord-bot-shop.com
-discord-cn.cc
 discord-exploit-dontclick.fun
-discord-gta6.fr
 discord-online.ru
 discord-plays.xyz
 discord-quebec.com
@@ -8814,7 +8795,6 @@ discordbots.app
 discordgifts.eu.org
 discordik.ru
 discordlogin.com
-discords.to
 discordturkiye.com
 discordvip.createsocialcard.top
 discosmell.pro
@@ -8822,6 +8802,7 @@ discospiritirresponsible.com
 discostemp.pro
 discount.s3blog.org
 discountclick.com
+discountforest.com
 discountplacidlysymphony.com
 discountsextoysprices.com
 discountstickersky.com
@@ -8914,6 +8895,7 @@ disgrpaper.pro
 disgrunpas.pro
 disguised-dad.com
 disguisedgraceeveryday.com
+disguisedtimingbreath.com
 disguisesmashdisappearing.com
 disgustedawaitingcone.com
 disgustingmad.com
@@ -9090,15 +9072,14 @@ distraughtmeasurementbaking.com
 distraughtsexy.com
 distressamusement.com
 distressedsoultabloid.com
+distrib-mondiairelay.com
 distribeo.com
 distributeclick.site
 distributemodel.com
 distribution.provenpharma.com
 distributionfray.com
-distributionjour.com
 distributionland.website
 distributionpocket.com
-distributions-jours.com
 distributiontomatoes.com
 distributors.balluff.com
 districtm.ca
@@ -9145,6 +9126,7 @@ diveglinfo.pro
 divehope.com
 divekcl7q9fxi.cloudfront.net
 divemap.uk
+divergeimperfect.com
 diverhaul.com
 diversifiedphotography.com
 divetroubledloud.com
@@ -9185,7 +9167,6 @@ diwuyu.com
 dixeno-analytics.de
 dixieblissluxuries.com
 dixitwaiver.top
-dixovoi1.pro
 dixrow.pamono.de
 dixtano-ai.com
 dixyregosol.website
@@ -9194,7 +9175,6 @@ diylvz.seereisedienst.de
 diypxh.tillys.com
 diz4z73aymwyp.cloudfront.net
 dizbirmwavic.com
-dizec.press
 dizfrv.icu
 dizhi98.xyz
 dizimax2.com
@@ -9210,7 +9190,6 @@ dj1d6o6ftflzi.cloudfront.net
 dj2550.com
 dj4odketdva9s.cloudfront.net
 djadoc.com
-djaujxeh.xyz
 djaxadserver.com
 djaytouch.net
 djbztw.marimekko.com
@@ -9220,7 +9199,6 @@ djecgyk.icu
 djers.com
 djeshwxzsiz.biz
 djfiln.com
-djguab.top
 djhafoom.com
 djin.site
 djiwudyvotah.xyz
@@ -9406,8 +9384,6 @@ dlvds9i67c60j.cloudfront.net
 dlweij.coffrefortplus.com
 dlxk2dj1h3e83.cloudfront.net
 dlxpix.net
-dlxvhordcwtupf.xyz
-dlyakleonarb.ru
 dlyarecnew.me
 dlyazdorovia.ru
 dlyptp.dr-8.com
@@ -9490,6 +9466,7 @@ dmiredindeed.com
 dmiredindeed.info
 dmiywcmhvmjckjy.com
 dmkdtkad2jyb9.cloudfront.net
+dmkgecssorglamaodmsleri.com
 dmkt.point-ad-game.com
 dmkt.solutions.cas.org
 dmlevents.com
@@ -9653,7 +9630,6 @@ dnpjzf.fashionette.co.uk
 dnpnemyntetpj.com
 dnps.com
 dnpz123.com
-dnqwvwknqvvlin.com
 dnre5xkn2r25r.cloudfront.net
 dnrpnl.yves-rocher.no
 dns-analytics.com
@@ -9770,6 +9746,7 @@ doct-umb.org
 doctopdftech.com
 doctor-alex.com
 doctor-groups.com
+doctor-spravka.ru
 doctorbusy.com
 doctorenticeflashlights.com
 doctorfisher.com
@@ -9803,11 +9780,13 @@ dodgyvertical.com
 dodk8rb03jif9.cloudfront.net
 dododelivery.app
 dodoespatacao.space
+dodoexchange.live
 dodopuu.com
 dodsdexonline.dexknows.com
 dodsezokoary.net
 doduangd.com
 doem.jp
+doeswallowawait.com
 doeunowy.xyz
 dof9zd9l290mz.cloudfront.net
 doflygonan.com
@@ -9850,9 +9829,9 @@ dogo.intel.pl
 dogrotleer.com
 dogrumtaung.com
 dogsonclouds.com
-dogsshoes.com
 dogt.xyz
 dogtrack.es
+doguburs.net
 dogus-ads-cdn.dygdigital.com
 dogwrite.com
 doh-gov.asia
@@ -9890,7 +9869,6 @@ doktordick.com
 doktorekwpodrozy.pl
 dokurs.com
 dokzl8xhmt1x7.cloudfront.net
-doladovannieorance.online
 dolanadserver.com
 dolarkurum.com
 dolatiaschan.com
@@ -9929,7 +9907,6 @@ dolorunder.pro
 dolphin.brandname.tech
 dolphin.mayansmithgobat.de
 dolphin.sfelc.com
-dolphin88.co
 dolphinabberantleaflet.com
 dolphincdn.xyz
 dolroubsiz.net
@@ -9948,7 +9925,6 @@ domaincaptured.com
 domaincntrol.com
 domaincounseling.com
 domainedebariver.com
-domainexpired2.be
 domainhop.com
 domaining.in
 domainmanager.com
@@ -9969,9 +9945,11 @@ domcwlxin.360doc.cn
 domdex.com
 domdog.io
 domegroupjam.xyz
+domenapodwh.icu
 domenhypot.pro
 domenictests.top
 domertb.com
+domesticannihilate.com
 domesticatednoneexemplify.com
 domesticsomebody.com
 dometoj.com
@@ -9989,6 +9967,7 @@ domineering1x.xyz
 dominguesequipamentos.com
 dominikatracy.com
 dominikpers.ru
+dominion-minecraft.biz
 dominion-x-ai.com
 dominioneastern.com
 dominiqhamel.com
@@ -10031,7 +10010,6 @@ doncartel.nl
 donchen501.cn
 dondotires.pro
 donecperficiam.net
-donescaffold.com
 donfailrank.live
 dongaicmighauwa.net
 dongeelrajak.net
@@ -10051,7 +10029,6 @@ donkey.guggenbichler.co.at
 donkey.hackoregon.org
 donkey.jackellis.me
 donkey.mrfrisby.com
-donkeyleaf.com
 donkeymails.com
 donkstar2.online
 donnalivia.com.br
@@ -10118,7 +10095,6 @@ dopa.com
 dopaleads.com
 dopansearor.com
 dope.autos
-dope.rest
 dope88.com
 dopeblackfriday.shop
 dopemobi.offerstrack.net
@@ -10167,12 +10143,12 @@ doreblue.com
 doreenblog.online
 doremido.com
 dorimnews.com
-doriot.info
 dorivex.top
 dork.fail
 dorkingmomzer.top
 dormedelta.pro
 dormouse.consentkit.com
+dornetmatt.com
 dornpush.com
 dorogokupimnoutbuk.online
 doroncreations.com
@@ -10247,6 +10223,7 @@ dotyruntchan.com
 dotzup.com
 doubanio.top
 double-check.com
+double-eyelid-ar-yz333.asia
 double.net
 doubleadscdn.com
 doubleadsclick.com
@@ -10329,11 +10306,11 @@ doujufuritoo.net
 doukouglauchim.net
 doumaibiji.cn
 doumob.com
-doumuleet.net
 dounouchauzib.com
 doupionwhils.com
 douploadfiles.click
 doupteethaiz.xyz
+doupuer.com
 dousoavaisoup.com
 doustehauleeday.net
 douthosh.net
@@ -10378,6 +10355,7 @@ download-alert.com
 download-app.net
 download-campaign.com
 download-cnet.com
+download-file.net
 download-file.org
 download-file.top
 download-performance.com
@@ -10401,7 +10379,6 @@ download.mediaplay.ru
 download.my-gg.com
 download.studio
 download.televisionfanatic.com
-download1825.sfile.mobi
 download4.cfd
 download4allfree.com
 downloadaccelerator.com
@@ -10432,8 +10409,6 @@ downloadsbeta.com
 downloadsf.com
 downloadshi.b-cdn.net
 downloadstep.com
-downloadwarez.org
-downloadwho.com
 downloadyt.com
 downlogram.com
 downlon.com
@@ -10486,7 +10461,6 @@ dpckzt.cuisine-etudiant.fr
 dpckzt.mesrecettesfaciles.fr
 dpcomdhl.tt.omtrdc.net
 dpcomepost.tt.omtrdc.net
-dpd.com-fc.sbs
 dpd9yiocsyy6p.cloudfront.net
 dpdhb75zux.data.adobedc.net
 dpdnav.com
@@ -10631,7 +10605,6 @@ dragonbarter.com
 dragonblogger.com
 dragoncapitalmoney.com
 dragoncapitalvay.com
-dragonfireq.digital
 dragonfly.filmmakerfreedom.com
 dragonfly.jala-one.com
 dragonflyproblemsubway.com
@@ -10712,7 +10685,6 @@ dreadfulrulingextension.com
 dreadluckdecidedly.com
 dream-contact-junction.com
 dream-live-repeat-play.xyz
-dream-tech.website
 dream-wedding-slovenia.com
 dream901o.fun
 dreamaquarium.com
@@ -10735,6 +10707,8 @@ dreamnudge.online
 dreamore.site
 dreampartners.ru
 dreampeaks.store
+dreamplanet.club
+dreamplume.site
 dreamproducts.site
 dreamsdome.com
 dreamsoppressive.com
@@ -10743,6 +10717,7 @@ dreamteamaffiliates.com
 dreamtvshop.ru
 dreamvault.site
 dreamvids.pro
+dreamweft.online
 dreamworks.sc.omtrdc.net
 dreamycanyon.com
 dreamyhearts.net
@@ -10788,6 +10763,7 @@ drg-mcre.com
 drgb74ojbgxg7.cloudfront.net
 drgrjhxvbaql.com
 drhanneserasmus.co.za
+dribbblow.com
 dribbleads.com
 dribletsusian.com
 dribturbot.com
@@ -10804,26 +10780,22 @@ drillcompensate.com
 drillingstarlightsupper.com
 drim.space
 drimquop.com
-drindin.org
 drinksbookcaseconsensus.com
 drinkscormac.website
 drinkwhitewhale.com
 dripe.site
 drippingzone.com
-drippyfashion.nl
 drive.seagate.com
 driveless.pt
 drivenetwork.online
 drivenetwork.ru
 drivenicysecretive.com
 driveniq.com
-driveown.com
 driver-fixer.com
 driver-job-kz-610.click
 driver.dctaxi.com
 driverbunklived.com
 driverdynamite.com
-driverequest.com
 driverfinderpro.com
 driverhugoverblown.com
 driverpaksolution.ru
@@ -10854,7 +10826,6 @@ drnishayoga.com
 drnsvp.starcasino.be
 droci.buzz
 drogariahadama.com
-drogue-info-service.fr
 drohlaneh.com
 droidacid.com
 droimon20.ru
@@ -10868,12 +10839,11 @@ droopingfur.com
 droopingskilful.com
 droopy-writing.pro
 drop.crashes.ng.thewitcher.com
-dropbbase.com
+dropalcoholnarrow.com
 dropbox-customer-phone-us-en-4958200.world
 dropbox-docs.net
 dropbox-noreply.com
 dropbox-phone-support-us-en-6743050.zone
-dropbox-productiv-sandbox.com
 dropboxinc.tt.omtrdc.net
 dropbuyinc.ga
 dropclickpaste.com
@@ -10933,6 +10903,7 @@ druzja.canmart.co.kr
 druzzoutsa.pro
 drvczg.levtech.jp
 drvdb9rcebidk.cloudfront.net
+drvialet.biz
 drvive.lamoda.ru
 drwewhqhnqhhk.com
 drybariums.shop
@@ -10978,7 +10949,6 @@ dsb4h3ustf.data.adobedc.net
 dsb68d.com
 dsb6jelx4yhln.cloudfront.net
 dsbahmgppc0j4.cloudfront.net
-dsbltr2.com
 dsbt7.com
 dsbtpy.viata.nl
 dsccams.com
@@ -11008,12 +10978,12 @@ dsgretaillimited.tt.omtrdc.net
 dsh1ct2zrfakt.cloudfront.net
 dsh7ky7308k4b.cloudfront.net
 dshcej.aosom.co.uk
+dshfgsdfds.click
 dshjbn.xyz
 dsictpdiyagi.com
 dsiiun.theshellstation.com
 dsikpuv.icu
 dsj4qf77pyncykf2dki6isfcuy0orwhc.lambda-url.eu-west-1.on.aws
-dsjaa.top
 dsjjsreqtkvxbfb.com
 dsldtohkgc.com
 dslenggui.com
@@ -11024,7 +10994,6 @@ dsmolf.stitchandfeather.com
 dsms0mj1bbhn4.cloudfront.net
 dsmstats.com
 dsnextgen.com
-dsnfeddmxnsfq.com
 dsnplus.one
 dsnrmg.com
 dsnurj.nissan-rentacar.com
@@ -11086,6 +11055,7 @@ dsw.com.sc.omtrdc.net
 dsw.com.ssl.sc.omtrdc.net
 dswa.1337.cx
 dswakq.wineawesomeness.com
+dsxmn0.com
 dsxwcas.com
 dsy5wmnntou9c.cloudfront.net
 dsyred.dollarhobbyz.com
@@ -11229,13 +11199,11 @@ dubrovnikairline.com
 dubshub.com
 dubsteadily.com
 dubvacasept.com
-dubyl.press
 dubzenom.com
 duce.parc-consulting.com
 duchessefit.com
 duchesstechnicianobserver.com
 duckannihilatemulticultural.com
-duckcash.eu
 duckduckgo.sbs
 duckedabusechuckled.com
 duckingcodeias.shop
@@ -11282,7 +11250,6 @@ dugoutstomata.shop
 dugraukeeck.net
 dugreseto.pro
 dugrozufo.com
-dugtor-deer.pw
 duh0b8nl8uhfn.cloudfront.net
 duhboga.ru
 duhpmyxqxiwq.com
@@ -11319,6 +11286,7 @@ dullfruitful.com
 dullingmonsoon.shop
 dullshoe.pro
 dullsprucemariner.com
+dulmonickij.xyz
 dulojet.com
 duloqtszesmu.com
 dulosismispage.top
@@ -11344,7 +11312,6 @@ dumpei.click
 dumpingwasteinparadise.org
 dumplingclubhousecompliments.com
 dumppsychopath.com
-dumpserv.com
 dumpster.cam4.com
 dumsolarosal.top
 dumuilistrati.at
@@ -11374,7 +11341,6 @@ duomeng.net
 duomeng.org
 duomoscrinkum.shop
 duomowales.top
-duongsinhtrunghoaninhbinh.click
 duosatshop.com.br
 duosiwindl.pro
 duote.com
@@ -11439,18 +11405,17 @@ dustingvendace.shop
 dustspeerie.shop
 dustydime.com
 dustyhammer.com
-dustyrabbits.com
 dustyrender.com
 dustywrenchdesigned.com
 dutchmega.nl
 duthithanhlich2021.weebly.com
 dutifulsolution.com
 dutils.com
-dutogekisser.com
 dutorterraom.com
 dutydynamo.co
 dutygoddess.com
 dutypselrngpfr.com
+dutythursday.com
 duu8lzqdm8tsz.cloudfront.net
 duuddots.com
 duumvirkeach.top
@@ -11512,7 +11477,6 @@ dvgr.cn
 dvgtm.akadns.net
 dvh66m0o7et0z.cloudfront.net
 dvhcob.jtrip.co.jp
-dvjbmpknwbwdx.xyz
 dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com
 dvk-stroi.ru
 dvkcnu.alterego-design.nl
@@ -11596,7 +11560,6 @@ dwny.org
 dwoetbarcrooplsloiwh.com
 dwooltpzylk.com
 dwouxrufulchwar.com
-dwpdqf.top
 dwpfxr.icu
 dwqjaehnk.com
 dwr3zytn850g.cloudfront.net
@@ -11624,7 +11587,6 @@ dx6uy6q3udhkj.cloudfront.net
 dx7.sosporntube.com
 dxakvollzguju.tech
 dxaop.bcbsla.com
-dxdelivery.top
 dxdelivery.xyz
 dxe2.heip.fr
 dxeldq.madeindesign.com
@@ -11748,7 +11710,6 @@ dynsrvtyu.com
 dynssp.com
 dyntrk.com
 dyodrs1kxvg6o.cloudfront.net
-dyoffice.cn
 dyoixbyp.xyz
 dyp2p-hw.douyucdn.cn
 dypbgq.manutan.pl
@@ -11774,7 +11735,6 @@ dyvuxf.villacim.com
 dywolfer.de
 dywuhp-unbnf.love
 dyx0878.cn
-dyyhc.org
 dyywcxfftue.com
 dyyygyg.top
 dyzgdp.xyz

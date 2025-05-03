@@ -1,9 +1,10 @@
 # ---------------------------------
-# Script Name: _Load.py
+# Script Name: Update.py
 # Version: 1.0.0.0
-# Description:
+# Description: Calls all our other scripts in updating this folder, applying any new changes.
+#  Those changes can be 3rdParty blocklist updates, new wildcard/regex replacements,
 # Author: ThePerfectWill
-# Usage: python3 _Load.py
+# Usage: python3 Update.py
 # ---------------------------------
 
 # ---------------------------------
@@ -32,13 +33,14 @@ logging.basicConfig(**_Vars.LOG)
 # ---------------------------------
 
 scripts = [
-    # f"{_Vars.SCRIPTS_PATH}/StringUpdates.py",
+    # f"{_Vars.SCRIPTS_PATH}/UpdateStrings.py",
     f"{_Vars.SCRIPTS_PATH}/DownloadRepoLinks.py",
     f"{_Vars.SCRIPTS_PATH}/RunPreHostlistCompiler.py",
     f"{_Vars.SCRIPTS_PATH}/FormatLists.py",
     f"{_Vars.SCRIPTS_PATH}/Alphabetical.py",
-    f"{_Vars.SCRIPTS_PATH}/ExtractRegexPatterns.py",
+    f"{_Vars.SCRIPTS_PATH}/SortByRegexPatterns.py",
     f"{_Vars.SCRIPTS_PATH}/GetCommonPhrases.py",
+    f"{_Vars.SCRIPTS_PATH}/CombinePatternRules.py",
     f"{_Vars.SCRIPTS_PATH}/RunFinalHostlistCompiler.py"
 ]
 

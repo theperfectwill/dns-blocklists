@@ -111,6 +111,7 @@ clog*.yuanfudao.com
 collect-elb-*.amazonaws.com
 collect-v*.51.la
 collector*.ex.co
+collector-*.luigisbox.com
 collector-*.px-cdn.net
 collector-*.px-client.net
 collector-*.tvsquared.com

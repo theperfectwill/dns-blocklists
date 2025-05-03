@@ -36,7 +36,7 @@ logging.basicConfig(**_Vars.LOG)
 
 final_json = os.path.join(_Vars.FINAL_PATH, "regexDNSF.json")
 final_txt = os.path.join(_Vars.FINAL_PATH, "regexDNSF.txt")
-downloads_txt = os.path.join(_Vars.SOURCES_PATH, "sourceDownloads.txt")
+blocklist_txt = os.path.join(_Vars.SOURCES_PATH, "blocklist.txt")
 
 # ---------------------------------
 # SECTION: Define our functions
@@ -75,10 +75,10 @@ def reformat_final_file(file_path):
     try:
         # Get the last modified time of the file
         last_modified_timestamp = os.path.getmtime(file_path)
-        last_modified = datetime.fromtimestamp(last_modified_timestamp).strftime('%A, %B %d, %Y %I:%M %p') 
+        last_modified = datetime.fromtimestamp(last_modified_timestamp).strftime('%A, %B %d, %Y %I:%M %p')
 
         # Get the line count of Sources/sourceDownloads.txt
-        with open(downloads_txt, 'r') as source_file:
+        with open(blocklist_txt, 'r') as source_file:
             original_rule_count = len(source_file.readlines())
 
         # Get the line count of the file minus the file_comments count (currently 12)
@@ -123,7 +123,7 @@ def reformat_final_file(file_path):
 
         logging.info(f"{file_path} - Processed successfully.")
     except FileNotFoundError:
-        logging.info(f"Error: The file '{file_path}' or '{downloads_txt}' was not found.")
+        logging.info(f"Error: The file '{file_path}' or '{blocklist_txt}' was not found.")
     except IOError as e:
         logging.info(f"IO error occurred: {e}")
     except Exception as e:

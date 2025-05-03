@@ -32,16 +32,7 @@
             ]
         },
         {
-            "source": "Regex/Rules/strings.txt",
-            "transformations": [
-                "ConvertToAscii",
-                "TrimLines",
-                "Compress",
-                "ValidateAllowIp"
-            ]
-        },
-        {
-            "source": "Regex/Rules/regex.txt",
+            "source": "Regex/Rules/combined.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
@@ -52,11 +43,13 @@
         {
             "source": "Sources/blocklist.txt",
             "transformations": [
-                "ConvertToAscii"
+                "ConvertToAscii",
+                "TrimLines",
+                "Compress",
+                "ValidateAllowIp"
             ],
             "exclusions_sources": [
-                "Regex/Rules/strings.txt",
-                "Regex/Rules/regex.txt"
+                "Regex/Rules/combined.txt"
             ]
         }
     ],

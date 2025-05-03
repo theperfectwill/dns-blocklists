@@ -1,19 +1,19 @@
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! FolderStringUpdates
 - update all strings in all directories and files that contain "FolderName" with "ThisFolderName"
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! DownloadRepoLinks
 - download the content of each valid url in "Sources/sourceLinks.txt" and append it to Sources/blocklist.txt"
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! RunPreHostlistCompiler
 - run this command line command hostlist-compiler -c "Sources/blocklist.json" -o "Sources/blocklist.txt"
 - if a line in Sources/blocklist.txt begins with "!" and has no characters after it, delete that entire line
 - run this command line command hostlist-compiler -c "Sources/whitelist.json" -o "Sources/whitelist.txt"
 - if a line in Sources/whitelist.txt begins with "!" and has no characters after it, delete that entire line
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! FormatBlockList
 - alphabetically sort "Sources/blocklist.txt"
 - delete line if it starts with "!" or "#" from "Sources/blocklist.txt"
@@ -23,7 +23,7 @@ Create python3 code while handling all potential exceptions and errors to:
 - delete line if it contains any string from "Regex/Rules/strings.txt" from "Sources/blocklist.txt"
 - delete line if it matches any regex pattern in "Regex/Rules/regex.txt" from "Sources/blocklist.txt"
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! Alphabetical
 scan "Sources/blocklist.txt" and sort it in the following manner:
 -- take all entires beginning with the letter a and put them into "Regex/Sorted/Alphabetical/A.txt"
@@ -31,7 +31,7 @@ scan "Sources/blocklist.txt" and sort it in the following manner:
 -- take all entires beginning with the letter c and put them into "Regex/Sorted/Alphabetical/C.txt"
 -- continue to do this for all entries from letters A-Z, placing them all into their own file
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! ExtractRegexPatterns
 - extract matches by regex pattern \b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$) and place those matches in "Regex/Sorted/DomainParents/extracts.txt"
 - extract matches by regex pattern ^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$ and place those matches in "Regex/Sorted/DomainsChildren/extracts.txt"
@@ -41,7 +41,36 @@ Create python3 code while handling all potential exceptions and errors to:
 - extract matches by regex pattern ^[0-9]+$ and place those matches in "Regex/Sorted/OnlyNumbers/extracts.txt"
 - delete lines entirely that match regex pattern ^[0-9]+$ from "Sources/blocklist.txt"
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
+! CombinePatternRules
+- create function get_string_pattern_results
+-- get lines from Regex/Rules/strings.txt
+--- skip empty lines
+--- skip lines that start with "!"
+--- get all other lines
+--- return the result in a variable
+- create function get_regex_pattern_results
+-- get lines from Regex/Rules/regex.txt
+--- skip empty lines
+--- skip lines that start with "!"
+--- get all other lines
+--- return the result in a variable
+- create function filter_string_pattern_results
+-- use result from get_string_pattern_results
+--- strip all special characters from get_string_pattern_results except spaces and hyphens
+--- return the result in a variable
+- create function write_combined_patterns
+-- compare the results of filter_string_pattern_results with get_regex_pattern_results
+--- create variable combined_results
+--- if any line in filter_string_pattern_results matches any part of a line in get_regex_pattern_results remove it from get_regex_pattern_results
+--- now store get_string_pattern_results and the previously modified get_regex_pattern_results in the combined_results variable
+--- write combined_results to Regex/Rules/combined.txt
+
+Create python3 code while handling all potential issues, exceptions, and errors to:
+! SortByRegexPatterns
+N/A here, but created in code already
+
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! GetCommonPhrases
 - scan "Regex/Sorted/DomainParents/extracts.txt" for the 1000 most common phrases used and place those most common phrases in "Regex/Sorted/DomainParents/common.txt"
 - scan "Regex/Sorted/DomainsChildren/extracts.txt" for the 1000 most common phrases used and place those most common phrases in "Regex/Sorted/DomainsChildren/common.txt"
@@ -50,13 +79,13 @@ Create python3 code while handling all potential exceptions and errors to:
 - scan "Regex/Sorted/OnlyNumbers/extracts.txt" for the 50 most common phrases used and place those most common phrases in "Regex/Sorted/OnlyNumbers/common.txt"
 - scan "Regex/Sorted/WildCards/extracts.txt" for the 1000 most common phrases used and place those most common phrases in "Regex/Sorted/WildCards/common.txt"
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! RunFinalHostlistCompiler
 - run this command line command hostlist-compiler -c Final/regexDNSF.json -o Final/regexDNSF.txt
 - if a line in Final/regexDNSF.txt begins with "!" and has no characters after it, delete that entire line
 - insert "! Title: RegexDNSF ThisFolderName" to the top of Final/regexDNSF.txt
 
-Create python3 code while handling all potential exceptions and errors to:
+Create python3 code while handling all potential issues, exceptions, and errors to:
 ! RunCodeScripts
 - execute the following python files in this order:
 -- Code/Scripts/FolderStringUpdates.py
@@ -65,5 +94,6 @@ Create python3 code while handling all potential exceptions and errors to:
 -- Code/Scripts/FormatBlockList.py
 -- Code/Scripts/Alphabetical.py
 -- Code/Scripts/ExtractRegexPatterns.py
+-- Code/Scripts/CombinePatternRules.py
 -- Code/Scripts/GetCommonPhrases.py
 -- Code/Scripts/RunFinalHostlistCompiler.py

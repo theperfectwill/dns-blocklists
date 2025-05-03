@@ -3,7 +3,6 @@ t*.playdigo.live
 t*.zcvh.net
 t-ak.hulu.com
 t-analytics.com
-t-axiom.trade
 t-campaign.fun
 t-campaign.website
 t-dsp.pinduoduo.com
@@ -873,6 +872,7 @@ tadccc.com
 tadcqc.com
 tadcqv.com
 taddrugso.live
+tadexbaba.org
 tadjmiavn.com
 tadmak.com
 tadmv.com
@@ -964,7 +964,6 @@ tagcommander.laredoute.be
 tagcommander.laredoute.ch
 tagcommander.laredoute.de
 tagcontrol-cdn.evidon.com
-tagcontrol-collector-v2-prod-1517665634.us-east-1.elb.amazonaws.com
 tagd-otmhf.world
 tagdeliver.com
 tagdelivery.com
@@ -983,42 +982,85 @@ tagging-service.fotbollskanalen.se
 tagging-service.mtv.fi
 tagging-service.tv4.se
 tagging-service.tv4play.se
+tagging.040fit.nl
+tagging.4-pieds.com
 tagging.aerth.eu
 tagging.anaxago.com
+tagging.anker18.be
+tagging.argentorshop.be
 tagging.arkance.world
+tagging.avetica.nl
 tagging.aws.chefkoch.de
+tagging.bedrijventekoop.nl
 tagging.benitech.nl
 tagging.boataround.com
 tagging.bokus.com
+tagging.bourbon-sleeckx.com
 tagging.chefstable.restaurant
 tagging.dailys.dk
+tagging.debontewever.nl
+tagging.dekeij.nl
+tagging.egveranda.nl
 tagging.eqs.com
+tagging.eric-bompard.com
 tagging.gevelaar.nl
 tagging.handylight.nl
 tagging.hansimglueck-burgergrill.de
 tagging.hemnet.se
+tagging.ifa-formation.fr
 tagging.immoweb.be
+tagging.in-garden.nl
 tagging.inittogetherfestival.com
+tagging.innopet.nl
+tagging.kersbergen.nl
 tagging.knipex.com
+tagging.kroftman.com
+tagging.la-toulousaine.com
 tagging.leaders-academy.com
 tagging.lei-manager.com
+tagging.loonserviceburo.nl
 tagging.martinlammer.de
+tagging.medexs.com
 tagging.meyou.dk
+tagging.michelonfray.com
+tagging.montessori-passepartout.nl
+tagging.mozzeno.com
+tagging.mydodow.com
 tagging.mykaracare.com
+tagging.numafa.com
+tagging.o2.fr
+tagging.omix.nl
+tagging.on-route.nl
+tagging.plissehordeurenwebshop.nl
+tagging.poederbaas.com
+tagging.pu.nl
 tagging.pvc-strokengordijn.nl
 tagging.pvcstreifen.de
 tagging.pvctischdeckenshop.de
+tagging.qminder.com
+tagging.rentwereld.nl
+tagging.rodimedia.nl
+tagging.sanoflore.fr
 tagging.schroedersalessolutions.de
+tagging.seniorenalarmen.nl
+tagging.shiftdigitalapps.io
 tagging.sliponline.nl
 tagging.sparks-online.eu
 tagging.src-reizen.nl
 tagging.steelseries.com
+tagging.stieglitz.nl
 tagging.strokengordijn.be
 tagging.swat.io
+tagging.systemyzawieszen.pl
 tagging.togetheragainfestival.co.uk
+tagging.utwente.nl
+tagging.veda.ch
+tagging.vhdakkapellen.nl
 tagging.vios.dk
 tagging.weightloss.goodbodyclinic.com
 tagging.wellen-trading.de
+tagging.woodtex.be
+tagging.work21.nl
 taggyad.jp
 taghaugh.com
 taghike.com
@@ -1423,12 +1465,14 @@ takethatad.com
 takeyouforward.co
 takidd.site
 takigx.tourneau.com
+takilunga.xyz
 takin.bottlebeagle.com
 takin.cors.digital
 takin.revolana.fr
 takinganybody.com
 takingbackjuly.com
 takingbelievingbun.com
+takiparaskargo.online
 takjttz.cn
 takk6.com
 takovplanmoi.com
@@ -1500,6 +1544,7 @@ talvexor-trader-ai.com
 talweg.com.br
 talyrt.xyz
 talysu.info
+tam-zamani-com-tr.sbs
 tam.volkswagen.com
 tamaracandeloro.net
 tamashirolawoffice.xyz
@@ -1568,6 +1613,7 @@ tangyamount.com
 tangycover.com
 tanhelpfulcuddle.com
 tanidigital.com
+tanitimonayli4.xyz
 tanivanprevented.com
 tank3pull.com
 tankbaja.click
@@ -1680,7 +1726,6 @@ tardangro.com
 tardive-dyskinesia-treatment-17534.bond
 tardive-dyskinesia-treatment-64842.bond
 tardive-dyskinesia-treatment-78123.bond
-tarfand-instagram.ir
 targad.de
 targaubs.com
 targechirtil.net
@@ -1975,6 +2020,13 @@ targhe.info
 targiko.ru
 tari.xyz
 tariffs-ai.com
+tarimarketcep.cfd
+tarimarketonline.cfd
+tarimkooperatif.cfd
+tarimkooperatiff.cfd
+tarimkooperatifindirim.cfd
+tarimkooperatifmarkette.cfd
+tarimkredimarketleri.cfd
 tarinsabines.click
 tarinstinctivewee.com
 tariqon-sync-gpt.com
@@ -2006,8 +2058,10 @@ taskapi.net
 taskconcealbreathe.com
 taskdelight.com
 tasker.shop
+taskholdx.top
 taskhostw.com
 tasklms.in
+tasksendr.top
 tasksimplify.com
 tasktrivialaggregated.com
 tasophaltodsost.net
@@ -2118,7 +2172,6 @@ tazaz.icu
 tazkiaonu.click
 taznfx.renters.pl
 tazulrecupees.com
-tazze.co
 tb.events.data.microsoft.com
 tb.events.data.trafficmanager.net
 tb.mybb.ru
@@ -2226,7 +2279,9 @@ tccd.douglas.sk
 tccd.niche-beauty.com
 tccd.nocibe.fr
 tccd.parfumdreams.de
+tcchutie.com
 tccjxk.123.ru
+tcctech-delivery.com
 tcdata.fnac.com
 tcdypeptz.com
 tce.alicdn.com
@@ -2286,6 +2341,7 @@ tcwrcgeneralcontractors.com
 tcx-beacon.docs.aws.dev
 tcxihmmequcv.com
 tcxrdt.trendhim.be
+tcziraatbankturkiye.com
 tczulp.econea.cz
 tczzzlwpss.com
 td-everest.biz
@@ -2348,7 +2404,6 @@ tdfqvx.xyz
 tdgtkqtluuhjcfw.com
 tdhnxf.xyz
 tdhserg.cn
-tdhyjfxltpj.pw
 tdi.cartoonnetwork.com
 tdiaep.guardian.in
 tdid.m.qq.com
@@ -2562,10 +2617,7 @@ teayjx.openfarma.it
 tebrand.asia
 tebrand.vn
 tecaitouque.net
-tecchnical-support-telegram.site
-tecchnical-support-telegram.tech
 tech-cloud.org
-tech-reddit.shop
 tech-script.ru
 tech-sentry.harpersbazaar.de
 tech-solution-blog.com
@@ -2577,6 +2629,7 @@ tech.softchoice.com
 tech.zapps.me
 tech4focus.top
 tech4u.app
+techaddom8132.com
 techain.baidu.com
 techbar.me
 techbazaarx.store
@@ -2613,6 +2666,7 @@ technicalconsumerreports.com
 technicalityindependencesting.com
 technicalitymartial.com
 technicalitypactinsinuate.com
+technicallysportstepfather.com
 techniche.org.in
 techniciancocoon.com
 technika-remont.ru
@@ -2756,6 +2810,7 @@ teklits.com
 teknoarge.com
 teknologia.co
 teknolojihaber.net
+teknosamarket.website
 teksavvyca.com
 teksishe.net
 tekstile-illusioner.dk
@@ -2786,7 +2841,6 @@ telegakapur.shop
 telegamn.net
 telegmcn.org
 telegorda.net
-telegram-ads.co.il
 telegram-advokat.website
 telegram-arsena-markariana.online
 telegram-arsena-markariana.ru
@@ -2796,7 +2850,6 @@ telegram-blog.com
 telegram-center.pro
 telegram-china.com
 telegram-control.pro
-telegram-dehghani.ir
 telegram-fan.com
 telegram-golos.top
 telegram-hkcn.com
@@ -2809,24 +2862,18 @@ telegram-map.online
 telegram-map.ru
 telegram-moca.com
 telegram-neo.com
-telegram-o.com
 telegram-oe.top
-telegram-online.digital
-telegram-online.help
-telegram-online.team
 telegram-redirects.ru
 telegram-sliv.online
 telegram-traffic.pro
 telegram-verify-secure.com
-telegram-view.xyz
 telegram-web.help
-telegram-web.team
 telegram-wins.org
 telegram.app0w.ltd
 telegram.codes
 telegram.fans
-telegram.la
 telegram.rent
+telegram.shop
 telegramconform.com
 telegramdisposedjaws.com
 telegramhcn.com
@@ -2835,7 +2882,6 @@ telegramm.site
 telegramos.org
 telegramsit.com
 telegramspun.com
-telegrann.us
 telegraph.co.uk.ssl.sc.omtrdc.net
 telegraph.prd.api.discomax.com
 telegraph.prd.api.max.com
@@ -3330,6 +3376,7 @@ telulr.golfgalaxy.com
 telus.com.ssl.sc.omtrdc.net
 telus.data.adobedc.net
 telus.sc.omtrdc.net
+telus.signup.clik2pay.com
 telus.tt.omtrdc.net
 telusplanet.net
 telventdtn.d1.sc.omtrdc.net
@@ -3449,6 +3496,7 @@ tepatonol.com
 tepeelowsed.website
 tephapiko.com
 tephoostortu.com
+tepiloa.com
 tepirhdbauahk.com
 teplokomplex.ru
 tepshared.tep.test.ajo.adobe.com
@@ -3507,7 +3555,6 @@ terracottawarriorstours.com
 terrakulturegallery.com
 terranewsblast.com
 terranoc.site
-terrapolaris.com
 terrapush.com
 terrarwame.space
 terrasdsdstd.com
@@ -3563,6 +3610,7 @@ test-extern.nitrosniffer.ottogroup.io
 test-landing-page-122122.email-disney.cjm.adobe.com
 test-landing-page.a.news.aida.de
 test-link.hellobeerapp.com
+test-live-de2940900.org
 test-lp-helloconsumercellularcom.hello.consumercellular.com
 test-rheinbach-matomo.einmahl.de
 test-see-tax-in-uk-live.online
@@ -3653,6 +3701,7 @@ tetrafonds.top
 tetrylscullion.com
 tetyerecently.com
 teui2.ca
+teusaivaii.net
 teuxbfnru.com
 tevanni.com
 tevjso.konesso.pl
@@ -3772,17 +3821,11 @@ tgdopodk.com
 tgel2ebtx.ru
 tget.me
 tgfkqpvxzcfxq.world
-tgg.gainwithgames.com
-tgg.gametimeroadtrip.com
 tgg.gametonics.com
 tgg.madgamingbro.com
 tgg.newgamingstar.com
-tgg.nextlevelgameplans.com
 tgg.spellthiefgaming.com
-tgg.tapskygames.com
 tgg.top-casinos-list.com
-tgg.videogamesea.com
-tgg.you-win-lucky-games.com
 tggame.xyz
 tghbn12.com
 tghrfv.icu
@@ -3861,7 +3904,6 @@ thaigapousty.net
 thaigolfbooking.com
 thaiheq.com
 thaimassage-slon.ru
-thaimoul.net
 thaimtotchouz.net
 thaincoth.com
 thaipurgoowha.com
@@ -3935,6 +3977,7 @@ thdimrgvmtrlxk.xyz
 thduyzmbtrb.com
 thdwaterverya.info
 the-adult-company.com
+the-binary-trader.biz
 the-bitcoin-bank-breaker.com
 the-bitcoin-profit.com
 the-bitcoin-smarter.com
@@ -3985,6 +4028,7 @@ theatrey.com
 theatronhometheatre.com
 thebackpackcpa.com
 thebainpushtu.com
+thebalan-er.com
 thebancorppsg.com
 thebank247.ga
 thebay.com.ssl.d1.sc.omtrdc.net
@@ -4036,7 +4080,6 @@ thecoinworsttrack.com
 thecompanystore.com.data.adobedc.net
 theconnectedlightingalliance.org
 theconspicuum.org
-theconsulting.io
 theconsumerhq.com
 thecontainerstore.sc.omtrdc.net
 thecontainerstore.tt.omtrdc.net
@@ -4047,6 +4090,7 @@ thecooperativebank.d1.sc.omtrdc.net
 thecooperativebank.data.adobedc.net
 thecooperativegroup.d1.sc.omtrdc.net
 thecoreadv.com
+thecorpot.com
 thecovershop.pl
 thecryptocurrencyconsultants.com
 thecryptoupdates.com
@@ -4060,6 +4104,7 @@ thedating-mix.top
 thedeep-weblinks.com
 thedelivery.xyz
 thedesirelife.com
+thedisabledblogger.co.uk
 thedivorcecenter.com
 thedoorwithabi.org
 thedowchemicalcompan.tt.omtrdc.net
@@ -4069,7 +4114,6 @@ theefiwu.net
 theeghumoaps.com
 theehouho.xyz
 theekedgleamed.com
-theengineersguild.com
 theengineertomommy.com
 theensast.com
 theenterprisebulletin.com
@@ -4145,9 +4189,9 @@ thegreatesthits.planetguitar.it
 thegreatesthits.recording.de
 thegreatesthits.takustik.com
 thegrecheep.net
+theguardian-ai.com
 theguardian-homesafe.com
 theguardian.asia
-theguardian.cn
 theguardian.solutions
 theguardlan.com
 thehansongrp.com
@@ -4327,6 +4371,7 @@ theship.club
 theshoparound.com
 theshopsatlajollavillage.com
 thesiliconreview.com
+thesimplicitysage.com
 thesisadornpathetic.com
 thesisessaywer.com
 thesisreducedo.com
@@ -4354,7 +4399,6 @@ thetchaixoo.com
 theteachingcompany.d1.sc.omtrdc.net
 theteachingcompanysa.tt.omtrdc.net
 thetechloft.com
-thetelegramoffice.co.uk
 thetestpage.39.net
 thethroneabroad.cloud
 thetindung-online-vpb.com
@@ -4374,6 +4418,7 @@ thetru2you.com
 thetrue2you.com
 thetruth.com.ssl.sc.omtrdc.net
 thetruthspy.com
+thetupaus.com
 theunionstation.com
 theuniversityofauckl.tt.omtrdc.net
 theupgradedata.com
@@ -4402,6 +4447,7 @@ thewhizmarketing.com
 thewhizproducts.com
 thewilliamcartercompany.sc.omtrdc.net
 thewillpower.org
+thewindowsactivator.com
 thewinesteward.com
 thewise.com
 thewnewz.com
@@ -4533,7 +4579,6 @@ thizecmeeshumum.net
 thj.astrakhan.ru
 thjfxx.icu
 thjhaj.zooart.com.pl
-thk-elektro24.de
 thko.com
 thlipgrume.pro
 thm.market.xiaomi.com
@@ -4600,6 +4645,7 @@ thophetwinted.com
 thopticheew.net
 thor-media.ru
 thor-pom.com
+thor-swap.xyz
 thor-z.com
 thor.blindferret.media
 thoracrini.pro
@@ -4610,6 +4656,7 @@ thoroughlyhoraceclip.com
 thoroughlypantry.com
 thorperepresentation.com
 thorpeseriouslybabysitting.com
+thorswap-v2.xyz
 thosepteel.com
 thosiwhicy.pro
 thostiguxo.com
@@ -4665,6 +4712,7 @@ thri.xxx
 thricrulnf.com
 thriftywaste.com
 thrillasoft.com
+thrillbyte.site
 thrilledrentbull.com
 thrilledroundaboutreconstruct.com
 thrillignoringexalt.com
@@ -4676,6 +4724,7 @@ thrissurcalltaxi.com
 thrive-delivery.com
 thrive.metagenics.com
 thrive.rainforest-alliance.org
+thrivebeyond40.com
 thrivecourtroom.com
 thrivecover.com
 thrivent.com.ssl.d2.sc.omtrdc.net
@@ -4858,6 +4907,7 @@ tickleinclosetried.com
 ticklesign.com
 tickletempted.com
 ticklpecta.pro
+tickmark.org
 tickovent.com
 ticksel.com
 ticlewesimulate.cfd
@@ -4950,6 +5000,8 @@ tigershark.moonpot.com
 tigershark.paavanmagic.com
 tigershark.samwaymire.com
 tigershark.vandevliet.me
+tighn.press
+tighterinfluenced.com
 tighternativestraditional.com
 tightflirtsmeets.com
 tightpowder.com
@@ -5066,7 +5118,6 @@ tiktakz.xyz
 tiktalk-2fc98-default-rtdb.firebaseio.com
 tiktikshopvn.com
 tiktok-69.com
-tiktok-academy.co.uk
 tiktok-activate.com
 tiktok-ad-accounts-cheap.org
 tiktok-ad-accounts.org
@@ -5095,24 +5146,25 @@ tiktok-insights.com
 tiktok-internet.shop
 tiktok-maill.com
 tiktok-main.space
+tiktok-mall2025.shop
 tiktok-mallss.xyz
 tiktok-money.com
 tiktok-my.com
 tiktok-notes.cfd
-tiktok-novapesquisa.site
+tiktok-overseas.com
 tiktok-overseas.xyz
-tiktok-pay.shop
 tiktok-ph.online
-tiktok-saver.ru
+tiktok-sellerss.com
 tiktok-sellerss.xyz
 tiktok-shop-malls.shop
 tiktok-shop-market-super.top
 tiktok-shop-market.top
 tiktok-shop-market6.top
 tiktok-shop-market8.top
-tiktok-shop.support
+tiktok-shop.online
 tiktok-shopss.xyz
 tiktok-shorts.com
+tiktok-store.asia
 tiktok-store.cyou
 tiktok-team.online
 tiktok-tiktokshop.com
@@ -5128,11 +5180,10 @@ tiktok-vip612.com
 tiktok-vip663.com
 tiktok-vip675.com
 tiktok-vmall.com
-tiktok.luxury
+tiktok.blog
 tiktok.tray.com.br
 tiktokclaim.org
 tiktokcy1.com
-tiktokmalls-hot.sbs
 tiktokpangle.us
 tiktokpay-bonus.shop
 tiku.io
@@ -5175,7 +5226,6 @@ timedirect.ru
 timefeathered.fun
 timeforagreement.com
 timejs.game.163.com
-timeless-delivery.com
 timelessconference.com
 timelessfind.store
 timely-table.com
@@ -5263,6 +5313,7 @@ tingrinter.com
 tingswifing.click
 tingtang.pages.dev
 tingyun.com
+tinh3ngireneqi.cfd
 tinhay24h.pro
 tinhot24h.website
 tinhothomnay.com
@@ -5407,6 +5458,7 @@ titaniumstresser.net
 titaniumveinshaper.com
 titanklip.com
 titanpoker.com
+titanumsheld.com
 titeecmaignauz.net
 titgillian.top
 titki55.cc
@@ -5771,6 +5823,9 @@ tkmftc.aotter.net
 tkmrdtcfoid.com
 tko12.com
 tkoaurrdcktnp.vip
+tkoopbaharfirsati.cfd
+tkoopmarketim.cfd
+tkoopmilletmarketi.cfd
 tkpopup.asia
 tkpopup.vn
 tkportal.aotter.net
@@ -5800,6 +5855,7 @@ tl45l1t.top
 tl813.com
 tla.traderlink.com
 tlads.midtc.com
+tlafdkcehxhccid.com
 tlapka.cz
 tlauncher.org
 tlbjw.com
@@ -5916,7 +5972,6 @@ tmmatomo01.com
 tmmp.io
 tmn.today
 tmntft.com
-tmobile.pw
 tmobile.sc.omtrdc.net
 tmobile.tt.omtrdc.net
 tmobileusa.data.adobedc.net
@@ -6090,6 +6145,7 @@ toawoapt.net
 toazdkl.top
 toazoaptauz.net
 tob-tracker.yximgs.com
+tobaccocentgames.com
 tobaccoearnestnessmayor.com
 tobaccosturgeon.com
 tobaltoyon.com
@@ -6119,6 +6175,7 @@ today-live-match.online
 today.com.ssl.sc.omtrdc.net
 todayapp.tv
 todayapplied.com
+todaycivicengagement.com
 todayfocus.life
 todaymix.ru
 todays-wordle.net
@@ -6139,6 +6196,7 @@ todopick.com
 todordigital.co.uk
 todroortaurgech.net
 todseenegnie.xyz
+toduhu.info
 todyrade.com
 toeapesob.com
 toecircle.com
@@ -6188,7 +6246,10 @@ token.rubiconproject.com
 tokenads.com
 tokenbroker.sh
 tokendomain.xyz
+tokenjoinw.top
+tokenpaym.top
 tokens-github.com
+tokensendl.top
 tokeny.pl
 toki-no-irodori.com
 tokimekimaildesu.net
@@ -6198,7 +6259,6 @@ toko999.shop
 toksoudsoab.net
 tokumeichat135.net
 tokumeichatmail.net
-tokuyama-kaiun.com
 tokyo-get-business.jp
 tokyobag.shop
 tokyueiklbphqgupc.org
@@ -6288,7 +6348,6 @@ tongj.xilu.com
 tongji-res.meizu.com
 tongji.265309.xyz
 tongji.baidu.com
-tongji.baidui.co
 tongji.hongsky.top
 tongji.kkgithub.com
 tongji.kunkunpay.com
@@ -6537,6 +6596,7 @@ toplov.com
 topmalaysia.com
 topmatch.win
 topmedportal.ru
+topmeds10.com
 topmmorpgsites.com
 topmomo.me
 topmomo.net
@@ -6550,6 +6610,7 @@ topnewsandviews.com
 topnewsfeeds.net
 topnewsgo.com
 topnewsroundup.com
+topnewsturkey24.com
 topnflcheapjerseys.com
 topofblogs.com
 topofferss4you.com
@@ -6590,6 +6651,7 @@ topshape.me
 topshineauto.no
 topsimilarweb.com
 topsir.com
+topsite.info
 topsite.lv
 topsiteguide.com
 topsites.blogflux.com
@@ -6610,7 +6672,6 @@ topsy.com
 toptanfirsati.com
 toptarotist.nl
 toptdspup.com
-toptiercapital.co
 toptoys.store
 toptrendingads.com.es
 toptrendyinc.com
@@ -6735,7 +6796,6 @@ totjbbqm.com
 totlnkbn.com
 totlnkcl.com
 totlov.com
-totndaparalansin.click
 toto13.com
 totoarena.net
 totobet4d.com
@@ -6790,6 +6850,7 @@ tournamentdouble.com
 tournamentsevenhung.com
 touroumu.com
 tourpowouro.shop
+tourskorea.com
 tourukaustoglee.net
 toushibao.com
 toushuhoophis.xyz
@@ -6837,7 +6898,6 @@ toxampoabo.com
 toxemiaseabags.com
 toxemiaslier.com
 toxemichallows.shop
-toxicle.org
 toxicskins.com
 toxoidswhippa.shop
 toxsales1.com
@@ -6946,6 +7006,7 @@ tpjojh.tripxtours.com
 tpjw.cn
 tpkv.cn
 tpkzara.com
+tpl1tt.lol
 tplinkextender.net
 tpmedia-reactads.com
 tpmedia.online
@@ -8108,6 +8169,8 @@ tr6rfgjix6tlr8bp.info
 tra.zonia.ro
 traatcamjwra.com
 trabaspara.pro
+trabolusubeleri.xyz
+trabolusubelerinde.online
 trabomarra.pro
 trabro.com
 trabucookroog.shop
@@ -8192,7 +8255,6 @@ track-sdk-eu.customer.io
 track-sdk.customer.io
 track-snl.represented.by
 track-srv.vietnamnet.vn
-track-st.com
 track-v4.ipadpresence.com
 track-victoriadates.com
 track-visit.monday.com
@@ -8879,7 +8941,6 @@ track.popsww.com
 track.portalbemestarintegral.com
 track.portalbemestarpleno.com
 track.portalbemestartotal.com
-track.portalbemestartotal.online
 track.portalcorpoequilibrio.com
 track.portaldavidamais.com
 track.portalequilibriodavida.com
@@ -8887,11 +8948,7 @@ track.portalequilibrioenergia.com
 track.portalequilibrionatural.com
 track.portalequilibriototal.com
 track.portalequilibriovital.com
-track.portalmaisbemestarhoje.com
 track.portalmaisbemviver.com
-track.portalmaisvidaebemestar.com
-track.portalmelhorvigor.online
-track.portalnoticiasdebemestar.com
 track.portalvidabem.com
 track.portalvidaemharmonia.com
 track.portalvidaequilibrada.com
@@ -9028,7 +9085,6 @@ track.tesiteca.it
 track.thebase.in
 track.theculturedkid.com
 track.thecustomoffers.com
-track.thedailyboostnow.com
 track.thedogslanding.com
 track.thefunpost.com
 track.thegivebackprogram.com
@@ -9215,9 +9271,7 @@ tracker-aa.pafbetscore.lv
 tracker-analytics.hotelrunner.com
 tracker-api.my.com
 tracker-beam.aktuality.sk
-tracker-dot-dfty-optimeeze-leroymerlines.appspot.com
 tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com
-tracker-dot-dfty-optimeeze-leroymerlinpt.appspot.com
 tracker-dot-optimeeze.appspot.com
 tracker-load-balancer-910132794.us-east-1.elb.amazonaws.com
 tracker-loadbalancer-1440587428.eu-central-1.elb.amazonaws.com
@@ -9769,7 +9823,6 @@ tracking.dfinsolutions.com
 tracking.di-rectindekuip.nl
 tracking.di.se
 tracking.dianow.de
-tracking.die-anleitung.de
 tracking.diebasis-he.de
 tracking.diet.mayoclinic.org
 tracking.diewebdesigner.at
@@ -10672,7 +10725,6 @@ tracking.tuyenquang.gov.vn
 tracking.tv.zing.vn
 tracking.tvet-vietnam.org
 tracking.tving.com
-tracking.twocommagrowth.com
 tracking.twoowls.io
 tracking.uberflip.com
 tracking.uk.adp.com
@@ -10964,6 +11016,7 @@ trade-neupro-40.com
 trade-office-near-me-iq.click
 trade-proair-pro.com
 trade-skins.net
+trade-smarter.online
 trade-synthiq-47.com
 trade-vanta-41.online
 trade.plf-tchb.io
@@ -10979,6 +11032,7 @@ tradebot.online
 tradedoubler.com
 tradeelvarin.online
 tradeexpert.net
+tradefist.com
 tradeflixaiapp.net
 tradehouse.media
 tradeins.ru
@@ -11025,6 +11079,7 @@ tradestreet.io
 tradetooth.com
 tradetrendsmedia.com
 tradeviaemas.net
+tradie-office.com
 trading-03-lidex.com
 trading-4a-flarex.net
 trading-ad.net
@@ -11271,7 +11326,6 @@ traktrafficflow.com
 traktum.com
 traluincag.pro
 tralut.chatpdf.com
-tramadoly.com
 trambelongedallure.com
 tramegileno.com
 tramerodemelerimiz.blogspot.com
@@ -11383,6 +11437,7 @@ trappcoltp.pro
 trappush.com
 trapteaching.com
 traqhealthyandlean.com
+trarora.com
 trascerbegu.pro
 trasfnonpo.pro
 trasgricon.pro
@@ -11503,7 +11558,6 @@ trck.*.prod-na.turntable.sonic.advertising.amazon.dev
 trck.accredible.com
 trck.adamembersinsuranceplans.protective.com
 trck.aeon.co.jp
-trck.aiincomepro.com
 trck.aktuelt.lofavor.no
 trck.asset-protection.protective.com
 trck.asset.malcotools.com
@@ -11641,6 +11695,7 @@ treatmentoctopus.com
 treatmentstatute.com
 treatoceans.com
 treatyaccuserevil.com
+treatyintegrationornament.com
 treavelocity.com
 treb368.xyz
 trebghoru.com
@@ -11740,6 +11795,7 @@ trends.mobile.sina.cn
 trends.privacywall.org
 trendsoar.store
 trendtastic-prism.net
+trendvault.cfd
 trendvista.cfd
 trendzy.pl
 trenhdg.com
@@ -11902,6 +11958,7 @@ tripspot.com
 tripsthorpelemonade.com
 triptease.io
 triptease.net
+triremeo.digital
 triseabbof.pro
 trisectdoigt.top
 trisol.ru
@@ -12020,7 +12077,6 @@ trk.becel.com
 trk.becel.com.br
 trk.becel.si
 trk.beefmagazine.com
-trk.bellissandmorcom.com
 trk.berger-levrault.com
 trk.bertolli.co.uk
 trk.bertolli.com.au
@@ -12119,7 +12175,6 @@ trk.e.tahaluf.com
 trk.easysavingsguide.com
 trk.edgar.genieshopping.co.uk
 trk.ekommmtkr.co
-trk.electricsoxlimited.com
 trk.elewout.nl
 trk.eliteprotocolman.com
 trk.elmlea.com
@@ -12165,7 +12220,6 @@ trk.fensi.plus
 trk.fieldandmain.com
 trk.fieldandmaininsurance.com
 trk.findfashionevents.com
-trk.findusasavings.com
 trk.fintechfutures.com
 trk.flora.com
 trk.flora.cz
@@ -12805,6 +12859,7 @@ trkucibqy.com
 trkunited.com
 trkwinaff13.com
 trl.upperbooking.com
+trlbinansce.com
 trlebdyrehyci.com
 trlptm.top
 trmads.eu
@@ -12890,12 +12945,14 @@ trpjvkoed.com
 trpool.org
 trpop.xyz
 trprubbisy.space
+trpttigov.top
 trpyceq.cn
 trpzjj.hrkgame.com
 trqvelocity.com
 trr59rrt.com
 trrfc.org
 trripwire.com
+trrparbusafe.info
 trserv.snus.at
 trsterfa.com
 trstplse.com
@@ -13035,6 +13092,7 @@ trustedgatetocontent.com
 trustedhighdetectedimproper.top
 trustedmeets.com
 trustedpeach.com
+trustedphonecopiersecured.top
 trustedpubs.com
 trustedrecommendedverifiedsoft.top
 trustedrigorousscar.com
@@ -13067,7 +13125,6 @@ trusttech-id.com
 trusttoolbar.com
 trustutn.org
 trustvarietywee.com
-trustwallet-france.net
 trustworthyturnstileboyfriend.com
 trustx.org
 trusty-glove.com
@@ -13078,6 +13135,7 @@ trustyfine.com
 trustzonevpn.info
 truthdash.cfd
 trutheyesstab.com
+truthful-general.com
 truthfulanomaly.com
 truthfulplanninggrasp.com
 truthfulsensor.com
@@ -13182,7 +13240,6 @@ tsbo.company
 tsbrzz.icu
 tsbsecurity-online.com
 tsbuk.tt.omtrdc.net
-tsc-live.fr
 tscali.it
 tscgdrowyknyuf.xyz
 tscounter.com
@@ -13230,6 +13287,7 @@ tss.lapecoranera.net
 tss.onestep.fr
 tss.painting-diamonds.nl
 tss.vivatechnology.com
+tssavbilgiwebtr.sbs
 tst14netreal.com
 tst16infra.com
 tstats-13fkh44r.com
@@ -13273,6 +13331,7 @@ tt.ulsterbank.co.uk
 tt.ulsterbank.ie
 tt11.adobe.com
 tt123.eastday.com
+tt35p1.lol
 tt5spl6t.top
 ttad125.com
 ttarget.eastwestbank.com
@@ -13292,6 +13351,7 @@ ttdentss.yopagomenos.co
 ttdgbh.top
 ttdpcz.leroidelafenetre.fr
 ttdpxh.xyz
+ttedwm.com
 tteferty33.fun
 tteikk.saintmaniero.com
 ttekmostoq.com
@@ -13509,6 +13569,7 @@ tuesdaysale.bid
 tufcum.margaretha.se
 tuffoonincaged.com
 tuflivcuhasr.com
+tufoknaqzolp.com
 tuftaitchouft.com
 tuftletjudice.com
 tuftoawoo.xyz
@@ -13623,6 +13684,7 @@ turbocap.net
 turboeagle.co
 turbolion.io
 turbolit.biz
+turbosnail.cloud
 turbostats.xyz
 turboswih.pro
 turboxbt.com
@@ -13643,26 +13705,29 @@ turfmammen.pro
 turfoutbound.fifa.com
 turiempleo.com
 turiinward.space
+turinvest.click
 turismocartagenadeindias.com
 turkescortbayan.com
 turkey.tella.tv
 turkey1266.fun
 turkeychoice.com
 turkeygo.com
+turkeynowonline.com
 turkeyrank.com
+turkeytoday365.com
 turkhawkswig.com
 turki-club.online
 turki-fan.online
 turki-org.online
-turkipro.online
 turkiru.online
 turkirustv.online
+turkish-airlines.website
 turkish.net.anwalt.de
 turkishouds.com
 turkiyepetrolleriai.com
 turknet.hellosmpl.com
 turko-rus.online
-turkru-fan.online
+turkproam.com
 turkru-org.online
 turkru-pro.online
 turkrukino.online
@@ -13694,6 +13759,7 @@ turok-kino.online
 turok-org.online
 turok1990hd.online
 turokfans.online
+turptt.icu
 turtle.geshem.space
 turtle.mushtache.com
 turtle.mydataroom.io
@@ -13704,12 +13770,15 @@ turtledscags.top
 turtlemobile.com.tw
 turtlemoondesigns.me
 turtletrust.cloud
+turtrade.cfd
 turukusa.com
 tururu.info
 tusawd.orto.su
 tuscananteater.pro
+tuseriesonline.com
 tusheedrosep.net
 tusitioweb.com
+tuskmales.top
 tusno.com
 tusnovelashd.com
 tussisinjelly.com
@@ -13740,6 +13809,8 @@ tuvkfuzih.com
 tuvoraissi.com
 tuvrutsnf.com
 tuvtpxp.cn
+tuvtrkonlinerandevu.xyz
+tuvturk-mobil.com
 tuvwryunm.xyz
 tuwanxnuwagk.com
 tuwopnajwv.com
@@ -13794,6 +13865,7 @@ tver-metrics.streaks.jp
 tverfss.ru
 tveta.naver.net
 tvetamovie.pstatic.net
+tvetavon.com
 tveyut.justaway.com
 tvfeel.cc
 tvfeypdpmablt.xyz
@@ -13921,6 +13993,7 @@ twinfinitesad.pages.dev
 twingesvampers.top
 twingly.com
 twinikorb.com
+twink.ceo
 twinkle-fun.net
 twinklehaven.pro
 twinklenest.pro
@@ -13956,9 +14029,6 @@ twistoo.co
 twistsweater.com
 twistyscash.com
 twitch-nude.com
-twitch-tts.ru
-twitch.co.il
-twitch.luxury
 twitching-pay.info
 twitcount.com
 twiter.com
@@ -13970,6 +14040,7 @@ twitter-button.net
 twitter-c.com
 twitter-circle.com
 twitter-cyctrac.ru
+twitter-shemales-service.ch
 twitter.cloud
 twitter.cm
 twitter.countoon.com
@@ -14019,6 +14090,7 @@ twsdne.petenkoiratarvike.com
 twshopeee.top
 twstat.lifenewsjr.com
 twsylxp.com
+twt2fa.live
 twtad.com
 twurseri.top
 twwitter.com
@@ -14201,6 +14273,7 @@ tzbirdcod.com
 tzbox4.xyz
 tzcatcod.com
 tzcfyre.cn
+tzebttgldkbrdavrz.shop
 tzegilo.com
 tzgcwfvrf.com
 tzgurwizule3.app.cardahealth.com

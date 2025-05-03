@@ -1,3 +1,11 @@
+! Whitelisted Misc.
+the
+yes
+him
+his
+he
+her
+she
 ! Captial Letters
 A
 B
