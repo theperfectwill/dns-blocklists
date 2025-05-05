@@ -1,6 +1,6 @@
 Create python3 code while handling all potential issues, exceptions, and errors to:
 ! FolderStringUpdates
-- update all strings in all directories and files that contain "FolderName" with "ThisFolderName"
+- update all strings in all directories and files that contain "ThisFolderName" with "ThisThisFolderName"
 
 Create python3 code while handling all potential issues, exceptions, and errors to:
 ! DownloadRepoLinks
@@ -83,7 +83,7 @@ Create python3 code while handling all potential issues, exceptions, and errors 
 ! RunFinalHostlistCompiler
 - run this command line command hostlist-compiler -c Final/regexDNSF.json -o Final/regexDNSF.txt
 - if a line in Final/regexDNSF.txt begins with "!" and has no characters after it, delete that entire line
-- insert "! Title: RegexDNSF ThisFolderName" to the top of Final/regexDNSF.txt
+- insert "! Title: RegexDNSF ThisThisFolderName" to the top of Final/regexDNSF.txt
 
 Create python3 code while handling all potential issues, exceptions, and errors to:
 ! RunCodeScripts
