@@ -11,6 +11,7 @@
 # ---------------------------------
 
 # Core
+from pathlib import Path
 import logging
 import os
 import subprocess
@@ -19,23 +20,23 @@ import sys
 # Helpers
 
 # Custom
-sys.path.append(os.path.join(os.getcwd(), 'Code', 'Scripts'))
-import _Vars
+sys.path.append(str(Path.cwd() / 'Code' / 'Scripts'))
+import Data
 
 # ---------------------------------
 # SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
 # ---------------------------------
 
-logging.basicConfig(**_Vars.LOG)
+logging.basicConfig(**Data.LOG)
 
 # ---------------------------------
 # SECTION: Set our variables and constants
 # ---------------------------------
 
-blocklist_json = os.path.join(_Vars.SOURCES_PATH, "blocklist.json")
-blocklist_txt = os.path.join(_Vars.SOURCES_PATH, "blocklist.txt")
-whitelist_json = os.path.join(_Vars.SOURCES_PATH, "whitelist.json")
-whitelist_txt = os.path.join(_Vars.SOURCES_PATH, "whitelist.txt")
+blocklist_json = os.path.join(Data.SOURCES_PATH, "blocklist.json")
+blocklist_txt = os.path.join(Data.SOURCES_PATH, "blocklist.txt")
+whitelist_json = os.path.join(Data.SOURCES_PATH, "whitelist.json")
+whitelist_txt = os.path.join(Data.SOURCES_PATH, "whitelist.txt")
 
 # ---------------------------------
 # SECTION: Define our functions

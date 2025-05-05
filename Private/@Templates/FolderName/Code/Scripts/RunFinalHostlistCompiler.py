@@ -12,6 +12,7 @@
 
 # Core
 from datetime import datetime
+from pathlib import Path
 import logging
 import os
 import subprocess
@@ -21,22 +22,22 @@ import time
 # Helpers
 
 # Custom
-sys.path.append(os.path.join(os.getcwd(), 'Code', 'Scripts'))
-import _Vars
+sys.path.append(str(Path.cwd() / 'Code' / 'Scripts'))
+import Data
 
 # ---------------------------------
 # SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
 # ---------------------------------
 
-logging.basicConfig(**_Vars.LOG)
+logging.basicConfig(**Data.LOG)
 
 # ---------------------------------
 # SECTION: Set our variables and constants
 # ---------------------------------
 
-final_json = os.path.join(_Vars.FINAL_PATH, "regexDNSF.json")
-final_txt = os.path.join(_Vars.FINAL_PATH, "regexDNSF.txt")
-blocklist_txt = os.path.join(_Vars.SOURCES_PATH, "blocklist.txt")
+final_json = os.path.join(Data.FINAL_PATH, "regexDNSF.json")
+final_txt = os.path.join(Data.FINAL_PATH, "regexDNSF.txt")
+blocklist_txt = os.path.join(Data.SOURCES_PATH, "blocklist.txt")
 
 # ---------------------------------
 # SECTION: Define our functions
@@ -96,21 +97,21 @@ def reformat_final_file(file_path):
         # Insert the file_comments at the top of the file if it doesn't already exist
         # @Note->when adding a new comment change current_rule_count ↑ to reflect the correct calculation
         file_comments = (
-            f"{_Vars.TITLE_COMMENT}\n"
-            f"{_Vars.DESC_COMMENT}\n"
-            f"{_Vars.HOMEPAGE_COMMENT}\n"
-            f"{_Vars.VERSION_COMMENT}\n"
-            f"{_Vars.LICENSE_COMMENT}\n"
-            f"{_Vars.ISSUES_COMMENT}\n"
-            f"{_Vars.EXPIRES_COMMENT}\n"
-            f"{_Vars.LAST_MOD_COMMENT}{last_modified}\n"
-            f"{_Vars.CURRENT_RULE_COUNT_COMMENT}{current_rule_count}\n"
-            f"{_Vars.ORIGINAL_RULE_COUNT_COMMENT}{original_rule_count}\n"
-            f"{_Vars.RULE_REDUCED_COUNT_COMMENT}{reduced_rule_count}\n"
-            f"{_Vars.RULE_REDUCTION_NOTES_COMMENT}\n"
-            f"{_Vars.SYNTAX_COMMENT}\n"
-            f"{_Vars.AUTHOR_COMMENT}\n"
-            f"{_Vars.COMPILED_COMMENT}"
+            f"{Data.TITLE_COMMENT}\n"
+            f"{Data.DESC_COMMENT}\n"
+            f"{Data.HOMEPAGE_COMMENT}\n"
+            f"{Data.VERSION_COMMENT}\n"
+            f"{Data.LICENSE_COMMENT}\n"
+            f"{Data.ISSUES_COMMENT}\n"
+            f"{Data.EXPIRES_COMMENT}\n"
+            f"{Data.LAST_MOD_COMMENT}{last_modified}\n"
+            f"{Data.CURRENT_RULE_COUNT_COMMENT}{current_rule_count}\n"
+            f"{Data.ORIGINAL_RULE_COUNT_COMMENT}{original_rule_count}\n"
+            f"{Data.RULE_REDUCED_COUNT_COMMENT}{reduced_rule_count}\n"
+            f"{Data.RULE_REDUCTION_NOTES_COMMENT}\n"
+            f"{Data.SYNTAX_COMMENT}\n"
+            f"{Data.AUTHOR_COMMENT}\n"
+            f"{Data.COMPILED_COMMENT}"
         )
 
         if file_comments.strip() not in lines:

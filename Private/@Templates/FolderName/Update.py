@@ -12,79 +12,78 @@
 # ---------------------------------
 
 # Core & Helpers
+from pathlib import Path
 import logging
-import os
 import subprocess
 import sys
 import time
 
 # Custom Modules
-sys.path.append(os.path.join(os.getcwd(), 'Code', 'Scripts'))
-import _Vars
+sys.path.append(str(Path.cwd() / 'Code' / 'Scripts'))
+import Data
 
 # ---------------------------------
 # SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
 # ---------------------------------
 
-logging.basicConfig(**_Vars.LOG)
+logging.basicConfig(**Data.LOG)
 
 # ---------------------------------
 # SECTION: Set our variables and constants
 # ---------------------------------
 
 scripts = [
-    # f"{_Vars.SCRIPTS_PATH}/UpdateStrings.py",
-    f"{_Vars.SCRIPTS_PATH}/DownloadRepoLinks.py",
-    f"{_Vars.SCRIPTS_PATH}/RunPreHostlistCompiler.py",
-    f"{_Vars.SCRIPTS_PATH}/FormatLists.py",
-    f"{_Vars.SCRIPTS_PATH}/Alphabetical.py",
-    f"{_Vars.SCRIPTS_PATH}/SortByRegexPatterns.py",
-    f"{_Vars.SCRIPTS_PATH}/GetCommonPhrases.py",
-    f"{_Vars.SCRIPTS_PATH}/CombinePatternRules.py",
-    f"{_Vars.SCRIPTS_PATH}/RunFinalHostlistCompiler.py"
+    # f"{UpdateStrings_py}",
+    f"{DownloadRepoLinks_py}",
+    f"{RunPreHostlistCompiler_py}",
+    f"{FormatLists_py}",
+    f"{Alphabetical_py}",
+    f"{SortByRegexPatterns_py}",
+    f"{GetCommonPhrases_py}",
+    f"{CombinePatternRules_py}",
+    f"{RunFinalHostlistCompiler_py}"
 ]
 
 # ---------------------------------
 # SECTION: Define our functions
 # ---------------------------------
 
-def run_script(script):
+def run_script(script: str) -> bool:
+    script_path = Path(script)
+    if not script_path.is_file():
+        logging.error(f"Script not found: {script}")
+        return False
+
+    start_time = time.time()
     try:
-        # Check if the script exists
-        if not os.path.isfile(script):
-            raise FileNotFoundError(f"Script not found: {script}")
-
-        # Start time measurement
-        start_time = time.time()
-
-        # Execute the script
-        result = subprocess.run(['python3', script], check=True, text=True, capture_output=True)
-
-        # End time measurement
-        end_time = time.time()
-
-        # Calculate execution time
-        execution_time = end_time - start_time
-
-        # Print our success, output and task time
-        logging.info(f"{script} - Successfully executed.")
-        # logging.info("Output:", result.stdout)
-        logging.info(f"{script} - Execution time: {execution_time:.2f} seconds")
+        result = subprocess.run([Data.PYTHON_VER, script], check=True, text=True, capture_output=True)
+        execution_time = time.time() - start_time
+        logging.info(f"{script} - Successfully executed in {execution_time:.2f} seconds.")
+        logging.debug(f"{script} - Output: {result.stdout}")
+        return True
     except subprocess.CalledProcessError as e:
-        logging.info(f"{script} - Error executing: {e.stderr}")
-    except FileNotFoundError as e:
-        logging.info(e)
+        logging.error(f"{script} - Error executing: {e.stderr}")
+        return False
     except Exception as e:
-        logging.info(f"{script} - An unexpected error occurred while executing: {e}")
+        logging.error(f"{script} - An unexpected error occurred: {e}")
+        return False
 
 # ---------------------------------
 # SECTION: Call our main function with our subfunctions
 # ---------------------------------
 
-def main():
+def main() -> None:
+    success_count = 0
+    failure_count = 0
+
     for script in scripts:
-        run_script(script)
-        print()
+        if run_script(script):
+            success_count += 1
+        else:
+            failure_count += 1
+
+    # Summary of execution
+    logging.info(f"Execution Summary: {success_count} scripts executed successfully, {failure_count} scripts failed.")
 
 if __name__ == "__main__":
     main()

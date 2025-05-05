@@ -1,9 +1,10 @@
 # ---------------------------------
 # Script Name: FormatLists.py
 # Version: 1.0.0.0
-# Description:
+# Description: The function format_file formats/strips a blocklist to our liking
 # Author: ThePerfectWill
-# Usage: python3 FormatLists.py
+# Usage: python3 Code/Scripts/FormatLists.py
+# --i _Input_File_ --ll ERROR
 # ---------------------------------
 
 # ---------------------------------
@@ -11,37 +12,46 @@
 # ---------------------------------
 
 # Core
+from pathlib import Path
+import argparse
 import logging
-import os
 import re
 import sys
 
 # Helpers
 
 # Custom
-sys.path.append(os.path.join(os.getcwd(), 'Code', 'Scripts'))
-import _Vars
-
-# ---------------------------------
-# SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
-# ---------------------------------
-
-logging.basicConfig(**_Vars.LOG)
+sys.path.append(str(Path.cwd() / 'Code' / 'Scripts')); import Data
 
 # ---------------------------------
 # SECTION: Set our variables and constants
 # ---------------------------------
 
-blocklist_txt = os.path.join(_Vars.SOURCES_PATH, "blocklist.txt")
-whitelist_txt = os.path.join(_Vars.SOURCES_PATH, "whitelist.txt")
-strings_txt = os.path.join(_Vars.RULES_PATH, "strings.txt")
-regex_txt = os.path.join(_Vars.RULES_PATH, "regex.txt")
+BLOCKLIST_TXT = Path(Data.SOURCES_PATH) / "blocklist.txt"
+WHITELIST_TXT = Path(Data.SOURCES_PATH) / "whitelist.txt"
+
+# ---------------------------------
+# SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
+# ---------------------------------
+
+def setup_logging(logging_level: str) -> None:
+    logging.basicConfig(level=logging_level, **Data.LOG)
+
+def validate_input_file(input_file: str) -> None:
+    if not Path(input_file).is_file():
+        logging.error(f"The input file '{input_file}' does not exist.")
+        raise FileNotFoundError(f"The input file '{input_file}' does not exist.")
+
+def validate_output_directory(output_dir: str) -> None:
+    if not Path(output_dir).is_dir():
+        logging.error(f"The output directory '{output_dir}' does not exist.")
+        raise NotADirectoryError(f"The output directory '{output_dir}' does not exist.")
 
 # ---------------------------------
 # SECTION: Create our functions
 # ---------------------------------
 
-def format_list(file_input):
+def format_file(file_input):
     try:
         # Read the blocklist
         with open(file_input, "r") as file:
@@ -58,7 +68,7 @@ def format_list(file_input):
         # Delete lines containing all digits and only one TLD from the blocklist
         lines = [line for line in lines if not (line.isdigit() and line.count(".") == 1)]
         logging.info(f"{file_input} - Deleted lines containing all digits and only one TLD")
-        
+
         # Delete lines that contain only one character
         lines = [line for line in lines if len(line) > 1]
         logging.info(f"{file_input} - Deleted lines containing only one character")
@@ -79,28 +89,6 @@ def format_list(file_input):
         lines = [line.replace('@', '') for line in lines]
         logging.info(f"{file_input} - Removed all @ characters")
 
-        # @ToCheck->Remove because we do this removal+replacement of (regex|strings) through hostlist-compiler
-
-        # Delete lines containing any string from strings.txt from the blocklist
-        # try:
-        #     with open(strings_txt, "r") as file:
-        #         strings = [line.strip() for line in file.readlines()]
-        # except FileNotFoundError:
-        #     loggin.info(f"File not found: {strings_txt}")
-        #     return
-
-        # lines = [line for line in lines if not any(s in line for s in strings)]
-
-        # Delete lines matching any regex pattern in regex.txt from the blocklist
-        # try:
-        #     with open(regex_txt, "r") as file:
-        #         regexes = [line.strip().strip('/') for line in file.readlines()]
-        # except FileNotFoundError:
-        #     loggin.info(f"File not found: {regex_txt}")
-        #     return
-
-        # lines = [line for line in lines if not any(re.match(r, line) for r in regexes)]
-
         # Write the modified lines back to the blocklist
         with open(file_input, "w") as file:
             if lines:  # Only write if there are lines to write
@@ -118,8 +106,29 @@ def format_list(file_input):
 # ---------------------------------
 
 def main():
-    format_list(blocklist_txt)
-    format_list(whitelist_txt)
+    # Set up argument parsing
+    parser = argparse.ArgumentParser(description='Read links from a file and download their content to a specified output file')
+    parser.add_argument('--i', '--input_file', type=str, default=BLOCKLIST_TXT, help='Input file path to format (default: none)')
+    parser.add_argument('--ll', '--log_level', type=str,
+        default='INFO',
+        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
+        help='Set the logging level (default: INFO)'
+    )
+
+    args = parser.parse_args()
+
+    # Define logging settings
+    setup_logging(args.ll)
+
+    # Now call any routines
+    if args.i:
+        # Validate input file
+        validate_input_file(args.i)
+        format_file(args.i)
+    else:
+        # If no input is passed, process both BLOCKLIST_TXT and WHITELIST_TXT
+        format_file(BLOCKLIST_TXT)
+        format_file(WHITELIST_TXT)
 
 if __name__ == "__main__":
     main()
