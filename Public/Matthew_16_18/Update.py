@@ -32,12 +32,12 @@ SCRIPTS = [
     #  ThisFolderName
     #  1.0.0.0
     # f"{Data.UpdateStrings_py}",
-    f"{Data.DownloadRepoLinks_py}",
-    f"{Data.RunPreHostlistCompiler_py}",
-    f"{Data.FormatLists_py}",
-    f"{Data.Alphabetical_py}",
-    f"{Data.SortByRegexPatterns_py}",
-    f"{Data.GetCommonPhrases_py}",
+    # f"{Data.DownloadRepoLinks_py}",
+    # f"{Data.RunPreHostlistCompiler_py}",
+    # f"{Data.FormatLists_py}",
+    # f"{Data.Alphabetical_py}",
+    # f"{Data.SortByRegexPatterns_py}",
+    # f"{Data.GetCommonPhrases_py}",
     f"{Data.CombinePatternRules_py}",
     f"{Data.RunFinalHostlistCompiler_py}"
 ]

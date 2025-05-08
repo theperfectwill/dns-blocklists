@@ -1,2 +1,0 @@
-! Title: RegexDNSF: ThisThisFolderName (Custom Blocklist)
-||social-profiles.co^

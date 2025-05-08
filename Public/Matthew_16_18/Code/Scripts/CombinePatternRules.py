@@ -34,6 +34,35 @@ STRINGS_TXT = Path(Data.RULES_PATH) / "strings.txt"
 REGEX_TXT = Path(Data.RULES_PATH) / "regex.txt"
 COMBINED_TXT = Path(Data.RULES_PATH) / "combined.txt"
 
+ALPHABETICAL_RULES = [
+    Path(Data.RULES_PATH) / "Alphabetical/A.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/B.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/C.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/D.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/E.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/F.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/G.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/H.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/I.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/J.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/K.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/L.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/M.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/N.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/O.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/P.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/Q.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/R.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/S.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/T.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/U.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/V.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/W.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/X.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/Y.txt",
+    Path(Data.RULES_PATH) / "Alphabetical/Z.txt"
+]
+
 # ---------------------------------
 # SECTION: Misc. (Logs, Debugging, Execution Time, Directory Checks, etc.)
 # ---------------------------------
@@ -141,7 +170,25 @@ def main() -> None:
     # validate_output_directory(args.o)
 
     # Now call any routines
-    write_combined_patterns(args.i, args.r, args.o)
+    # Check if no arguments were passed (i.e., defaults are used)
+    if (args.i == STRINGS_TXT and
+        args.r == REGEX_TXT and
+        args.o == COMBINED_TXT):
+
+        # Process each task in ALPHABETICAL_RULES
+        # for input_file in ALPHABETICAL_RULES:
+            # write_combined_patterns(input_file, REGEX_TXT, COMBINED_TXT)
+            # logging.info(f"Processed {input_file} ")
+            # print()
+
+        write_combined_patterns(args.i, args.r, args.o)
+
+    # else:
+        # phrase_counts = get_common_phrases(args.i, args.max_phrases, args.min_length, args.max_length)
+        # if phrase_counts is not None:
+        #     logging.info(f"Processed {len(phrase_counts)} common phrases from {args.i} ")
+        #     logging.info(f"Added maximum of {args.max_phrases} common phrases to common_phrases.txt")
+        #     print()
 
 if __name__ == "__main__":
     main()

@@ -2,6 +2,11 @@
 ! Description: These are regex patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
 ! Reasoning: Wildcard patterns are to block things by keywords or common phrases. Regardless of where they appear we want to block access.
 !  These regex patterns are to handle more precise blocking, where we may need to consider other characters in a string to ensure we don't block when not desired.
+! Domains with at least 5 digits in them
+/\d{5,}/
+! Domains that at least 4 digits in a row in them followed likely by a tld
+/\b\d{4,}\.(com|net|org|info|biz|edu|gov|mil|co|io|me|us|[a-z]{2})\b/
+! Domain phrases
 /(?:\.|\|)?(a)(?:\.|-)(.*)/
 /(?:\.|\|)?(ad)(?:\.|-)(.*)/
 /(?:\.|\|)?(adconsole)(?:\.|-)(.*)/

@@ -4,7 +4,18 @@
 !  While this greatly reduces file size and hard blocks things, general and personal whitelisting likely will need to be done.
 !  But the scope of this is for (likely) for some(one|house|etc) that only visits certains sites and can whitelist as needed.
 !  Submnission or "good" whitelisting, in relation to the already defined scope of this project is welcomed.
-*analytics*.*
+! Digit Related
+*1*800*
+*18*.*
+*19*.*
+! Tracking
+*analy*
+*click*
+*go.*
+*link*
+! SIN Keywords
 *porn*
 *sex*
+*teen*
 *xxx*
+! Names
