@@ -20,6 +20,7 @@ VERSION = "1.0.0.0"
 # Paths
 SCRIPTS_PATH = "Code/Scripts"
 FINAL_PATH = "Final"
+NSFW_PATH = "NSFW"
 RULES_PATH = "Regex/Rules"
 SORTED_PATH = "Regex/Sorted"
 SOURCES_PATH = "Sources"

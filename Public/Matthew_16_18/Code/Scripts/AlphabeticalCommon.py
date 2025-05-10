@@ -138,14 +138,18 @@ def get_common_character_patterns(input_file: str, output_file: str, max_pattern
         content = content.lower()
 
         # Extract character patterns of specified lengths
+
         # Patterns of any kind...
-        # patterns = re.findall(r'.{%d,%d}' % (min_length, max_length), content)  # Match patterns of length min_length to max_length
+        patterns = re.findall(r'.{%d,%d}' % (min_length, max_length), content)  # Match patterns of length min_length to max_length
+
         # Letter patterns only
         # patterns = re.findall(r'[a-z]{%d,%d}' % (min_length, max_length), content)  # Match patterns of length min_length to max_length
+
         # Detects Repeating Characters By {2} Minimum
         # patterns = re.findall(r'(\w{2})\1{1,}{%d,%d}' % (min_length, max_length), content)  # Match patterns of length min_length to max_length
+
         # Detects lines that start with a digit
-        patterns = re.findall(r'^\d.*$', content, re.MULTILINE)
+        # patterns = re.findall(r'^\d.*$', content, re.MULTILINE)
 
         logging.info(f"Total patterns found: {len(patterns)}")
 

@@ -1,0 +1,34 @@
+{
+    "name": "RegexDNSF: ThisFolderName (Blocklist Sources)",
+    "sources": [
+        {
+            "source": "Sources/blocklistCustom.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ]
+        },
+        {
+            "source": "Sources/sourceDownloads.txt",
+            "transformations": [
+                "ConvertToAscii",
+                "TrimLines",
+                "RemoveComments",
+                "RemoveEmptyLines",
+                "Compress",
+                "ValidateAllowIp"
+            ],
+            "exclusions": [
+                "@"
+            ]
+        }
+    ],
+    "transformations": [
+        "Deduplicate",
+        "InsertFinalNewLine"
+    ]
+}
