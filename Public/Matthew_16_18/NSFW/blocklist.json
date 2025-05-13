@@ -2,7 +2,7 @@
     "name": "RegexDNSF: ThisFolderName (Blocklist Sources)",
     "sources": [
         {
-            "source": "Sources/blocklistCustom.txt",
+            "source": "blocklistCustom.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
@@ -13,7 +13,7 @@
             ]
         },
         {
-            "source": "Sources/sourceDownloads.txt",
+            "source": "sourceDownloads.txt",
             "transformations": [
                 "ConvertToAscii",
                 "TrimLines",
