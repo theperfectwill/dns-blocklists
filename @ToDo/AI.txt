@@ -32,14 +32,27 @@ scan "Sources/blocklist.txt" and sort it in the following manner:
 -- continue to do this for all entries from letters A-Z, placing them all into their own file
 
 Create python3 code while handling all potential issues, exceptions, and errors to:
-! ExtractRegexPatterns
-- extract matches by regex pattern \b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$) and place those matches in "Regex/Sorted/DomainParents/extracts.txt"
-- extract matches by regex pattern ^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$ and place those matches in "Regex/Sorted/DomainsChildren/extracts.txt"
-- extract matches by regex pattern ^[A-Za-z]+$ and place those matches in "Regex/Sorted/OnlyLetters/extracts.txt"
-- extract matches by regex pattern ^([a-zA-Z]+([ _-][a-zA-Z]+){0,99998})?$ and place those matches in "Regex/Sorted/SpacesUnderscoresHyphens/extracts.txt"
-- extract matches by regex pattern ^.*\*.*$ and place those matches in "Regex/Sorted/WildCards/extracts.txt"
-- extract matches by regex pattern ^[0-9]+$ and place those matches in "Regex/Sorted/OnlyNumbers/extracts.txt"
-- delete lines entirely that match regex pattern ^[0-9]+$ from "Sources/blocklist.txt"
+! ExtractNSFWPatterns
+- read and extract all files in path NSFW/Keywords/Names
+-- place all lines into NSFW/combinedNames.txt
+-- replace all spaces with "*" in NSFW/combinedNames.txt
+-- replace all "." with "*" in NSFW/combinedNames.txt
+
+- read and extract all files in path NSFW/Keywords/Numerical
+-- place all lines into NSFW/combinedNumerical.txt
+-- replace all spaces with "*" in NSFW/combinedNumerical.txt
+
+- read and extract all files in path NSFW/Keywords/Spaced
+-- place all lines into NSFW/combinedSpaced.txt
+-- replace all spaces with "*" in NSFW/combinedSpaced.txt
+
+- read and extract all lines from NSFW/combinedNames.txt and NSFW/combinedNumerical.txt and NSFW/combinedSpaced.txt
+- place all lines into NSFW/combined.txt
+
+- read and extract all files in path NSFW/Keywords/Single
+-- place all lines into NSFW/combinedSingle.txt
+-- replace all spaces with "*" in NSFW/combinedSingle.txt
+
 
 Create python3 code while handling all potential issues, exceptions, and errors to:
 ! CombinePatternRules
@@ -65,6 +78,28 @@ Create python3 code while handling all potential issues, exceptions, and errors 
 --- if any line in filter_string_pattern_results matches any part of a line in get_regex_pattern_results remove it from get_regex_pattern_results
 --- now store get_string_pattern_results and the previously modified get_regex_pattern_results in the combined_results variable
 --- write combined_results to Regex/Rules/combined.txt
+
+Create python3 code while handling all potential issues, exceptions, and errors to:
+! ExtractRegexPatterns
+- extract matches by regex pattern \b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$) and place those matches in "Regex/Sorted/DomainParents/extracts.txt"
+- extract matches by regex pattern ^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$ and place those matches in "Regex/Sorted/DomainsChildren/extracts.txt"
+- extract matches by regex pattern ^[A-Za-z]+$ and place those matches in "Regex/Sorted/OnlyLetters/extracts.txt"
+- extract matches by regex pattern ^([a-zA-Z]+([ _-][a-zA-Z]+){0,99998})?$ and place those matches in "Regex/Sorted/SpacesUnderscoresHyphens/extracts.txt"
+- extract matches by regex pattern ^.*\*.*$ and place those matches in "Regex/Sorted/WildCards/extracts.txt"
+- extract matches by regex pattern ^[0-9]+$ and place those matches in "Regex/Sorted/OnlyNumbers/extracts.txt"
+- delete lines entirely that match regex pattern ^[0-9]+$ from "Sources/blocklist.txt"
+
+
+
+Create python3 code while handling all potential issues, exceptions, and errors to:
+! ExtractRegexPatterns
+- extract matches by regex pattern \b([|]?)([a-zA-Z0-9-]+)\.([a-zA-Z]{2,})([|^]?)(?=\s|$) and place those matches in "Regex/Sorted/DomainParents/extracts.txt"
+- extract matches by regex pattern ^(?![a-zA-Z0-9-]+\.[a-zA-Z]{2,}$)([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$ and place those matches in "Regex/Sorted/DomainsChildren/extracts.txt"
+- extract matches by regex pattern ^[A-Za-z]+$ and place those matches in "Regex/Sorted/OnlyLetters/extracts.txt"
+- extract matches by regex pattern ^([a-zA-Z]+([ _-][a-zA-Z]+){0,99998})?$ and place those matches in "Regex/Sorted/SpacesUnderscoresHyphens/extracts.txt"
+- extract matches by regex pattern ^.*\*.*$ and place those matches in "Regex/Sorted/WildCards/extracts.txt"
+- extract matches by regex pattern ^[0-9]+$ and place those matches in "Regex/Sorted/OnlyNumbers/extracts.txt"
+- delete lines entirely that match regex pattern ^[0-9]+$ from "Sources/blocklist.txt"
 
 Create python3 code while handling all potential issues, exceptions, and errors to:
 ! SortByRegexPatterns
