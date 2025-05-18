@@ -1,4 +1,4 @@
-! Title: SIN Keywords
+! Title: Adult Keywords
 ! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
 ! Reasoning: These are consider "hard keywords", meaning that these keywords found anywhere should be blocked
 !  which also means we should remove other keyword phrases or parts of them that contain these keywords
