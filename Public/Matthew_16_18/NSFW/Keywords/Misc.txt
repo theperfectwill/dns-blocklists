@@ -1,3 +1,10 @@
-! Title: Celebrities Keywords
+! Title: Misc. Keywords
 ! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
 ! Reasoning:
+spy
+elf
+pov
+xmas
+uncensored
+uncut
+redheads

@@ -1,0 +1,10 @@
+! Title: LGBTQ Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning:
+boi
+gay
+lez
+bisexual
+lesbian
+lesbians
+boyfriendtv

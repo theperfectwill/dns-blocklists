@@ -1,0 +1,15 @@
+! Title: Criminal Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning:
+kill
+gang
+murder
+murdep
+violent
+brutal
+paedo
+pedo
+pedobear
+rape
+robber
+schoolgirl

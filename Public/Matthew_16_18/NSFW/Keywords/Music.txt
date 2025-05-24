@@ -1,3 +1,4 @@
-! Title: Criminal Keywords
+! Title: Foolish Keywords
 ! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
 ! Reasoning:
+emo

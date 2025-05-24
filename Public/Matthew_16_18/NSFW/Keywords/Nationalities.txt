@@ -1,0 +1,179 @@
+! Title: Nationality Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning: These keywords reflect nationalites like (latina, etc.) that are more commonly associated with lust.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+American
+Yanks
+Americans
+Offensive: Yanks (in some contexts)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+British
+Brits
+English
+Offensive: Limeys
+Poms
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Canadian
+Canucks
+Canadians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Australian
+Aussies
+Australians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+New Zealander
+Kiwis
+New Zealanders
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Mexican
+Mex
+Mexicans
+Offensive: Wetbacks
+Chicanos (context-dependent)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+German
+Germans
+Offensive: Krauts
+Nazis (context-dependent)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+French
+Frogs
+Frenchies
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Italian
+Italians
+Offensive: Wops
+Dago
+Guineas
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Irish
+Paddies
+Irish
+Offensive: Micks
+Paddies (in some contexts)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Scottish
+Scots
+Scotsmen
+Offensive: Jocks (context-dependent)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Chinese
+Chinks
+Chinamen
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Japanese
+Japs
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Indian
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Desis
+Indians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! African American
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Colored
+Coon
+Jungle Bunny
+Nigga
+Nigger
+Pickaninny
+Porch Monkey
+Sambo
+Spook
+Tar Baby
+Wog
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Russian
+Russians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Offensive: Russkies
+Vodka drinkers (context-dependent)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Brazilian
+Brazilians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Filipino
+Pinoys
+Filipinos
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Jewish
+Jews
+Offensive: Yids (context-dependent)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Arab
+Arabs
+Offensive: Ragheads
+Sand Niggers (highly offensive)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+South African
+South Africans
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Nigerian
+Nigerians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Egyptian
+Egyptians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Spanish
+Spaniards
+Offensive: Spics (offensive)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Portuguese
+Portuguese
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Thai
+Thais
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Vietnamese
+Vietnamese
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Colombian
+Colombians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Venezuelan
+Venezuelans
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Greek
+Greeks
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Turkish
+Turks
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Iranian
+Iranians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Pakistani
+Pakistanis
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Bangladeshi
+Bangladeshis
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Malaysian
+Malaysians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Singaporean
+Singaporeans
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Ukrainian
+Ukrainians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Belarusian
+Belarusians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Swiss
+Swiss
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Dutch
+Hollanders
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Finnish
+Finns
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Norwegian
+Norwegians
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Swedish
+Swedes
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Danish
+Danes

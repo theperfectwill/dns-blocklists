@@ -1,3 +1,10 @@
-! Title: LGBTQ Keywords
+! Title: Profanity Keywords
 ! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
 ! Reasoning:
+fuck
+fucker
+fucking
+fucks
+piss
+pissed
+pissing

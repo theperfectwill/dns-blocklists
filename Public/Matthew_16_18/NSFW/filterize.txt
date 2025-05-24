@@ -4,6 +4,11 @@
 !  which also means we should remove other keyword phrases or parts of them that contain these keywords
 !  Example: "porn" should be blocked, and therefore "pornhub", "pornhub.com", "latest porn", "{type} porn" do not need to be specified.
 !  So we need ot check redundancy of keywords here against other keyword files
+16
+16+
+17
+17+
+18
 18+
 19
 19+
@@ -20,7 +25,6 @@ asian
 ass
 asses
 aunty
-av
 babes
 babysitter
 bandit
@@ -331,10 +335,6 @@ pure
 pureangel
 pussy
 quadruple
-queef
-queefing
-queening
-quickie
 quirky
 quivering
 raging

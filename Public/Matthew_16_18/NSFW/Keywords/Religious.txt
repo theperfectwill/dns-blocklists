@@ -1,0 +1,5 @@
+! Title: Religious Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning:
+nun
+muslim

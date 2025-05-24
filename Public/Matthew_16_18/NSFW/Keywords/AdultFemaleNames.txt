@@ -1,3 +1,6 @@
+! Title: Adult Female Name Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning: These are namely adult female model names
 aaliyah*brown
 aaliyah*jolie
 aaliyah*love

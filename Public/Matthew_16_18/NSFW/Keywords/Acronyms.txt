@@ -1,0 +1,18 @@
+! Title: Acronyms Keywords
+! Description: These are simple string wildcard patterns as mentioned here: https://github.com/AdguardTeam/HostlistCompiler/blob/master/README.md
+! Reasoning:
+bbc
+bbw
+bdsm
+bf
+cfnm
+dp
+ffm
+ftm
+gf
+knockers
+mmf
+wwc
+wwe
+wwf
+bbl
